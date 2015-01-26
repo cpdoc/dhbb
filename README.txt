@@ -1,12 +1,6 @@
 dhbb
 ====
-
-This repo is composed of three different dictionaries:
-- DHBB: Dicionario Historico-Biografico Brasileiro
-- DHBPR: Dicionario Historico Biografico da Primeira Republica
-- DPRRJ: Dicionário da Politica Republicana do Rio de Janeiro
-
-Each dictionary has (at least) six directories: 
+This dictionary has seven directories: 
 1) html
 Holds the original html files for each dictionary entry.
 
@@ -29,8 +23,8 @@ Holds the text body in each dictionary entry.
 6) json
 Holds the son files containing the meta data, text and ref information structured in a json file.
 
-DHBB also contains another folder called meta_flat which holds the meta data information from the old database system.
-Each meta file holds the following fields:
+7) meta_flat
+Holds the meta data information from the old database system. Each meta file holds the following fields:
 a) layout (always ‘verbete’)
 b) title (list of possible titles)
 c) published (boolean)
