@@ -1,7 +1,13 @@
 
 * DHBB
-
+  
 ** Split meta from text
+
+Para debugar 
+
+#+BEGIN_SRC sh
+egrep -c "^---$" *.text | awk -F : '$2 == 1 { print }'
+#+END_SRC
 
 Para separar arquivos já limpos em um diretório:
 
@@ -63,3 +69,7 @@ This dictionary has seven directories:
 
 - http://pyyaml.org/wiki/PyYAMLDocumentation
 - http://www.w3.org/TR/rdf-sparql-query/
+
+
+
+
