@@ -14,11 +14,19 @@ Para separar arquivos já limpos em um diretório:
 for f in $(egrep '^cargos:' *.text | awk -F ':' '{ print $1 }'); do cp $f test/; done
 #+END_SRC
 
-Para separar metadados dos textos:
+Para separar textos:
 
 #+BEGIN_SRC sh
   for f in *.text; do
       awk 'BEGIN { text=0; } text>1 {print} /^---$/ { text = text + 1; }' $f > $(basename $f .text).raw ;
+  done
+#+END_SRC
+
+Para separar metadados:
+
+#+BEGIN_SRC sh
+  for f in *.text; do
+      awk 'BEGIN { text=0; } text<=1 {print} /^---$/ { text = text + 1; }' $f > $(basename $f .text).meta ;
   done
 #+END_SRC
 
@@ -30,6 +38,18 @@ Using =screen=:
 analyze -f pt.cfg --server --port 50005
 ls *.raw > lixo
 cat lixo | parallel -j 3 --results out analyzer_client 50005
+#+END_SRC
+
+* Metadados
+
+Verificando padronização dos campos nos metadados:
+
+#+BEGIN_SRC lisp
+  (ql:quickload :cl-yaml)
+  (ql:quickload :alexandria)
+  (loop for file in (directory "*.meta")
+        collect (mapcar #'car (alexandria:hash-table-alist (cl-yaml:parse file))))
+  (remove-duplicates * :test #'equal)
 #+END_SRC
 
 * Files
