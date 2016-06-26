@@ -47,9 +47,11 @@ Verificando padronização dos campos nos metadados:
 #+BEGIN_SRC lisp
   (ql:quickload :cl-yaml)
   (ql:quickload :alexandria)
-  (loop for file in (directory "*.meta")
-        collect (mapcar #'car (alexandria:hash-table-alist (cl-yaml:parse file))))
-  (remove-duplicates * :test #'equal)
+  (let ((metas (make-hash-table :test #'equal)))
+    (loop for file in (directory "*.meta")
+          do (loop for meta being the hash-keys in (cl-yaml:parse file)
+                   do (push (file-namestring file) (gethash meta metas))))
+    (alexandria:hash-table-alist metas))
 #+END_SRC
 
 * Files
