@@ -40,20 +40,6 @@ ls *.raw > lixo
 cat lixo | parallel -j 3 --results out analyzer_client 50005
 #+END_SRC
 
-* Metadados
-
-Verificando padronização dos campos nos metadados:
-
-#+BEGIN_SRC lisp
-  (ql:quickload :cl-yaml)
-  (ql:quickload :alexandria)
-  (let ((metas (make-hash-table :test #'equal)))
-    (loop for file in (directory "*.meta")
-          do (loop for meta being the hash-keys in (cl-yaml:parse file)
-                   do (push (file-namestring file) (gethash meta metas))))
-    (alexandria:hash-table-alist metas))
-#+END_SRC
-
 * Files
 
 This dictionary has seven directories: 
@@ -67,7 +53,7 @@ This dictionary has seven directories:
 - freeling :: dat files with the output of FreeLing 4 (no parser yet).
 
 - text :: Holds the text body in each dictionary entry.
-
+     
 * Links
 
 - http://pyyaml.org/wiki/PyYAMLDocumentation
