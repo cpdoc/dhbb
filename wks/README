@@ -1,0 +1,30 @@
+This directory contains files used in a WKS project.  The CSV files
+are supposed to be imported as dictionaries for the specified types.
+
+The two JSON files are the two alternative type systems that can be
+used.
+
+types-836-roles.json: this version uses roles to establish the
+hierarchy.  For example, we have a role PESSOA and types INDIVIDUO and
+GRUPO that belong to that role.
+
+types-836-subtypes.json: this version uses sub-types.  For example, we
+have a type PESSOA and sub-types INDIVIDUO and GRUPO.
+
+Unfortunately the current version of WKS does not support creating a
+dictionary for a sub-type.
+
+convert-dict.sh: this files converts a simple list of sentences to the
+format expected by the dictionary importer.  See: 
+
+https://www.ibm.com/watson/developercloud/doc/wks/wks_t_dict_intro.shtml
+
+The POS tag defaults to "3".
+
+generate-csv.py: generate a single CSV file from multiple text files.
+use this to # import multiple files to WKS at once.  importing each
+file individually doesn't seem to work very well on the web interface.
+
+type-system.txt: a text version of the type system described in
+https://sites.google.com/site/anotacaododhbb/definicao-classes
+
