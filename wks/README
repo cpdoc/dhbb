@@ -14,16 +14,16 @@ have a type PESSOA and sub-types INDIVIDUO and GRUPO.
 Unfortunately the current version of WKS does not support creating a
 dictionary for a sub-type.
 
-convert-dict.sh: this files converts a simple list of sentences to the
-format expected by the dictionary importer.  See: 
+convert-dict.sh: converts a simple list of sentences to the format
+expected by the dictionary importer.  See:
 
 https://www.ibm.com/watson/developercloud/doc/wks/wks_t_dict_intro.shtml
 
 The POS tag defaults to "3".
 
-generate-csv.py: generate a single CSV file from multiple text files.
-use this to import multiple files to WKS at once.  importing each file
-individually doesn't seem to work very well on the web interface. 
+generate-csv.py: generates a single CSV file from multiple text files.
+use this to import multiple files to WKS at once.  Importing each file
+individually doesn't seem to work very well on the web interface.
 
 type-system.txt: a text version of the type system described in
 https://sites.google.com/site/anotacaododhbb/definicao-classes
