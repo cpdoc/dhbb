@@ -24,3 +24,13 @@ Where <repo> is the root directory where you cloned syntaxnet into and
 Notice that in both cases we are using the default scripts supplied by
 the syntaxnet project, but nothing prevents us from using the
 syntaxnet parser directly if needed.
+
+To find entities in the CONLL files, first we need to take the
+dictionaries and tokenize them by passing them through just the
+"tokenize.sh" script from the line above.
+
+File dictionary.csv contains the dictionary already tokenized and
+ready to be used by search-entities.lisp.
+
+Directory conll+entities contains the CONLL files augmented with
+entity informatoin.
