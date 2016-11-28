@@ -158,7 +158,7 @@
 34	os	_	DET	art|<-sam>|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|P	35	det	_	_
 35	integrantes	_	ADJ	adj|<n>|M|P	fPOS=PROPN++prop|M|P	32	amod	_	_
 36	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	37	case	_	_
-37	Coluna	_	PROPN	PROPN	fPOS=PROPN++PROPN	35	name	_	dhbb-entity:Coluna=Prestes,type:EVENTO
+37	Coluna	_	PROPN	PROPN	fPOS=PROPN++PROPN	35	name	_	EntityForm=Coluna+Prestes|Type=EVENTO
 38	Prestes	_	PROPN	PROPN	fPOS=PROPN++PROPN	37	name	_	_
 39	,	_	PUNCT	punc	fPOS=PUNCT++punc	35	punct	_	_
 40	internados	_	VERB	v-pcp|M|P	Gender=Masc|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|M|P	35	acl	_	_
@@ -220,7 +220,7 @@
 22	mais	_	ADV	adv|<quant>|<KOMP>	Degree=Cmp|NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++adv|<quant>|<KOMP>	23	advmod	_	_
 23	pobres	_	ADJ	adj|F|P	fPOS=NOUN++n|<prop>|F|P	21	amod	_	_
 24	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	25	case	_	_
-25	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	23	compound	_	dhbb-entity:sociedade,type:ORGANIZACAO
+25	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	23	compound	_	EntityForm=sociedade|Type=ORGANIZACAO
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 27	combateu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 28	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	det	_	_
@@ -245,7 +245,7 @@
 10	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	11	det	_	_
 11	princípios	_	NOUN	n|M|P	fPOS=PROPN++prop|M|P	9	dobj	_	_
 12	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	11	nmod	_	dhbb-entity:Aliança=Liberal,type:ORGANIZACAO
+13	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	11	nmod	_	EntityForm=Aliança+Liberal|Type=ORGANIZACAO
 14	Liberal	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 16	apoiando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	7	advcl	_	_
@@ -314,7 +314,7 @@
 2	tivesse	_	VERB	v-fin|IMPF|3S|SUBJ	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|SUBJ	3	aux	_	_
 3	aplaudido	_	VERB	v-pcp	VerbForm=Part|fPOS=VERB++v-pcp	11	advcl	_	_
 4	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	5	det	_	_
-5	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	3	dobj	_	dhbb-entity:Revolução=de=1930,type:EVENTO
+5	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	3	dobj	_	EntityForm=Revolução+de+1930|Type=EVENTO
 6	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	7	case	_	_
 7	1930	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	5	nummod	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
@@ -322,7 +322,7 @@
 10	jornal	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	11	nsubj	_	_
 11	combateu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 12	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	13	det	_	_
-13	Governo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	11	dobj	_	dhbb-entity:Governo=Provisório,type:ORGANIZACAO
+13	Governo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	11	dobj	_	EntityForm=Governo+Provisório|Type=ORGANIZACAO
 14	Provisório	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 16	denunciando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	11	advcl	_	_
@@ -365,7 +365,7 @@
 9	se	_	PRON	pron-pers|<refl>|M|3S|ACC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|F|3S|ACC	10	dobj	_	_
 10	opôs	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 11	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	12	det	_	_
-12	Revolução	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	dobj	_	dhbb-entity:Revolução=Constitucionalista,type:EVENTO
+12	Revolução	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	dobj	_	EntityForm=Revolução+Constitucionalista|Type=EVENTO
 13	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 14	.	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 

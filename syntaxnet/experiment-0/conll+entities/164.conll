@@ -47,7 +47,7 @@
 15	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	16	case	_	_
 16	1906	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	14	advmod	_	_
 17	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	18	case	_	_
-18	Faculdade	_	PROPN	prop|M|S	fPOS=PROPN++prop|M/F|S/P	14	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+18	Faculdade	_	PROPN	prop|M|S	fPOS=PROPN++prop|M/F|S/P	14	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 19	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	20	case	_	_
 20	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	22	case	_	_
@@ -132,11 +132,11 @@
 9	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 10	1914	_	NUM	num|<card>|M|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	2	advmod	_	_
 11	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	13	advmod	_	_
-12	Partido	_	ADP	ADP	fPOS=PROPN++PROPN	13	case	_	dhbb-entity:Partido=Republicano=Mineiro=(=PRM=),type:ORGANIZACAO
+12	Partido	_	ADP	ADP	fPOS=PROPN++PROPN	13	case	_	EntityForm=Partido+Republicano+Mineiro+(+PRM+)|Type=ORGANIZACAO
 13	Republicano	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	nmod	_	_
 14	Mineiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	_
 15	(	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
-16	PRM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	nmod	_	dhbb-entity:PRM,type:ORGANIZACAO
+16	PRM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	nmod	_	EntityForm=PRM|Type=ORGANIZACAO
 17	)	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 19	assumindo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	2	advcl	_	_
@@ -203,7 +203,7 @@
 
 1	Partidário	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	8	nsubjpass	_	_
 2	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:Revolução=de=1930,type:EVENTO
+3	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=Revolução+de+1930|Type=EVENTO
 4	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	5	case	_	_
 5	1930	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	1	nummod	_	_
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
@@ -296,7 +296,7 @@
 7	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	8	case	_	_
 8	matemática	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	3	conj	_	_
 9	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Ginásio	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	dhbb-entity:Ginásio=Mineiro,type:ORGANIZACAO
+10	Ginásio	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	EntityForm=Ginásio+Mineiro|Type=ORGANIZACAO
 11	Mineiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Belo	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	10	nmod	_	_

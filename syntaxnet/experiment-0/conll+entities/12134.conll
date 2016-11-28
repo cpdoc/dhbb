@@ -122,13 +122,13 @@
 13	Frente	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	nmod	_	_
 14	Liberal	_	NOUN	NOUN	fPOS=PROPN++PROPN	13	compound	_	_
 15	(	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
-16	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	14	nmod	_	dhbb-entity:PFL,type:ORGANIZACAO
+16	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	14	nmod	_	EntityForm=PFL|Type=ORGANIZACAO
 17	)	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 19	atual	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	14	conj	_	_
-20	Democratas	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	dhbb-entity:Democratas=(=DEM=),type:ORGANIZACAO
+20	Democratas	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	EntityForm=Democratas+(+DEM+)|Type=ORGANIZACAO
 21	(	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
-22	DEM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	dhbb-entity:DEM,type:ORGANIZACAO
+22	DEM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	EntityForm=DEM|Type=ORGANIZACAO
 23	)	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 24	,	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 25	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	14	cc	_	_
@@ -145,7 +145,7 @@
 36	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 37	Democracia	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
 38	(	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
-39	PSDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	dhbb-entity:PSDB,type:ORGANIZACAO
+39	PSDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	EntityForm=PSDB|Type=ORGANIZACAO
 40	)	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 41	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
@@ -182,7 +182,7 @@
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 14	desfiliada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	12	conj	_	_
 15	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	PSDB	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	dhbb-entity:PSDB,type:ORGANIZACAO
+16	PSDB	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	EntityForm=PSDB|Type=ORGANIZACAO
 17	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-postnom>	12	cc	_	_
 18	sem	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	19	case	_	_
 19	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	12	conj	_	_
@@ -205,7 +205,7 @@
 15	eleita	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	9	conj	_	_
 16	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	18	case	_	_
 17	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	18	det	_	_
-18	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	15	nmod	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+18	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	15	nmod	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 19	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	20	case	_	_
 20	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
@@ -279,11 +279,11 @@
 23	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
 24	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	dhbb-entity:Partido=Trabalhista=Brasileiro=(=PTB=),type:ORGANIZACAO
+26	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	EntityForm=Partido+Trabalhista+Brasileiro+(+PTB+)|Type=ORGANIZACAO
 27	Trabalhista	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 28	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 29	(	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
-30	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	22	name	_	dhbb-entity:PTB,type:ORGANIZACAO
+30	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	22	name	_	EntityForm=PTB|Type=ORGANIZACAO
 31	)	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 32	.	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 

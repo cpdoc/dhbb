@@ -72,7 +72,7 @@
 13	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
 14	Casa	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 15	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	dhbb-entity:Ordem,type:ORGANIZACAO
+16	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	EntityForm=Ordem|Type=ORGANIZACAO
 17	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
 1	Diplomou-se	_	NOUN	n|F|S	Hyph=Yes|Mood=Sub|Number=Sing|Person=1,3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|<hyfen>|PR|1/3S|SUBJ	0	ROOT	_	_
@@ -439,7 +439,7 @@
 26	haviam	_	VERB	v-fin|IMPF|3P|IND	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3P|IND	19	acl	_	_
 27	constituído	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	26	ccomp	_	_
 28	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	det	_	_
-29	Coluna	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	27	dobj	_	dhbb-entity:Coluna=Prestes,type:EVENTO
+29	Coluna	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	27	dobj	_	EntityForm=Coluna+Prestes|Type=EVENTO
 30	Prestes	_	PROPN	PROPN	fPOS=PROPN++PROPN	29	name	_	_
 31	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
@@ -500,7 +500,7 @@
 15	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	16	case	_	_
 16	diretor	_	PROPN	prop|M|S	fPOS=NOUN++n|M|S	14	nmod	_	_
 17	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	case	_	_
-18	Caixa	_	PROPN	PROPN	fPOS=NOUN++NOUN	16	name	_	dhbb-entity:Caixa,type:ORGANIZACAO
+18	Caixa	_	PROPN	PROPN	fPOS=NOUN++NOUN	16	name	_	EntityForm=Caixa|Type=ORGANIZACAO
 19	Beneficente	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	18	name	_	_
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	21	case	_	_
 21	Força	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
@@ -511,7 +511,7 @@
 
 1	Após	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	3	case	_	_
 2	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	3	det	_	_
-3	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	8	nmod	_	dhbb-entity:Revolução=de=1930,type:EVENTO
+3	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	8	nmod	_	EntityForm=Revolução+de+1930|Type=EVENTO
 4	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	5	case	_	_
 5	1930	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	3	nummod	_	_
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
@@ -538,7 +538,7 @@
 27	#	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 28	#	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 29	Na	_	ADP	prop|M|S	fPOS=PROPN++prop|F|S	30	case	_	_
-30	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	nmod	_	dhbb-entity:Revolução=Constitucionalista,type:EVENTO
+30	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	nmod	_	EntityForm=Revolução+Constitucionalista|Type=EVENTO
 31	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
 32	Teve	_	PROPN	PROPN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	30	name	_	_
 33	importante	_	ADJ	adj|M|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	34	amod	_	_
@@ -1543,7 +1543,7 @@
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 22	chefe	_	NOUN	n|F|S	fPOS=NOUN++n|M|S	19	nmod	_	_
 23	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Governo	_	PROPN	PROPN	fPOS=NOUN++NOUN	22	name	_	dhbb-entity:Governo=Provisório,type:ORGANIZACAO
+24	Governo	_	PROPN	PROPN	fPOS=NOUN++NOUN	22	name	_	EntityForm=Governo+Provisório|Type=ORGANIZACAO
 25	Provisório	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	22	nmod	_	_
 26	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	27	case	_	_
 27	República	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	_
@@ -1686,7 +1686,7 @@
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 5	realizou-se	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 6	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	7	case	_	_
-7	Cruzeiro	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	5	nmod	_	dhbb-entity:Cruzeiro,type:ORGANIZACAO
+7	Cruzeiro	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	5	nmod	_	EntityForm=Cruzeiro|Type=ORGANIZACAO
 8	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 9	SP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	nmod	_	_
 10	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
@@ -2404,7 +2404,7 @@
 14	citado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	12	acl	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 16	*A	_	PROPN	prop|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	12	appos	_	_
-17	Revolução	_	PROPN	PROPN	fPOS=PROPN++prop|F|S	16	name	_	dhbb-entity:Revolução=Constitucionalista,type:EVENTO
+17	Revolução	_	PROPN	PROPN	fPOS=PROPN++prop|F|S	16	name	_	EntityForm=Revolução+Constitucionalista|Type=EVENTO
 18	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	*	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 20	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_

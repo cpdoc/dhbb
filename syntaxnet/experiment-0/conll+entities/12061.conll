@@ -71,8 +71,8 @@
 5	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 6	trabalhou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 7	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	TV	_	PROPN	prop|<new>|F|S	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	nmod	_	dhbb-entity:TV=Record,type:ORGANIZACAO
-9	Record	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	dhbb-entity:Record,type:ORGANIZACAO
+8	TV	_	PROPN	prop|<new>|F|S	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	nmod	_	EntityForm=TV+Record|Type=ORGANIZACAO
+9	Record	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	EntityForm=Record|Type=ORGANIZACAO
 10	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	11	case	_	_
 11	Rio	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
@@ -108,7 +108,7 @@
 19	secretário	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	6	conj	_	_
 20	parlamentar	_	ADJ	adj|M|S	fPOS=NOUN++NOUN	19	amod	_	_
 21	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	22	case	_	_
-22	Senado	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	name	_	dhbb-entity:Senado=Federal,type:ORGANIZACAO
+22	Senado	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	name	_	EntityForm=Senado+Federal|Type=ORGANIZACAO
 23	Federal	_	PROPN	PROPN	fPOS=NOUN++NOUN	22	name	_	_
 24	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
@@ -152,7 +152,7 @@
 10	novamente	_	ADV	adv	fPOS=ADV++adv	11	advmod	_	_
 11	concorreu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	3	advcl	_	_
 12	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	11	nmod	_	dhbb-entity:Câmara=dos=Vereadores,type:ORGANIZACAO
+13	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	11	nmod	_	EntityForm=Câmara+dos+Vereadores|Type=ORGANIZACAO
 14	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	15	case	_	_
 15	Vereadores	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
@@ -197,7 +197,7 @@
 27	.	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 
 1	Na	_	ADP	prp	fPOS=SYM++punc	2	case	_	_
-2	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	7	nmod	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+2	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	7	nmod	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 3	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	4	case	_	_
 4	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	_
 5	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
@@ -205,7 +205,7 @@
 7	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 8	titular	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	7	amod	_	_
 9	das	_	DET	art|<artd>|F|P	Gender=Fem|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|F|P	10	det	_	_
-10	comissões	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	7	nmod	_	dhbb-entity:comissões=de=Ciência=e=Tecnologia,type:ORGANIZACAO
+10	comissões	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	7	nmod	_	EntityForm=comissões+de+Ciência+e+Tecnologia|Type=ORGANIZACAO
 11	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	12	case	_	_
 12	Ciência	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	nmod	_	_
 13	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	12	cc	_	_
@@ -267,7 +267,7 @@
 30	PTdoB	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	25	nmod	_	_
 31	)	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 32	,	_	PUNCT	punc	fPOS=PUNCT++punc	23	punct	_	_
-33	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	23	nmod	_	dhbb-entity:Partido=Republicano,type:ORGANIZACAO
+33	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	23	nmod	_	EntityForm=Partido+Republicano|Type=ORGANIZACAO
 34	Republicano	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	_
 35	Progressista	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	_
 36	(	_	PUNCT	punc	fPOS=PUNCT++punc	33	punct	_	_

@@ -64,9 +64,9 @@
 2	1935	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	3	advmod	_	_
 3	ingressou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	17	nsubjpass	_	_
 4	na	_	ADP	prp	Number=Sing|NumType=Card|PronType=Ind,Neg,Tot|fPOS=PRON++pron-indp|<quant>|M/F|S	5	case	_	_
-5	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	3	nmod	_	dhbb-entity:companhia,type:ORGANIZACAO
+5	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	3	nmod	_	EntityForm=companhia|Type=ORGANIZACAO
 6	aérea	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	5	amod	_	_
-7	Cruzeiro	_	PROPN	prop|M|S	fPOS=PROPN++prop|F|S	5	nmod	_	dhbb-entity:Cruzeiro,type:ORGANIZACAO
+7	Cruzeiro	_	PROPN	prop|M|S	fPOS=PROPN++prop|F|S	5	nmod	_	EntityForm=Cruzeiro|Type=ORGANIZACAO
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	Sul	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 10	como	_	ADV	adv|<rel>	PronType=Rel|fPOS=ADV++adv|<rel>	5	advmod	_	_
@@ -106,7 +106,7 @@
 16	)	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 17	após	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	19	case	_	_
 18	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	19	det	_	_
-19	Segunda	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	24	nmod	_	dhbb-entity:Segunda=Guerra=Mundial,type:EVENTO
+19	Segunda	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	24	nmod	_	EntityForm=Segunda+Guerra+Mundial|Type=EVENTO
 20	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 21	Mundial	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
@@ -152,7 +152,7 @@
 18	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	19	auxpass	_	_
 19	delegado	_	VERB	v-pcp|M|S	fPOS=PROPN++prop|M|S	12	punct	_	_
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	dhbb-entity:Sindicato,type:ORGANIZACAO
+21	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	EntityForm=Sindicato|Type=ORGANIZACAO
 22	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	23	case	_	_
 23	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 24	Gráficas	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	_
@@ -163,14 +163,14 @@
 29	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	19	cc	_	_
 30	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	19	conj	_	_
 31	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	32	case	_	_
-32	Centro	_	NOUN	NOUN	fPOS=NOUN++NOUN	30	compound	_	dhbb-entity:Centro=Industrial=do=Rio=de=Janeiro=(=CIRJ=),type:ORGANIZACAO
+32	Centro	_	NOUN	NOUN	fPOS=NOUN++NOUN	30	compound	_	EntityForm=Centro+Industrial+do+Rio+de+Janeiro+(+CIRJ+)|Type=ORGANIZACAO
 33	Industrial	_	PROPN	PROPN	fPOS=NOUN++NOUN	32	name	_	_
 34	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	35	case	_	_
 35	Rio	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 36	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	37	case	_	_
 37	Janeiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	compound	_	_
 38	(	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
-39	CIRJ	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	30	nmod	_	dhbb-entity:CIRJ,type:ORGANIZACAO
+39	CIRJ	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	30	nmod	_	EntityForm=CIRJ|Type=ORGANIZACAO
 40	)	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
 41	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	42	case	_	_
 42	1964	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	30	nummod	_	_
@@ -202,7 +202,7 @@
 3	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	4	det	_	_
 4	vice-presidência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	1	dobj	_	_
 5	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	Federação	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	dhbb-entity:Federação=das=Indústrias,type:ORGANIZACAO
+6	Federação	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	EntityForm=Federação+das+Indústrias|Type=ORGANIZACAO
 7	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	8	case	_	_
 8	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	_
 9	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	10	case	_	_
@@ -217,7 +217,7 @@
 18	e	_	CONJ	conj-c|<co-subj>	fPOS=CONJ++conj-c	1	cc	_	_
 19	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	21	det	_	_
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	CIRJ	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	conj	_	dhbb-entity:CIRJ,type:ORGANIZACAO
+21	CIRJ	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	conj	_	EntityForm=CIRJ|Type=ORGANIZACAO
 22	entre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	23	case	_	_
 23	1966	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	21	nummod	_	_
 24	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	23	cc	_	_
@@ -230,7 +230,7 @@
 4	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	5	case	_	_
 5	Serviços	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	_
 6	Aerofotogramétricos	_	ADP	ADP	fPOS=NOUN++NOUN	7	case	_	_
-7	Cruzeiro	_	PROPN	PROPN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:Cruzeiro,type:ORGANIZACAO
+7	Cruzeiro	_	PROPN	PROPN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=Cruzeiro|Type=ORGANIZACAO
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	Sul	_	PROPN	PROPN	fPOS=NOUN++NOUN	3	compound	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
@@ -246,7 +246,7 @@
 20	e	_	CONJ	conj-c|<co-subj>	fPOS=CONJ++conj-c|<co-pred>	14	cc	_	_
 21	membro	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	14	conj	_	_
 22	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	23	case	_	_
-23	Conselho	_	PROPN	PROPN	fPOS=NOUN++NOUN	21	name	_	dhbb-entity:Conselho,type:ORGANIZACAO
+23	Conselho	_	PROPN	PROPN	fPOS=NOUN++NOUN	21	name	_	EntityForm=Conselho|Type=ORGANIZACAO
 24	Aeronáutico	_	PROPN	PROPN	fPOS=NOUN++NOUN	23	name	_	_
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
 26	Estado	_	PROPN	PROPN	fPOS=NOUN++NOUN	23	name	_	_
@@ -261,7 +261,7 @@
 35	Aeronáutica	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 36	,	_	PUNCT	punc	fPOS=PUNCT++punc	28	punct	_	_
 37	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	38	case	_	_
-38	Sociedade	_	PROPN	PROPN	fPOS=PROPN++PROPN	28	name	_	dhbb-entity:Sociedade=Brasileira=de=Direito=Aeronáutico,type:ORGANIZACAO
+38	Sociedade	_	PROPN	PROPN	fPOS=PROPN++PROPN	28	name	_	EntityForm=Sociedade+Brasileira+de+Direito+Aeronáutico|Type=ORGANIZACAO
 39	Brasileira	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	_
 40	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	41	case	_	_
 41	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	_
@@ -277,7 +277,7 @@
 1	Cursou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 2	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	3	det	_	_
 3	Escola	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	dobj	_	_
-4	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+4	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	EntityForm=Superior|Type=ORGANIZACAO
 5	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	6	case	_	_
 6	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	_
 7	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_

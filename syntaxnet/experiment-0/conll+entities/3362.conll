@@ -47,7 +47,7 @@
 3	primeiros	_	ADJ	adj|<NUM-ord>|M|P	Gender=Masc|Number=Plur|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|M|P	4	amod	_	_
 4	estudos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	1	punct	_	_
 5	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	4	nmod	_	dhbb-entity:Colégio=Camerino,type:ORGANIZACAO
+6	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	4	nmod	_	EntityForm=Colégio+Camerino|Type=ORGANIZACAO
 7	Camerino	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 9	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
@@ -296,19 +296,19 @@
 21	coligação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	18	nmod	_	_
 22	formada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	21	acl	_	_
 23	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	25	advmod	_	_
-24	Partido	_	DET	DET	fPOS=PROPN++PROPN	25	det	_	dhbb-entity:Partido=Social=Progressista=(=PSP=),type:ORGANIZACAO
+24	Partido	_	DET	DET	fPOS=PROPN++PROPN	25	det	_	EntityForm=Partido+Social+Progressista+(+PSP+)|Type=ORGANIZACAO
 25	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	dobj	_	_
 26	Progressista	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
-28	PSP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	25	nmod	_	dhbb-entity:PSP,type:ORGANIZACAO
+28	PSP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	25	nmod	_	EntityForm=PSP|Type=ORGANIZACAO
 29	)	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 30	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-app>	25	cc	_	_
 31	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	32	det	_	_
-32	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	conj	_	dhbb-entity:União=Democrática=Nacional=(=UDN=),type:ORGANIZACAO
+32	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	conj	_	EntityForm=União+Democrática+Nacional+(+UDN+)|Type=ORGANIZACAO
 33	Democrática	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 34	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 35	(	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
-36	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	32	nmod	_	dhbb-entity:UDN=),type:ORGANIZACAO
+36	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	32	nmod	_	EntityForm=UDN+)|Type=ORGANIZACAO
 37	)	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 38	.	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 
@@ -402,7 +402,7 @@
 14	Comissão	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	_
 15	Especial	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	_
 16	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	Vale	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	dhbb-entity:Vale=do=Rio=Doce,type:ORGANIZACAO
+17	Vale	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	EntityForm=Vale+do+Rio+Doce|Type=ORGANIZACAO
 18	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	19	case	_	_
 19	Rio	_	PROPN	PROPN	fPOS=PROPN++PROPN	17	name	_	_
 20	Doce	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
@@ -410,7 +410,7 @@
 22	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	23	cop	_	_
 23	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 24	das	_	ADP	ADP	Gender=Fem|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|F|P	25	case	_	_
-25	comissões	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	23	nmod	_	dhbb-entity:comissões=de=Justiça,type:ORGANIZACAO
+25	comissões	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	23	nmod	_	EntityForm=comissões+de+Justiça|Type=ORGANIZACAO
 26	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	27	case	_	_
 27	Justiça	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	25	nmod	_	_
 28	,	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
@@ -463,7 +463,7 @@
 4	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	5	det	_	_
 5	liderança	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	3	dobj	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	PSP	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	dhbb-entity:PSP,type:ORGANIZACAO
+7	PSP	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	EntityForm=PSP|Type=ORGANIZACAO
 8	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	casa	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
@@ -620,7 +620,7 @@
 6	cursou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 7	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	8	det	_	_
 8	Escola	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	6	nsubj	_	_
-9	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+9	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	EntityForm=Superior|Type=ORGANIZACAO
 10	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	11	case	_	_
 11	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 12	(	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
@@ -631,7 +631,7 @@
 1	Tornou-se	_	PROPN	prop|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 2	membro	_	PROPN	PROPN	fPOS=NOUN++NOUN	1	name	_	_
 3	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	4	case	_	_
-4	Instituto	_	PROPN	PROPN	fPOS=NOUN++NOUN	1	name	_	dhbb-entity:Instituto=Histórico=e=Geográfico=de=Sergipe,type:ORGANIZACAO
+4	Instituto	_	PROPN	PROPN	fPOS=NOUN++NOUN	1	name	_	EntityForm=Instituto+Histórico+e+Geográfico+de+Sergipe|Type=ORGANIZACAO
 5	Histórico	_	PROPN	PROPN	fPOS=NOUN++NOUN	4	name	_	_
 6	e	_	CONJ	CONJ	fPOS=CONJ++conj-c|<co-subj>	4	cc	_	_
 7	Geográfico	_	PROPN	PROPN	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	4	conj	_	_
@@ -639,7 +639,7 @@
 9	Sergipe	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	1	nmod	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 11	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:Associação=Sergipana=de=Imprensa,type:ORGANIZACAO
+12	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=Associação+Sergipana+de+Imprensa|Type=ORGANIZACAO
 13	Sergipana	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 14	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	15	case	_	_
 15	Imprensa	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_

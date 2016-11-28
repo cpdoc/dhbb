@@ -52,7 +52,7 @@
 4	no	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<kc>	8	case	_	_
 5	internato	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	mwe	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	Colégio	_	PROPN	PROPN	fPOS=NOUN++NOUN	4	nmod	_	dhbb-entity:Colégio=Pedro=II,type:ORGANIZACAO
+7	Colégio	_	PROPN	PROPN	fPOS=NOUN++NOUN	4	nmod	_	EntityForm=Colégio+Pedro+II|Type=ORGANIZACAO
 8	Pedro	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	3	nmod	_	_
 9	II	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
@@ -63,11 +63,11 @@
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 16	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-subj>	3	cc	_	_
 17	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	18	case	_	_
-18	Colégio	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	3	nmod	_	dhbb-entity:Colégio=Americano,type:ORGANIZACAO
+18	Colégio	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	3	nmod	_	EntityForm=Colégio+Americano|Type=ORGANIZACAO
 19	Americano	_	PROPN	PROPN	fPOS=NOUN++NOUN	18	name	_	_
 20	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 21	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	22	case	_	_
-22	Vitória	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|<prop>|M|S	1	nmod	_	dhbb-entity:Vitória,type:ORGANIZACAO
+22	Vitória	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|<prop>|M|S	1	nmod	_	EntityForm=Vitória|Type=ORGANIZACAO
 23	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
 1	Em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	case	_	_
@@ -117,11 +117,11 @@
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 17	participou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 18	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	case	_	_
-19	Segunda	_	NOUN	NOUN	fPOS=PROPN++PROPN	17	nmod	_	dhbb-entity:Segunda=Guerra=Mundial,type:EVENTO
+19	Segunda	_	NOUN	NOUN	fPOS=PROPN++PROPN	17	nmod	_	EntityForm=Segunda+Guerra+Mundial|Type=EVENTO
 20	Guerra	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	amod	_	_
 21	Mundial	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	23	case	_	_
-23	Itália	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	dhbb-entity:Itália,type:ORGANIZACAO
+23	Itália	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	EntityForm=Itália|Type=ORGANIZACAO
 24	,	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 25	assumindo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	17	advcl	_	_
 26	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	27	case	_	_
@@ -236,7 +236,7 @@
 33	Resende	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
 34	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 35	hoje	_	ADV	adv	fPOS=ADV++adv	24	advmod	_	_
-36	Academia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	24	dobj	_	dhbb-entity:Academia=Militar=das=Agulhas=Negras,type:ORGANIZACAO
+36	Academia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	24	dobj	_	EntityForm=Academia+Militar+das+Agulhas+Negras|Type=ORGANIZACAO
 37	Militar	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
 38	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	39	case	_	_
 39	Agulhas	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
@@ -531,7 +531,7 @@
 4	tornou-se	_	ADJ	adj|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 5	membro	_	NOUN	n|M|S	fPOS=NOUN++NOUN	4	nmod	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	Conselho	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	dhbb-entity:Conselho=Nacional=de=Trânsito,type:ORGANIZACAO
+7	Conselho	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	EntityForm=Conselho+Nacional+de+Trânsito|Type=ORGANIZACAO
 8	Nacional	_	PROPN	PROPN	fPOS=NOUN++NOUN	7	name	_	_
 9	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
 10	Trânsito	_	PROPN	PROPN	fPOS=NOUN++NOUN	7	name	_	_
@@ -615,7 +615,7 @@
 9	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	mwe	_	_
 10	Brasil	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	2	nmod	_	_
 11	no	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	Peru	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	dhbb-entity:Peru,type:ORGANIZACAO
+12	Peru	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	EntityForm=Peru|Type=ORGANIZACAO
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 14	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 15	março	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	10	nmod	_	_

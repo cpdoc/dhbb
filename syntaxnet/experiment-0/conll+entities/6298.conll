@@ -80,8 +80,8 @@
 50	época	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	45	nmod	_	_
 51	chamado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	50	nmod	_	_
 52	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	53	case	_	_
-53	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	50	nmod	_	dhbb-entity:Plano=Econômico=de=Longo=Prazo,type:ACAO_POLITICA
-54	Econômico	_	PROPN	PROPN	fPOS=PROPN++PROPN	53	name	_	dhbb-entity:Econômico,type:ORGANIZACAO
+53	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	50	nmod	_	EntityForm=Plano+Econômico+de+Longo+Prazo|Type=ACAO_POLITICA
+54	Econômico	_	PROPN	PROPN	fPOS=PROPN++PROPN	53	name	_	EntityForm=Econômico|Type=ORGANIZACAO
 55	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	56	case	_	_
 56	Longo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	53	nmod	_	_
 57	Prazo	_	PROPN	PROPN	fPOS=PROPN++PROPN	56	name	_	_
@@ -124,7 +124,7 @@
 2	objetivos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	7	nsubj	_	_
 3	iniciais	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	2	amod	_	_
 4	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	Plano	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	dhbb-entity:Plano=Decenal,type:ACAO_POLITICA
+5	Plano	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	EntityForm=Plano+Decenal|Type=ACAO_POLITICA
 6	Decenal	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 7	consistiam	_	VERB	v-fin|IMPF|3P|IND	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3P|IND	0	ROOT	_	_
 8	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	9	mark	_	_
@@ -505,7 +505,7 @@
 35	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 
 1	O	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	2	det	_	_
-2	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	4	nsubj	_	dhbb-entity:Plano=Decenal,type:ACAO_POLITICA
+2	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	4	nsubj	_	EntityForm=Plano+Decenal|Type=ACAO_POLITICA
 3	Decenal	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	_
 4	introduziu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 5	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	7	det	_	_
@@ -565,7 +565,7 @@
 24	divisas	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	21	conj	_	_
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	16	punct	_	_
 26	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	27	det	_	_
-27	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	29	nsubj	_	dhbb-entity:Plano=Decenal,type:ACAO_POLITICA
+27	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	29	nsubj	_	EntityForm=Plano+Decenal|Type=ACAO_POLITICA
 28	Decenal	_	PROPN	PROPN	fPOS=PROPN++PROPN	27	name	_	_
 29	serviu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 30	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	31	case	_	_
@@ -609,6 +609,6 @@
 18	as	_	DET	art|<artd>|F|P	Definite=Def|Gender=Fem|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|F|P	19	det	_	_
 19	estimativas	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	17	dobj	_	_
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	Plano	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	nmod	_	dhbb-entity:Plano=Decenal,type:ACAO_POLITICA
+21	Plano	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	nmod	_	EntityForm=Plano+Decenal|Type=ACAO_POLITICA
 22	Decenal	_	NOUN	NOUN	fPOS=PROPN++PROPN	21	compound	_	_
 23	.	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_

@@ -35,7 +35,7 @@
 7	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	8	auxpass	_	_
 8	deputado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 9	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Assembleia	_	PROPN	prop|F|S	fPOS=NOUN++NOUN	8	nmod	_	dhbb-entity:Assembleia=Legislativa,type:ORGANIZACAO
+10	Assembleia	_	PROPN	prop|F|S	fPOS=NOUN++NOUN	8	nmod	_	EntityForm=Assembleia+Legislativa|Type=ORGANIZACAO
 11	Legislativa	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Santa	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
@@ -125,7 +125,7 @@
 21	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 22	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 23	(	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
-24	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	name	_	dhbb-entity:PSD,type:ORGANIZACAO
+24	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	name	_	EntityForm=PSD|Type=ORGANIZACAO
 25	)	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 27	exercendo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	2	advcl	_	_
@@ -149,11 +149,11 @@
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
 7	Comissão	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	5	dobj	_	_
 8	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	9	case	_	_
-9	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:Constituição,type:LEI_CONSTITUICAO
+9	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=Constituição|Type=LEI_CONSTITUICAO
 10	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	9	cc	_	_
 11	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	conj	_	_
 12	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+13	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 14	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	15	case	_	_
 15	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 16	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
@@ -179,7 +179,7 @@
 19	na	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	8	advmod	_	_
 20	legenda	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	mwe	_	_
 21	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	19	mwe	_	_
-22	PSD	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	mwe	_	dhbb-entity:PSD,type:ORGANIZACAO
+22	PSD	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	mwe	_	EntityForm=PSD|Type=ORGANIZACAO
 23	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 24	encerrando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	8	advcl	_	_
 25	então	_	ADV	adv|<kc>	fPOS=ADV++adv|<kc>	24	advmod	_	_
@@ -191,7 +191,7 @@
 1	Foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	2	cop	_	_
 2	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 3	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	4	case	_	_
-4	Instituto	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	dhbb-entity:Instituto=Nacional=do=Pinho=em=Santa=Catarina,type:ORGANIZACAO
+4	Instituto	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	EntityForm=Instituto+Nacional+do+Pinho+em+Santa+Catarina|Type=ORGANIZACAO
 5	Nacional	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
 7	Pinho	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	_
@@ -213,7 +213,7 @@
 23	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	24	cop	_	_
 24	diretor	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	2	conj	_	_
 25	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	Confederação	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	dhbb-entity:Confederação=Nacional=do=Comércio,type:ORGANIZACAO
+26	Confederação	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	EntityForm=Confederação+Nacional+do+Comércio|Type=ORGANIZACAO
 27	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 28	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	29	case	_	_
 29	Comércio	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_

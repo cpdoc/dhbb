@@ -100,7 +100,7 @@
 17	cidade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	10	nmod	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 19	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	20	case	_	_
-20	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	nmod	_	dhbb-entity:Partido=Republicano,type:ORGANIZACAO
+20	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	nmod	_	EntityForm=Partido+Republicano|Type=ORGANIZACAO
 21	Republicano	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 22	Progressista	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 23	(	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
@@ -116,11 +116,11 @@
 33	se	_	PRON	pron-pers|<refl>|M|3S|ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|M|3S|ACC	34	dobj	_	_
 34	transformou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	20	acl	_	_
 35	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	36	case	_	_
-36	Partido	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	34	dobj	_	dhbb-entity:Partido=Social=Progressista=(=PSP=),type:ORGANIZACAO
+36	Partido	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	34	dobj	_	EntityForm=Partido+Social+Progressista+(+PSP+)|Type=ORGANIZACAO
 37	Social	_	PROPN	PROPN	fPOS=NOUN++NOUN	36	name	_	_
 38	Progressista	_	PROPN	PROPN	fPOS=NOUN++NOUN	36	name	_	_
 39	(	_	PUNCT	punc	fPOS=PUNCT++punc	36	punct	_	_
-40	PSP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	36	name	_	dhbb-entity:PSP,type:ORGANIZACAO
+40	PSP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	36	name	_	EntityForm=PSP|Type=ORGANIZACAO
 41	)	_	PUNCT	punc	fPOS=PUNCT++punc	36	punct	_	_
 42	,	_	PUNCT	punc	fPOS=PUNCT++punc	36	punct	_	_
 43	liderado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	36	acl	_	_
@@ -177,7 +177,7 @@
 20	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-postnom>	19	cc	_	_
 21	comercial	_	ADJ	adj|F|S	fPOS=PROPN++prop|F|S	19	conj	_	_
 22	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	23	case	_	_
-23	Banco	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	dhbb-entity:Banco=do=Estado=de=São=Paulo,type:ORGANIZACAO
+23	Banco	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	EntityForm=Banco+do+Estado+de+São+Paulo|Type=ORGANIZACAO
 24	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	25	case	_	_
 25	Estado	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	_
 26	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	27	case	_	_
@@ -246,7 +246,7 @@
 13	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
 14	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 15	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	PSP	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	dhbb-entity:PSP,type:ORGANIZACAO
+16	PSP	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	EntityForm=PSP|Type=ORGANIZACAO
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 18	assumindo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	7	advcl	_	_
 19	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	20	det	_	_
@@ -324,22 +324,22 @@
 12	coligação	_	NOUN	NOUN	fPOS=NOUN++NOUN	9	mwe	_	_
 13	entre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 14	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	15	det	_	_
-15	PSP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	dhbb-entity:PSP,type:ORGANIZACAO
+15	PSP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	EntityForm=PSP|Type=ORGANIZACAO
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 17	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	18	det	_	_
 18	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	15	conj	_	_
 19	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	(	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
-22	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	18	nmod	_	dhbb-entity:PSD,type:ORGANIZACAO
+22	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	18	nmod	_	EntityForm=PSD|Type=ORGANIZACAO
 23	)	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 24	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	15	cc	_	_
 25	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	26	det	_	_
-26	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	15	conj	_	dhbb-entity:Partido=Social=Trabalhista=(=PST=),type:ORGANIZACAO
+26	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	15	conj	_	EntityForm=Partido+Social+Trabalhista+(+PST+)|Type=ORGANIZACAO
 27	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 28	Trabalhista	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 29	(	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
-30	PST	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	name	_	dhbb-entity:PST,type:ORGANIZACAO
+30	PST	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	name	_	EntityForm=PST|Type=ORGANIZACAO
 31	)	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
 32	.	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 
@@ -413,10 +413,10 @@
 10	coligação	_	NOUN	NOUN	fPOS=NOUN++NOUN	7	mwe	_	_
 11	entre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	7	case	_	_
 12	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	13	det	_	_
-13	PSP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	4	nmod	_	dhbb-entity:PSP,type:ORGANIZACAO
+13	PSP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	4	nmod	_	EntityForm=PSP|Type=ORGANIZACAO
 14	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	13	cc	_	_
 15	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	16	det	_	_
-16	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	conj	_	dhbb-entity:PSD,type:ORGANIZACAO
+16	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	conj	_	EntityForm=PSD|Type=ORGANIZACAO
 17	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
 1	Faleceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_

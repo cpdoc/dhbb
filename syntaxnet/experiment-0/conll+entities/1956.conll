@@ -51,11 +51,11 @@
 15	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	16	case	_	_
 16	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 17	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	18	case	_	_
-18	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:Partido=Social=Progressista=(=PSP=),type:ORGANIZACAO
+18	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=Partido+Social+Progressista+(+PSP+)|Type=ORGANIZACAO
 19	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	Progressista	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
-22	PSP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	dhbb-entity:PSP,type:ORGANIZACAO
+22	PSP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	EntityForm=PSP|Type=ORGANIZACAO
 23	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 24	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	25	case	_	_
 25	outubro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	4	nmod	_	_
@@ -91,10 +91,10 @@
 10	vaga	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	dobj	_	_
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 12	pelo	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	10	advmod	_	_
-13	PSP	_	PROPN	PROPN	fPOS=NOUN++NOUN	12	mwe	_	dhbb-entity:PSP,type:ORGANIZACAO
+13	PSP	_	PROPN	PROPN	fPOS=NOUN++NOUN	12	mwe	_	EntityForm=PSP|Type=ORGANIZACAO
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 15	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	8	nmod	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+16	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	8	nmod	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 17	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	18	case	_	_
 18	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	20	case	_	_
@@ -129,7 +129,7 @@
 5	partidos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	3	nmod	_	_
 6	políticos	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	5	amod	_	_
 7	pelo	_	ADV	adv|<rel>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	8	case	_	_
-8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	dhbb-entity:Ato=Institucional=nº=2,type:LEI_CONSTITUICAO
+8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	EntityForm=Ato+Institucional+nº+2|Type=LEI_CONSTITUICAO
 9	Institucional	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 10	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	8	nmod	_	_
 11	2	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	10	nummod	_	_
@@ -145,11 +145,11 @@
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 22	filiou-se	_	NUM	num	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	18	nmod	_	_
 23	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	22	nmod	_	dhbb-entity:Aliança=Renovadora=Nacional=(=Arena=),type:ORGANIZACAO
+24	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	22	nmod	_	EntityForm=Aliança+Renovadora+Nacional+(+Arena+)|Type=ORGANIZACAO
 25	Renovadora	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 26	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
-28	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nmod	_	dhbb-entity:Arena,type:ORGANIZACAO
+28	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nmod	_	EntityForm=Arena|Type=ORGANIZACAO
 29	)	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 30	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 31	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	24	nmod	_	_
@@ -225,7 +225,7 @@
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 14	sempre	_	ADV	adv	fPOS=ADV++adv	10	advmod	_	_
 15	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	14	advmod	_	_
-16	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	mwe	_	dhbb-entity:Arena,type:ORGANIZACAO
+16	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	mwe	_	EntityForm=Arena|Type=ORGANIZACAO
 17	.	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 
 1	Desincompatibilizando-se	_	VERB	v-fin|<hyfen>|PR|3S|SUBJ	fPOS=NOUN++NOUN	0	ROOT	_	_
@@ -244,7 +244,7 @@
 14	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	1	advmod	_	_
 15	legenda	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	mwe	_	_
 16	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	mwe	_	_
-17	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	mwe	_	dhbb-entity:Arena,type:ORGANIZACAO
+17	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	mwe	_	EntityForm=Arena|Type=ORGANIZACAO
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 19	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	22	case	_	_
 20	pleito	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	mwe	_	_

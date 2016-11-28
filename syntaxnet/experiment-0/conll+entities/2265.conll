@@ -86,7 +86,7 @@
 20	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 21	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	(	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
-23	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	14	nmod	_	dhbb-entity:PSD,type:ORGANIZACAO
+23	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	14	nmod	_	EntityForm=PSD|Type=ORGANIZACAO
 24	)	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 25	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
@@ -102,9 +102,9 @@
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 11	integrante	_	NOUN	n|M|S	fPOS=ADJ++adj|M|S	5	conj	_	_
 12	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	mesa	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	compound	_	dhbb-entity:mesa=da=Câmara=Municipal,type:ORGANIZACAO
+13	mesa	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	compound	_	EntityForm=mesa+da+Câmara+Municipal|Type=ORGANIZACAO
 14	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	Câmara	_	NOUN	NOUN	fPOS=PROPN++PROPN	11	compound	_	dhbb-entity:Câmara=Municipal,type:ORGANIZACAO
+15	Câmara	_	NOUN	NOUN	fPOS=PROPN++PROPN	11	compound	_	EntityForm=Câmara+Municipal|Type=ORGANIZACAO
 16	Municipal	_	NOUN	NOUN	fPOS=PROPN++PROPN	11	compound	_	_
 17	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	5	cc	_	_
 18	líder	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	5	conj	_	_
@@ -142,8 +142,8 @@
 7	elegeu-se	_	DET	pron-det|<poss|1P>|F|P	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|M|S	6	compound	_	_
 8	deputado	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	2	nmod	_	_
 9	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Assembléia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	8	nmod	_	dhbb-entity:Assembléia=Constituinte,type:ORGANIZACAO
-11	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	dhbb-entity:Constituinte,type:ORGANIZACAO
+10	Assembléia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	8	nmod	_	EntityForm=Assembléia+Constituinte|Type=ORGANIZACAO
+11	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	EntityForm=Constituinte|Type=ORGANIZACAO
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	recém-criado	_	PROPN	PROPN	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	10	name	_	_
 14	estado	_	PROPN	PROPN	fPOS=NOUN++n|M|S	13	name	_	_
@@ -152,7 +152,7 @@
 17	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	case	_	_
 18	legenda	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	_
 19	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	20	case	_	_
-20	PSD	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	dhbb-entity:PSD,type:ORGANIZACAO
+20	PSD	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	EntityForm=PSD|Type=ORGANIZACAO
 21	.	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 
 1	Participou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
@@ -221,7 +221,7 @@
 15	que	_	PRON	pron-indp|<rel>|M|P	Gender=Masc|Number=Plur|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|P	16	nsubj	_	_
 16	criaram	_	VERB	v-fin|PS/MQP|3P|IND	Mood=Ind|Number=Plur|Person=3|Tense=Imp,Pqp|VerbForm=Fin|fPOS=VERB++v-fin|PS/MQP|3P|IND	14	acl	_	_
 17	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	18	det	_	_
-18	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	16	dobj	_	dhbb-entity:Companhia,type:ORGANIZACAO
+18	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	16	dobj	_	EntityForm=Companhia|Type=ORGANIZACAO
 19	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	20	case	_	_
 20	Transportes	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	Coletivos	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
@@ -254,7 +254,7 @@
 5	partidos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	3	nmod	_	_
 6	políticos	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	5	amod	_	_
 7	pelo	_	ADV	adv|<rel>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	8	case	_	_
-8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	dhbb-entity:Ato=Institucional=nº=2,type:LEI_CONSTITUICAO
+8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	EntityForm=Ato+Institucional+nº+2|Type=LEI_CONSTITUICAO
 9	Institucional	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 10	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	8	nmod	_	_
 11	2	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	10	nummod	_	_
@@ -281,7 +281,7 @@
 32	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 33	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 34	(	_	PUNCT	punc	fPOS=PUNCT++punc	31	punct	_	_
-35	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	31	name	_	dhbb-entity:MDB,type:ORGANIZACAO
+35	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	31	name	_	EntityForm=MDB|Type=ORGANIZACAO
 36	)	_	PUNCT	punc	fPOS=PUNCT++punc	31	punct	_	_
 37	.	_	PUNCT	punc	fPOS=PUNCT++punc	28	punct	_	_
 
@@ -299,7 +299,7 @@
 12	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	legenda	_	NOUN	NOUN	fPOS=PROPN++PROPN	8	compound	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	MDB	_	NOUN	NOUN	fPOS=PROPN++PROPN	8	compound	_	dhbb-entity:MDB,type:ORGANIZACAO
+15	MDB	_	NOUN	NOUN	fPOS=PROPN++PROPN	8	compound	_	EntityForm=MDB|Type=ORGANIZACAO
 16	.	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 
 1	Deixando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	10	advcl	_	_
@@ -324,7 +324,7 @@
 20	seu	_	DET	pron-det|<poss|3S>|<si>|M|S	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|M|S	21	det	_	_
 21	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	18	nmod	_	_
 22	na	_	ADP	prp	fPOS=SYM++punc	23	case	_	_
-23	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	18	nmod	_	dhbb-entity:Câmara=Federal,type:ORGANIZACAO
+23	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	18	nmod	_	EntityForm=Câmara+Federal|Type=ORGANIZACAO
 24	Federal	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	_
 25	.	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 

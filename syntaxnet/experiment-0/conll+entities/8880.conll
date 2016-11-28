@@ -35,7 +35,7 @@
 9	.	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 
 1	A	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	2	det	_	_
-2	sociedade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	4	nsubjpass	_	dhbb-entity:sociedade,type:ORGANIZACAO
+2	sociedade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	4	nsubjpass	_	EntityForm=sociedade|Type=ORGANIZACAO
 3	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	4	auxpass	_	_
 4	articulada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 5	basicamente	_	ADV	adv	fPOS=ADV++adv	4	advmod	_	_
@@ -43,7 +43,7 @@
 7	integrantes	_	ADJ	adj|<n>|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	5	advmod	_	_
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	extinto	_	VERB	v-pcp|M|S	fPOS=NOUN++NOUN	7	nmod	_	_
-10	Partido	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	9	nmod	_	dhbb-entity:Partido=Constitucionalista,type:ORGANIZACAO
+10	Partido	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	9	nmod	_	EntityForm=Partido+Constitucionalista|Type=ORGANIZACAO
 11	Constitucionalista	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	São	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	10	nmod	_	_
@@ -53,7 +53,7 @@
 17	decidiram	_	VERB	v-fin|PS|3P|IND	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3P|IND	13	acl	_	_
 18	sediá-la	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	17	dobj	_	_
 19	na	_	ADP	prp	NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++adv|<quant>|<det>	20	case	_	_
-20	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	17	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+20	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	17	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 21	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	22	case	_	_
 22	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 23	.	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
@@ -77,13 +77,13 @@
 3	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++prp	4	case	_	_
 4	fundação	_	NOUN	NOUN	fPOS=NOUN++n|F|S	2	nmod	_	_
 5	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	dhbb-entity:sociedade,type:ORGANIZACAO
+6	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	EntityForm=sociedade|Type=ORGANIZACAO
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 8	realizado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	4	nmod	_	_
 9	num	_	ADJ	adj|M|S	fPOS=NOUN++n|M|S	8	nmod	_	_
 10	salão	_	NOUN	n|M|S	fPOS=NOUN++NOUN	8	nmod	_	_
 11	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	Faculdade	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+12	Faculdade	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 13	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	14	case	_	_
 14	Direito	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
@@ -149,7 +149,7 @@
 23	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	21	mwe	_	_
 24	fundação	_	NOUN	NOUN	fPOS=NOUN++NOUN	21	mwe	_	_
 25	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	dhbb-entity:sociedade,type:ORGANIZACAO
+26	sociedade	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	EntityForm=sociedade|Type=ORGANIZACAO
 27	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 28	entre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	29	case	_	_
 29	as	_	DET	pron-indp|<rel>|F|P	Definite=Def|Gender=Fem|Number=Plur|PronType=Art|fPOS=DET++pron-indp|<rel>|F|P	2	nmod	_	_

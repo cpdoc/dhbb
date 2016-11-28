@@ -50,7 +50,7 @@
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 12	participou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	13	punct	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	nmod	_	dhbb-entity:Revolução=Constitucionalista=de=1932,type:EVENTO
+14	Revolução	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	nmod	_	EntityForm=Revolução+Constitucionalista+de+1932|Type=EVENTO
 15	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 16	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	17	case	_	_
 17	1932	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	14	nummod	_	_
@@ -77,11 +77,11 @@
 38	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	41	case	_	_
 39	legenda	_	NOUN	NOUN	fPOS=NOUN++NOUN	38	mwe	_	_
 40	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	41	case	_	_
-41	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	37	name	_	dhbb-entity:União=Democrática=Nacional=(=UDN=),type:ORGANIZACAO
+41	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	37	name	_	EntityForm=União+Democrática+Nacional+(+UDN+)|Type=ORGANIZACAO
 42	Democrática	_	PROPN	PROPN	fPOS=PROPN++PROPN	41	name	_	_
 43	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	41	name	_	_
 44	(	_	PUNCT	punc	fPOS=PUNCT++punc	41	punct	_	_
-45	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	41	name	_	dhbb-entity:UDN=),type:ORGANIZACAO
+45	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	41	name	_	EntityForm=UDN+)|Type=ORGANIZACAO
 46	)	_	PUNCT	punc	fPOS=PUNCT++punc	41	punct	_	_
 47	.	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 
@@ -251,7 +251,7 @@
 18	comando	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	16	dobj	_	_
 19	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	20	case	_	_
 20	7ª	_	ADJ	adj|<NUM-ord>|F|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++DET	18	nmod	_	_
-21	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	20	nmod	_	dhbb-entity:Companhia,type:ORGANIZACAO
+21	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	20	nmod	_	EntityForm=Companhia|Type=ORGANIZACAO
 22	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	23	case	_	_
 23	Instrução	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 24	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	25	case	_	_
@@ -616,7 +616,7 @@
 8	embaixada	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 9	brasileira	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	5	amod	_	_
 10	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	11	case	_	_
-11	Colômbia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	3	nmod	_	dhbb-entity:Colômbia,type:ORGANIZACAO
+11	Colômbia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	3	nmod	_	EntityForm=Colômbia|Type=ORGANIZACAO
 12	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	1971	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	3	advmod	_	_
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
@@ -668,7 +668,7 @@
 38	cursar	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	36	advcl	_	_
 39	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	40	det	_	_
 40	Escola	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	38	dobj	_	_
-41	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	40	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+41	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	40	name	_	EntityForm=Superior|Type=ORGANIZACAO
 42	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	43	case	_	_
 43	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	40	name	_	_
 44	(	_	PUNCT	punc	fPOS=PUNCT++punc	40	punct	_	_
@@ -1139,8 +1139,8 @@
 20	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	case	_	_
 21	segurança	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	19	nmod	_	_
 22	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	23	case	_	_
-23	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	dhbb-entity:Superior,type:ORGANIZACAO
-24	Tribunal	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	dhbb-entity:Tribunal=de=Justiça,type:ORGANIZACAO
+23	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	EntityForm=Superior|Type=ORGANIZACAO
+24	Tribunal	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	EntityForm=Tribunal+de+Justiça|Type=ORGANIZACAO
 25	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	26	case	_	_
 26	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_

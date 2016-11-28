@@ -34,7 +34,7 @@
 4	cidade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	1	nmod	_	_
 5	natal	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	4	amod	_	_
 6	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	7	case	_	_
-7	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	nmod	_	dhbb-entity:Colégio=Salesiano,type:ORGANIZACAO
+7	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	nmod	_	EntityForm=Colégio+Salesiano|Type=ORGANIZACAO
 8	Salesiano	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 9	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 10	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	11	case	_	_
@@ -44,7 +44,7 @@
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 15	e	_	CONJ	conj-c	fPOS=CONJ++conj-c	1	cc	_	_
 16	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	17	case	_	_
-17	Ginásio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	conj	_	dhbb-entity:Ginásio=Pernambucano,type:ORGANIZACAO
+17	Ginásio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	conj	_	EntityForm=Ginásio+Pernambucano|Type=ORGANIZACAO
 18	Pernambucano	_	PROPN	PROPN	fPOS=PROPN++PROPN	17	name	_	_
 19	,	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 20	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	case	_	_
@@ -63,7 +63,7 @@
 8	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-postnom>	7	cc	_	_
 9	sociais	_	ADJ	adj|F|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	7	conj	_	_
 10	pela	_	ADP	prp	Gender=Fem|Number=Sing|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|F|S	11	case	_	_
-11	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	6	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+11	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	6	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 14	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	15	case	_	_
@@ -81,10 +81,10 @@
 9	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	10	cop	_	_
 10	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	3	acl	_	_
 11	do	_	ADJ	adj|<adv>|M|S	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	Conselho	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	10	nmod	_	dhbb-entity:Conselho=Municipal=de=Vitória,type:ORGANIZACAO
+12	Conselho	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	10	nmod	_	EntityForm=Conselho+Municipal+de+Vitória|Type=ORGANIZACAO
 13	Municipal	_	PROPN	PROPN	fPOS=NOUN++NOUN	12	name	_	_
 14	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	15	case	_	_
-15	Vitória	_	PROPN	PROPN	fPOS=NOUN++NOUN	12	name	_	dhbb-entity:Vitória,type:ORGANIZACAO
+15	Vitória	_	PROPN	PROPN	fPOS=NOUN++NOUN	12	name	_	EntityForm=Vitória|Type=ORGANIZACAO
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 17	e	_	CONJ	conj-c|<co-vfin>|<co-fmc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	1	cc	_	_
 18	trabalhou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	1	conj	_	_
@@ -119,8 +119,8 @@
 7	eleito	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	0	ROOT	_	_
 8	deputado	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	7	nsubjpass	_	_
 9	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Assembléia	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	7	nmod	_	dhbb-entity:Assembléia=Constituinte,type:ORGANIZACAO
-11	Constituinte	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	dhbb-entity:Constituinte,type:ORGANIZACAO
+10	Assembléia	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	7	nmod	_	EntityForm=Assembléia+Constituinte|Type=ORGANIZACAO
+11	Constituinte	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	name	_	EntityForm=Constituinte|Type=ORGANIZACAO
 12	paraibana	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	10	amod	_	_
 13	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	7	cc	_	_
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
@@ -180,11 +180,11 @@
 16	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	17	case	_	_
 17	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 18	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	case	_	_
-19	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	dhbb-entity:União=Democrática=Nacional=(=UDN=),type:ORGANIZACAO
+19	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	EntityForm=União+Democrática+Nacional+(+UDN+)|Type=ORGANIZACAO
 20	Democrática	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 21	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	(	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
-23	UDN	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	15	name	_	dhbb-entity:UDN=),type:ORGANIZACAO
+23	UDN	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	15	name	_	EntityForm=UDN+)|Type=ORGANIZACAO
 24	)	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
 26	assumindo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	0	ROOT	_	_
@@ -300,7 +300,7 @@
 5	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
 6	Paraíba	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	nmod	_	_
 7	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	dhbb-entity:Ordem=dos=Advogados=do=Brasil=e,type:ORGANIZACAO
+8	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	EntityForm=Ordem+dos+Advogados+do+Brasil+e|Type=ORGANIZACAO
 9	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	10	case	_	_
 10	Advogados	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 11	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
@@ -308,7 +308,7 @@
 13	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	12	cc	_	_
 14	membro	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	conj	_	_
 15	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	Instituto	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	dhbb-entity:Instituto=dos=Advogados=Brasileiros,type:ORGANIZACAO
+16	Instituto	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	EntityForm=Instituto+dos+Advogados+Brasileiros|Type=ORGANIZACAO
 17	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	18	case	_	_
 18	Advogados	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 19	Brasileiros	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_

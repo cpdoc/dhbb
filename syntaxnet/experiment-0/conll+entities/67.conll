@@ -59,7 +59,7 @@
 7	fundador	_	ADJ	adj|M|S	fPOS=NOUN++n|M|S	1	conj	_	_
 8	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
 9	primeira	_	ADJ	adj|<NUM-ord>|F|S	fPOS=NOUN++NOUN	10	amod	_	_
-10	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	7	nmod	_	dhbb-entity:companhia,type:ORGANIZACAO
+10	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	7	nmod	_	EntityForm=companhia|Type=ORGANIZACAO
 11	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	12	case	_	_
 12	armazéns	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	10	nmod	_	_
 13	gerais	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	12	amod	_	_
@@ -85,7 +85,7 @@
 33	e	_	CONJ	conj-c|<co-subj>	fPOS=CONJ++conj-c	32	cc	_	_
 34	secretário	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	32	conj	_	_
 35	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	36	case	_	_
-36	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	34	compound	_	dhbb-entity:Câmara=Municipal,type:ORGANIZACAO
+36	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	34	compound	_	EntityForm=Câmara+Municipal|Type=ORGANIZACAO
 37	Municipal	_	PROPN	PROPN	fPOS=NOUN++NOUN	36	name	_	_
 38	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	39	case	_	_
 39	Campos	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
@@ -146,7 +146,7 @@
 10	comissão	_	NOUN	n|F|S	fPOS=NOUN++NOUN	8	nmod	_	_
 11	executiva	_	ADJ	adj|F|S	fPOS=NOUN++NOUN	10	amod	_	_
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Instituto	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	compound	_	dhbb-entity:Instituto=do=Açúcar=e=do=Álcool,type:ORGANIZACAO
+13	Instituto	_	PROPN	PROPN	fPOS=NOUN++NOUN	10	compound	_	EntityForm=Instituto+do+Açúcar+e+do+Álcool|Type=ORGANIZACAO
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
 15	Açúcar	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	nmod	_	_
 16	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	15	cc	_	_
@@ -168,7 +168,7 @@
 32	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	nmod	_	_
 33	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 34	(	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
-35	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	dhbb-entity:PSD,type:ORGANIZACAO
+35	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	EntityForm=PSD|Type=ORGANIZACAO
 36	)	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 37	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++conj-s	32	nmod	_	_
 38	estado	_	NOUN	NOUN	fPOS=NOUN++NOUN	37	mwe	_	_
@@ -206,7 +206,7 @@
 11	definitivamente	_	ADV	adv	fPOS=ADV++adv	10	advmod	_	_
 12	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	case	_	_
 13	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	14	det	_	_
-14	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	nmod	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+14	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	nmod	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 15	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	16	case	_	_
 16	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 17	na	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	19	mark	_	_
@@ -255,13 +255,13 @@
 12	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c	8	cc	_	_
 13	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	8	conj	_	_
 14	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	Associação	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	dhbb-entity:Associação=Comercial,type:ORGANIZACAO
+15	Associação	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	EntityForm=Associação+Comercial|Type=ORGANIZACAO
 16	Comercial	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	_
 17	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	case	_	_
 18	cidade	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	_
 19	e	_	CONJ	conj-c|<co-piv>	fPOS=CONJ++CONJ	13	cc	_	_
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	conj	_	dhbb-entity:Sindicato=dos=Usineiros,type:ORGANIZACAO
+21	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	conj	_	EntityForm=Sindicato+dos+Usineiros|Type=ORGANIZACAO
 22	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	23	case	_	_
 23	Usineiros	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 24	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	25	case	_	_
@@ -293,7 +293,7 @@
 19	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	21	advmod	_	_
 20	tribuna	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	mwe	_	_
 21	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	22	case	_	_
-22	Câmara	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+22	Câmara	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 23	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	24	case	_	_
 24	Deputados	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	compound	_	_
 25	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_

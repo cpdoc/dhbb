@@ -13,13 +13,13 @@
 2	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++pp	1	advmod	_	_
 3	direito	_	NOUN	n|M|S	fPOS=NOUN++NOUN	2	mwe	_	_
 4	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	5	case	_	_
-5	Faculdade	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	1	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+5	Faculdade	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	1	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 6	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	7	case	_	_
 7	Direito	_	PROPN	PROPN	fPOS=PROPN++prop|<F|S	5	name	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	Universidade	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 10	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	11	case	_	_
-11	Ceará	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:Ceará,type:ORGANIZACAO
+11	Ceará	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=Ceará|Type=ORGANIZACAO
 12	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	1935	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	1	advmod	_	_
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
@@ -50,11 +50,11 @@
 
 1	Ministro	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	24	nsubj	_	_
 2	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	Tribunal	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:Tribunal=Superior=Eleitoral=(=TSE=),type:ORGANIZACAO
-4	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+3	Tribunal	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=Tribunal+Superior+Eleitoral+(+TSE+)|Type=ORGANIZACAO
+4	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	EntityForm=Superior|Type=ORGANIZACAO
 5	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	_
 6	(	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
-7	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	1	name	_	dhbb-entity:TSE,type:ORGANIZACAO
+7	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	1	name	_	EntityForm=TSE|Type=ORGANIZACAO
 8	)	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 9	desde	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 10	1976	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	1	nummod	_	_
@@ -118,11 +118,11 @@
 10	Figueiredo	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	9	nmod	_	_
 11	ministro	_	NOUN	NOUN	fPOS=NOUN++n|M|S	10	nmod	_	_
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Supremo	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	compound	_	dhbb-entity:Supremo=Tribunal=Federal=(=STF=),type:ORGANIZACAO
+13	Supremo	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	compound	_	EntityForm=Supremo+Tribunal+Federal+(+STF+)|Type=ORGANIZACAO
 14	Tribunal	_	PROPN	PROPN	fPOS=NOUN++NOUN	13	name	_	_
 15	Federal	_	PROPN	PROPN	fPOS=NOUN++NOUN	13	name	_	_
 16	(	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
-17	STF	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	9	nmod	_	dhbb-entity:STF=),type:ORGANIZACAO
+17	STF	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	9	nmod	_	EntityForm=STF+)|Type=ORGANIZACAO
 18	)	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 19	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 20	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	22	case	_	_
@@ -152,7 +152,7 @@
 
 1	Aposentou-se	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	0	ROOT	_	_
 2	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	STF	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:STF,type:ORGANIZACAO
+3	STF	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=STF|Type=ORGANIZACAO
 4	no	_	ADP	adv|<kc>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp|<sam->	6	det	_	_
 5	dia	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	mwe	_	_
 6	16	_	NUM	num|<card>|M|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	1	nummod	_	_
@@ -179,7 +179,7 @@
 5	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	4	advmod	_	_
 6	vice-presidente	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	mwe	_	_
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	Tribunal	_	NOUN	NOUN	fPOS=PROPN++PROPN	4	dobj	_	dhbb-entity:Tribunal=Federal=de=Recursos,type:ORGANIZACAO
+8	Tribunal	_	NOUN	NOUN	fPOS=PROPN++PROPN	4	dobj	_	EntityForm=Tribunal+Federal+de+Recursos|Type=ORGANIZACAO
 9	Federal	_	NOUN	NOUN	fPOS=PROPN++PROPN	8	compound	_	_
 10	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	11	case	_	_
 11	Recursos	_	NOUN	NOUN	fPOS=PROPN++PROPN	8	compound	_	_

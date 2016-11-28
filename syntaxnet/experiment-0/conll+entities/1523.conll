@@ -229,7 +229,7 @@
 
 1	Após	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	3	case	_	_
 2	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	3	det	_	_
-3	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	6	nmod	_	dhbb-entity:Revolução=de=1930,type:EVENTO
+3	Revolução	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	6	nmod	_	EntityForm=Revolução+de+1930|Type=EVENTO
 4	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	5	case	_	_
 5	1930	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	3	nummod	_	_
 6	voltou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
@@ -281,7 +281,7 @@
 15	por	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	16	case	_	_
 16	setores	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	12	conj	_	_
 17	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	18	case	_	_
-18	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	dhbb-entity:Partido=Liberal,type:ORGANIZACAO
+18	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	EntityForm=Partido+Liberal|Type=ORGANIZACAO
 19	Liberal	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 21	situacionista	_	ADJ	adj|F|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	12	conj	_	_
@@ -394,8 +394,8 @@
 15	estado	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	mwe	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 17	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	case	_	_
-18	Assembléia	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	dhbb-entity:Assembléia=Constituinte,type:ORGANIZACAO
-19	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	dhbb-entity:Constituinte,type:ORGANIZACAO
+18	Assembléia	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	EntityForm=Assembléia+Constituinte|Type=ORGANIZACAO
+19	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	EntityForm=Constituinte|Type=ORGANIZACAO
 20	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	case	_	_
 21	Mato	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	18	nmod	_	_
 22	Grosso	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
@@ -413,7 +413,7 @@
 34	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	35	case	_	_
 35	deputados	_	NOUN	n|M|P	fPOS=NOUN++n|M|P	33	nmod	_	_
 36	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	37	case	_	_
-37	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	compound	_	dhbb-entity:Partido=Liberal,type:ORGANIZACAO
+37	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	compound	_	EntityForm=Partido+Liberal|Type=ORGANIZACAO
 38	Liberal	_	NOUN	NOUN	fPOS=PROPN++PROPN	35	compound	_	_
 39	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++CONJ	35	cc	_	_
 40	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	41	case	_	_
@@ -439,7 +439,7 @@
 16	partidários	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	12	nmod	_	_
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 18	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	19	det	_	_
-19	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	dobj	_	dhbb-entity:Partido=Republicano,type:ORGANIZACAO
+19	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	dobj	_	EntityForm=Partido+Republicano|Type=ORGANIZACAO
 20	Republicano	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 21	Mato-Grossense	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_

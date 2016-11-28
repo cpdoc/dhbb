@@ -2,7 +2,7 @@
 2	DO	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 3	POVO	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 4	(	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
-5	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	1	nmod	_	dhbb-entity:PP,type:ORGANIZACAO
+5	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	1	nmod	_	EntityForm=PP|Type=ORGANIZACAO
 6	)	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 7	*	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 8	Partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	1	nmod	_	_
@@ -43,11 +43,11 @@
 8	desse	_	ADJ	adj|M|S	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|SUBJ	7	amod	_	_
 9	ano	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	7	nmod	_	_
 10	pelo	_	AUX	v-ger	NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++adv|<quant>|<det>	5	advmod	_	_
-11	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	10	dobj	_	dhbb-entity:Tribunal=Superior=Eleitoral=(=TSE=),type:ORGANIZACAO
-12	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+11	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	10	dobj	_	EntityForm=Tribunal+Superior+Eleitoral+(+TSE+)|Type=ORGANIZACAO
+12	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	EntityForm=Superior|Type=ORGANIZACAO
 13	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 14	(	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
-15	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	11	nmod	_	dhbb-entity:TSE,type:ORGANIZACAO
+15	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	11	nmod	_	EntityForm=TSE|Type=ORGANIZACAO
 16	)	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 17	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
@@ -187,11 +187,11 @@
 30	Silva	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 31	,	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
 32	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	33	case	_	_
-33	Partido	_	NOUN	NOUN	fPOS=PROPN++PROPN	26	compound	_	dhbb-entity:Partido=dos=Trabalhadores=(=PT=),type:ORGANIZACAO
+33	Partido	_	NOUN	NOUN	fPOS=PROPN++PROPN	26	compound	_	EntityForm=Partido+dos+Trabalhadores+(+PT+)|Type=ORGANIZACAO
 34	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	35	case	_	_
 35	Trabalhadores	_	NOUN	NOUN	fPOS=PROPN++PROPN	26	compound	_	_
 36	(	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
-37	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	nmod	_	dhbb-entity:PT,type:ORGANIZACAO
+37	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	nmod	_	EntityForm=PT|Type=ORGANIZACAO
 38	)	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
 39	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
@@ -205,5 +205,5 @@
 8	única	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	0	ROOT	_	_
 9	disputada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	8	acl	_	_
 10	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	advmod	_	_
-11	PP	_	NOUN	NOUN	fPOS=PROPN++PROPN	10	mwe	_	dhbb-entity:PP,type:ORGANIZACAO
+11	PP	_	NOUN	NOUN	fPOS=PROPN++PROPN	10	mwe	_	EntityForm=PP|Type=ORGANIZACAO
 12	.	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_

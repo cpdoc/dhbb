@@ -51,7 +51,7 @@
 21	deputado	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	18	nmod	_	_
 22	federal	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	21	amod	_	_
 23	pelo	_	ADP	adv|<quant>	NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++adv|<quant>|<det>	24	advmod	_	_
-24	Ceará	_	PROPN	PROPN	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	21	nmod	_	dhbb-entity:Ceará,type:ORGANIZACAO
+24	Ceará	_	PROPN	PROPN	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	21	nmod	_	EntityForm=Ceará|Type=ORGANIZACAO
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 26	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	29	case	_	_
 27	pleito	_	NOUN	NOUN	fPOS=NOUN++NOUN	26	mwe	_	_
@@ -65,11 +65,11 @@
 35	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	42	case	_	_
 36	legenda	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	mwe	_	_
 37	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	35	mwe	_	_
-38	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	mwe	_	dhbb-entity:Partido=Trabalhista=Brasileiro=(=PTB=),type:ORGANIZACAO
+38	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	mwe	_	EntityForm=Partido+Trabalhista+Brasileiro+(+PTB+)|Type=ORGANIZACAO
 39	Trabalhista	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	mwe	_	_
 40	Brasileiro	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	mwe	_	_
 41	(	_	PUNCT	punc	fPOS=PUNCT++punc	42	punct	_	_
-42	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	18	nmod	_	dhbb-entity:PTB,type:ORGANIZACAO
+42	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	18	nmod	_	EntityForm=PTB|Type=ORGANIZACAO
 43	)	_	PUNCT	punc	fPOS=PUNCT++punc	42	punct	_	_
 44	.	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 
@@ -108,7 +108,7 @@
 6	partidos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	4	nmod	_	_
 7	políticos	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	6	amod	_	_
 8	pelo	_	ADV	adv|<rel>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	9	case	_	_
-9	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	2	nmod	_	dhbb-entity:Ato=Institucional=nº=2,type:LEI_CONSTITUICAO
+9	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	2	nmod	_	EntityForm=Ato+Institucional+nº+2|Type=LEI_CONSTITUICAO
 10	Institucional	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	_
 11	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	9	nmod	_	_
 12	2	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	11	nummod	_	_
@@ -130,7 +130,7 @@
 28	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	27	name	_	_
 29	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	27	name	_	_
 30	(	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
-31	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	name	_	dhbb-entity:MDB,type:ORGANIZACAO
+31	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	name	_	EntityForm=MDB|Type=ORGANIZACAO
 32	)	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 33	,	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 34	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	27	nmod	_	_
@@ -162,7 +162,7 @@
 13	filiado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	4	conj	_	_
 14	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	16	case	_	_
 15	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	16	det	_	_
-16	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	nmod	_	dhbb-entity:MDB,type:ORGANIZACAO
+16	MDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	nmod	_	EntityForm=MDB|Type=ORGANIZACAO
 17	até	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	19	case	_	_
 18	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	19	det	_	_
 19	fim	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	13	nmod	_	_

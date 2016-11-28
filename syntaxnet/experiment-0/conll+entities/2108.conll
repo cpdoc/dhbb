@@ -70,7 +70,7 @@
 7	1932	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	4	advmod	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 9	à	_	ADP	prop|M|S	Gender=Fem|Number=Sing|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|F|S	10	case	_	_
-10	Revolução	_	PROPN	PROPN	fPOS=PROPN++prop|F|S	4	nmod	_	dhbb-entity:Revolução=Constitucionalista,type:EVENTO
+10	Revolução	_	PROPN	PROPN	fPOS=PROPN++prop|F|S	4	nmod	_	EntityForm=Revolução+Constitucionalista|Type=EVENTO
 11	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	São	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	10	nmod	_	_
@@ -130,7 +130,7 @@
 32	,	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
 33	chefe	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	30	nmod	_	_
 34	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	35	case	_	_
-35	Governo	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	dhbb-entity:Governo=Provisório,type:ORGANIZACAO
+35	Governo	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	EntityForm=Governo+Provisório|Type=ORGANIZACAO
 36	Provisório	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	_
 37	.	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
 
@@ -549,7 +549,7 @@
 39	,	_	PUNCT	punc	fPOS=PUNCT++punc	34	punct	_	_
 40	Bahia	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	34	conj	_	_
 41	,	_	PUNCT	punc	fPOS=PUNCT++punc	34	punct	_	_
-42	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	34	conj	_	dhbb-entity:Rio=Grande=do=Sul,type:ORGANIZACAO
+42	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	34	conj	_	EntityForm=Rio+Grande+do+Sul|Type=ORGANIZACAO
 43	Grande	_	ADJ	ADJ	Gender=Masc|Number=Sing|fPOS=ADJ++ADJ	42	name	_	_
 44	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	45	case	_	_
 45	Sul	_	PROPN	PROPN	fPOS=PROPN++PROPN	42	name	_	_
@@ -1111,7 +1111,7 @@
 67	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	68	det	_	_
 68	embaixada	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	65	nmod	_	_
 69	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	70	case	_	_
-70	Itália	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	68	nmod	_	dhbb-entity:Itália,type:ORGANIZACAO
+70	Itália	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	68	nmod	_	EntityForm=Itália|Type=ORGANIZACAO
 71	oculto	_	VERB	v-pcp|M|S	Gender=Fem|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|F|S	68	acl	_	_
 72	na	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++prp|<sam->	76	case	_	_
 73	mala	_	NOUN	NOUN	fPOS=NOUN++NOUN	72	mwe	_	_

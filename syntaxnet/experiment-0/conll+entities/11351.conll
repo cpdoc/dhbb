@@ -89,7 +89,7 @@
 18	Frente	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	_
 19	Liberal	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	(	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
-21	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	9	name	_	dhbb-entity:PFL,type:ORGANIZACAO
+21	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	9	name	_	EntityForm=PFL|Type=ORGANIZACAO
 22	)	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 23	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 24	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	26	case	_	_
@@ -110,7 +110,7 @@
 11	mandato	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	9	dobj	_	_
 12	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	case	_	_
 13	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	14	det	_	_
-14	Câmara	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	11	nmod	_	dhbb-entity:Câmara,type:ORGANIZACAO
+14	Câmara	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	11	nmod	_	EntityForm=Câmara|Type=ORGANIZACAO
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 16	Pedrossian	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	18	nsubj	_	_
 17	Filho	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
@@ -123,7 +123,7 @@
 24	Partido	_	NOUN	NOUN	fPOS=PROPN++PROPN	20	compound	_	_
 25	Progressista	_	NOUN	NOUN	fPOS=PROPN++PROPN	20	compound	_	_
 26	(	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
-27	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	appos	_	dhbb-entity:PP,type:ORGANIZACAO
+27	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	appos	_	EntityForm=PP|Type=ORGANIZACAO
 28	)	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 29	,	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 30	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	20	nmod	_	_
@@ -175,13 +175,13 @@
 19	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	20	case	_	_
 20	legenda	_	SCONJ	SCONJ	fPOS=PROPN++PROPN	17	mwe	_	_
 21	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	22	case	_	_
-22	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	nmod	_	dhbb-entity:Partido=do=Movimento=Democrático=Brasileiro=(=PMDB=),type:ORGANIZACAO
+22	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	nmod	_	EntityForm=Partido+do+Movimento+Democrático+Brasileiro+(+PMDB+)|Type=ORGANIZACAO
 23	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	24	case	_	_
 24	Movimento	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
 25	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 26	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
-28	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	22	nmod	_	dhbb-entity:PMDB,type:ORGANIZACAO
+28	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	22	nmod	_	EntityForm=PMDB|Type=ORGANIZACAO
 29	)	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 30	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 31	mas	_	CONJ	conj-c|<co-vfin>|<co-fmc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	4	cc	_	_
@@ -213,11 +213,11 @@
 21	tornou-se	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	20	amod	_	_
 22	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	18	nmod	_	_
 23	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	dhbb-entity:Partido=Trabalhista=Brasileiro=(=PTB=),type:ORGANIZACAO
+24	Partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	EntityForm=Partido+Trabalhista+Brasileiro+(+PTB+)|Type=ORGANIZACAO
 25	Trabalhista	_	NOUN	NOUN	fPOS=PROPN++PROPN	22	compound	_	_
 26	Brasileiro	_	NOUN	NOUN	fPOS=PROPN++PROPN	22	compound	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
-28	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	nmod	_	dhbb-entity:PTB,type:ORGANIZACAO
+28	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	26	nmod	_	EntityForm=PTB|Type=ORGANIZACAO
 29	)	_	PUNCT	punc	fPOS=PUNCT++punc	26	punct	_	_
 30	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 31	junto	_	ADV	adv	fPOS=ADV++adv	18	advmod	_	_

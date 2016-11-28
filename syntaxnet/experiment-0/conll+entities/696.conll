@@ -79,7 +79,7 @@
 8	comando	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	6	dobj	_	_
 9	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	11	case	_	_
 10	uma	_	DET	art|<arti>|F|S	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|F|S	11	det	_	_
-11	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	nmod	_	dhbb-entity:companhia,type:ORGANIZACAO
+11	companhia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	nmod	_	EntityForm=companhia|Type=ORGANIZACAO
 12	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	metralhadoras	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	11	nmod	_	_
 14	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	13	advmod	_	_
@@ -107,7 +107,7 @@
 36	Comunista	_	PROPN	PROPN	fPOS=PROPN++PROPN	35	name	_	_
 37	promovida	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	35	acl	_	_
 38	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	39	case	_	_
-39	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	37	dobj	_	dhbb-entity:Aliança=Nacional=Libertadora=(=ANL=),type:ORGANIZACAO
+39	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	37	dobj	_	EntityForm=Aliança+Nacional+Libertadora+(+ANL+)|Type=ORGANIZACAO
 40	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	39	name	_	_
 41	Libertadora	_	PROPN	PROPN	fPOS=PROPN++PROPN	39	name	_	_
 42	(	_	PUNCT	punc	fPOS=PUNCT++punc	39	punct	_	_
@@ -298,11 +298,11 @@
 35	—	_	PUNCT	punc	fPOS=PUNCT++punc	38	punct	_	_
 36	sobretudo	_	ADV	adv	fPOS=ADV++adv	38	advmod:emph	_	_
 37	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	38	case	_	_
-38	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	nmod	_	dhbb-entity:União=Democrática=Nacional=(=UDN=),type:ORGANIZACAO
+38	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	nmod	_	EntityForm=União+Democrática+Nacional+(+UDN+)|Type=ORGANIZACAO
 39	Democrática	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	_
 40	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	_
 41	(	_	PUNCT	punc	fPOS=PUNCT++punc	38	punct	_	_
-42	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	38	nmod	_	dhbb-entity:UDN=),type:ORGANIZACAO
+42	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	38	nmod	_	EntityForm=UDN+)|Type=ORGANIZACAO
 43	)	_	PUNCT	punc	fPOS=PUNCT++punc	38	punct	_	_
 44	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 
@@ -351,12 +351,12 @@
 43	nomeado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	44	cop	_	_
 44	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	36	acl	_	_
 45	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	46	case	_	_
-46	Conselho	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	dhbb-entity:Conselho=Nacional=do=Petróleo=(=CNP=),type:ORGANIZACAO
+46	Conselho	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	EntityForm=Conselho+Nacional+do+Petróleo+(+CNP+)|Type=ORGANIZACAO
 47	Nacional	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	_
 48	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	49	case	_	_
 49	Petróleo	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	_
 50	(	_	PUNCT	punc	fPOS=PUNCT++punc	44	punct	_	_
-51	CNP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	44	nmod	_	dhbb-entity:CNP,type:ORGANIZACAO
+51	CNP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	44	nmod	_	EntityForm=CNP|Type=ORGANIZACAO
 52	)	_	PUNCT	punc	fPOS=PUNCT++punc	44	punct	_	_
 53	.	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 
@@ -364,7 +364,7 @@
 2	suas	_	DET	pron-det|<poss|3S>|F|P	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes|fPOS=DET++pron-det|<poss|3S>|<si>|F|P	3	det	_	_
 3	funções	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	1	nmod	_	_
 4	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	5	case	_	_
-5	CNP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	1	nmod	_	dhbb-entity:CNP,type:ORGANIZACAO
+5	CNP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	1	nmod	_	EntityForm=CNP|Type=ORGANIZACAO
 6	quando	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	14	advmod	_	_
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 8	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	9	case	_	_
@@ -463,7 +463,7 @@
 2	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	3	det	_	_
 3	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	12	nsubj	_	_
 4	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:Petrobras,type:ORGANIZACAO
+5	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=Petrobras|Type=ORGANIZACAO
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 7	coronel	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	3	appos	_	_
 8	Janari	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	7	nmod	_	_
@@ -533,13 +533,13 @@
 18	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	19	case	_	_
 19	presidente	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	nmod	_	_
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	Banco	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	dhbb-entity:Banco=Nacional=de=Desenvolvimento=Econômico=(=BNDE=),type:ORGANIZACAO
+21	Banco	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	EntityForm=Banco+Nacional+de+Desenvolvimento+Econômico+(+BNDE+)|Type=ORGANIZACAO
 22	Nacional	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	_
 23	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	24	case	_	_
 24	Desenvolvimento	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	_
-25	Econômico	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	dhbb-entity:Econômico,type:ORGANIZACAO
+25	Econômico	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	EntityForm=Econômico|Type=ORGANIZACAO
 26	(	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
-27	BNDE	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	19	appos	_	dhbb-entity:BNDE,type:ORGANIZACAO
+27	BNDE	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	19	appos	_	EntityForm=BNDE|Type=ORGANIZACAO
 28	)	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 29	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 30	Roberto	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	19	conj	_	_
@@ -631,7 +631,7 @@
 29	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	27	mwe	_	_
 30	presidente	_	NOUN	NOUN	fPOS=NOUN++NOUN	27	mwe	_	_
 31	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	27	mwe	_	_
-32	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	27	mwe	_	dhbb-entity:Petrobras,type:ORGANIZACAO
+32	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	27	mwe	_	EntityForm=Petrobras|Type=ORGANIZACAO
 33	,	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 34	amplamente	_	ADV	adv	fPOS=ADV++adv	35	advmod	_	_
 35	apoiado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	22	acl	_	_
@@ -667,10 +667,10 @@
 23	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	24	det	_	_
 24	presidentes	_	NOUN	n|M|P	fPOS=PROPN++prop|M|P	18	dobj	_	_
 25	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	Petrobras	_	NOUN	NOUN	fPOS=PROPN++PROPN	24	compound	_	dhbb-entity:Petrobras=e=do=CNP,type:ORGANIZACAO
+26	Petrobras	_	NOUN	NOUN	fPOS=PROPN++PROPN	24	compound	_	EntityForm=Petrobras+e+do+CNP|Type=ORGANIZACAO
 27	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++CONJ	26	cc	_	_
 28	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	29	case	_	_
-29	CNP	_	NOUN	NOUN	fPOS=PROPN++PROPN	26	conj	_	dhbb-entity:CNP,type:ORGANIZACAO
+29	CNP	_	NOUN	NOUN	fPOS=PROPN++PROPN	26	conj	_	EntityForm=CNP|Type=ORGANIZACAO
 30	.	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 
 1	Em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	case	_	_
@@ -695,7 +695,7 @@
 20	1938	_	NUM	num|<card>|M|P	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	17	nummod	_	_
 21	e	_	CONJ	conj-c|<co-piv>	fPOS=CONJ++conj-c|<co-prparg>	14	cc	_	_
 22	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	23	det	_	_
-23	Petrobras	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nsubj	_	dhbb-entity:Petrobras,type:ORGANIZACAO
+23	Petrobras	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nsubj	_	EntityForm=Petrobras|Type=ORGANIZACAO
 24	obteria	_	VERB	v-fin|COND|3S	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|fPOS=VERB++v-fin|COND|3S	14	conj	_	_
 25	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	26	det	_	_
 26	exclusividade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	24	dobj	_	_
@@ -724,7 +724,7 @@
 2	sua	_	DET	pron-det|<poss|3S>|<si>|F|S	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|F|S	3	det	_	_
 3	saída	_	NOUN	n|F|S	fPOS=NOUN++n|F|S	9	nmod	_	_
 4	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	CNP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:CNP,type:ORGANIZACAO
+5	CNP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=CNP|Type=ORGANIZACAO
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 7	Alexínio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	9	nsubj	_	_
 8	Bittencourt	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_

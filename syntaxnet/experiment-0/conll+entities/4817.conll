@@ -46,7 +46,7 @@
 11	curso	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	1	conj	_	_
 12	secundário	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	11	amod	_	_
 13	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	14	case	_	_
-14	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	11	nmod	_	dhbb-entity:Colégio=Freycinet,type:ORGANIZACAO
+14	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	11	nmod	_	EntityForm=Colégio+Freycinet|Type=ORGANIZACAO
 15	Freycinet	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 17	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	18	case	_	_
@@ -63,7 +63,7 @@
 2	em	_	ADP	pp	AdpType=Prep|fPOS=ADP++pp	1	advmod	_	_
 3	seguida	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	mwe	_	_
 4	na	_	ADP	prp	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	5	case	_	_
-5	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|M|S	1	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+5	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|M|S	1	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 6	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	7	case	_	_
 7	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
@@ -311,11 +311,11 @@
 1	Nomeado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	16	advcl	_	_
 2	ministro	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	1	nsubj	_	_
 3	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	4	case	_	_
-4	Superior	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	dhbb-entity:Superior,type:ORGANIZACAO
+4	Superior	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	EntityForm=Superior|Type=ORGANIZACAO
 5	Tribunal	_	PROPN	PROPN	fPOS=NOUN++NOUN	2	nmod	_	_
 6	Militar	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 7	(	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
-8	STM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	dhbb-entity:STM,type:ORGANIZACAO
+8	STM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	EntityForm=STM|Type=ORGANIZACAO
 9	)	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 10	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	11	case	_	_
 11	junho	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	1	nmod	_	_
@@ -379,7 +379,7 @@
 17	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-sc>	6	cc	_	_
 18	companheiro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	6	conj	_	_
 19	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	20	case	_	_
-20	STM	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	6	nmod	_	dhbb-entity:STM,type:ORGANIZACAO
+20	STM	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	6	nmod	_	EntityForm=STM|Type=ORGANIZACAO
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 22	onde	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	25	advmod	_	_
 23	haviam	_	AUX	v-fin|IMPF|3P|IND	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|fPOS=AUX++v-fin|IMPF|3P|IND	25	aux	_	_
@@ -397,7 +397,7 @@
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
 6	secretaria	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	dobj	_	_
 7	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	dhbb-entity:Associação=do=Ministério=Público,type:ORGANIZACAO
+8	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	EntityForm=Associação+do+Ministério+Público|Type=ORGANIZACAO
 9	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	10	case	_	_
 10	Ministério	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 11	Público	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
@@ -409,7 +409,7 @@
 2	também	_	ADV	adv	fPOS=ADV++adv	3	advmod	_	_
 3	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 4	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	conselho	_	NOUN	NOUN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|1S|IND	3	compound	_	dhbb-entity:conselho=diretor,type:ORGANIZACAO
+5	conselho	_	NOUN	NOUN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|1S|IND	3	compound	_	EntityForm=conselho+diretor|Type=ORGANIZACAO
 6	diretor	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	3	nsubj	_	_
 7	nacional	_	NOUN	NOUN	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	6	compound	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
@@ -437,7 +437,7 @@
 3	prisão	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	2	nmod	_	_
 4	face	_	NOUN	prp	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	6	case	_	_
 5	à	_	ADP	ADP	fPOS=PROPN++prop|F|S	6	case	_	_
-6	Lei	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	nmod	_	dhbb-entity:Lei=de=Segurança=Nacional,type:LEI_CONSTITUICAO
+6	Lei	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	nmod	_	EntityForm=Lei+de+Segurança+Nacional|Type=LEI_CONSTITUICAO
 7	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	8	case	_	_
 8	Segurança	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 9	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_

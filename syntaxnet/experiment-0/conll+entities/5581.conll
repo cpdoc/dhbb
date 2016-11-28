@@ -33,12 +33,12 @@
 3	primeiros	_	ADJ	adj|<NUM-ord>|M|P	Gender=Masc|Number=Plur|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|M|P	4	amod	_	_
 4	estudos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	1	dobj	_	_
 5	no	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	6	case	_	_
-6	Liceu	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	4	nmod	_	dhbb-entity:Liceu,type:ORGANIZACAO
+6	Liceu	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	4	nmod	_	EntityForm=Liceu|Type=ORGANIZACAO
 7	Goiano	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	e	_	CONJ	conj-c	fPOS=CONJ++conj-c	6	cc	_	_
 9	bacharelou-se	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	6	conj	_	_
 10	pela	_	ADP	prp	NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++adv|<quant>|<det>	11	case	_	_
-11	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	nmod	_	dhbb-entity:Faculdade=de=Direito=de=São=Paulo,type:ORGANIZACAO
+11	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	nmod	_	EntityForm=Faculdade+de+Direito+de+São+Paulo|Type=ORGANIZACAO
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 14	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	15	case	_	_
@@ -56,7 +56,7 @@
 6	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-acc>	5	cc	_	_
 7	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	5	conj	_	_
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	Centro	_	NOUN	NOUN	fPOS=NOUN++NOUN	7	compound	_	dhbb-entity:Centro=Acadêmico,type:ORGANIZACAO
+9	Centro	_	NOUN	NOUN	fPOS=NOUN++NOUN	7	compound	_	EntityForm=Centro+Acadêmico|Type=ORGANIZACAO
 10	Acadêmico	_	NOUN	NOUN	fPOS=NOUN++NOUN	7	compound	_	_
 11	11	_	NUM	num|<card>|M|S	NumForm=Digit|NumType=Card|fPOS=NUM++NUM	7	nummod	_	_
 12	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
@@ -88,7 +88,7 @@
 23	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 24	desembargador	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	10	conj	_	_
 25	no	_	ADP	prp	fPOS=PROPN++prop|M|S	26	case	_	_
-26	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	24	nmod	_	dhbb-entity:Tribunal=de=Justiça,type:ORGANIZACAO
+26	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	24	nmod	_	EntityForm=Tribunal+de+Justiça|Type=ORGANIZACAO
 27	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	28	case	_	_
 28	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 29	até	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	30	case	_	_
@@ -104,7 +104,7 @@
 39	e	_	CONJ	conj-c|<co-sc>	fPOS=CONJ++conj-c|<co-acc>	10	cc	_	_
 40	professor	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	10	conj	_	_
 41	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	42	case	_	_
-42	Liceu	_	NOUN	NOUN	fPOS=PROPN++PROPN	40	compound	_	dhbb-entity:Liceu,type:ORGANIZACAO
+42	Liceu	_	NOUN	NOUN	fPOS=PROPN++PROPN	40	compound	_	EntityForm=Liceu|Type=ORGANIZACAO
 43	Goiano	_	NOUN	NOUN	fPOS=PROPN++PROPN	40	compound	_	_
 44	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
@@ -168,10 +168,10 @@
 9	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 10	membro	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	8	nmod	_	_
 11	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	conselho	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	dhbb-entity:conselho,type:ORGANIZACAO
+12	conselho	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	EntityForm=conselho|Type=ORGANIZACAO
 13	técnico	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	Instituto	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	dhbb-entity:Instituto=de=Resseguros=do=Brasil=(=IRB=),type:ORGANIZACAO
+15	Instituto	_	NOUN	NOUN	fPOS=NOUN++NOUN	10	compound	_	EntityForm=Instituto+de+Resseguros+do+Brasil+(+IRB+)|Type=ORGANIZACAO
 16	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	17	case	_	_
 17	Resseguros	_	PROPN	PROPN	fPOS=PROPN++prop|M|P	10	nmod	_	_
 18	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	19	case	_	_
@@ -192,7 +192,7 @@
 9	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	8	dobj	_	_
 10	consultivo	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	9	amod	_	_
 11	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	Departamento	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	dhbb-entity:Departamento=Nacional=do=Café=(=DNC=),type:ORGANIZACAO
+12	Departamento	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	EntityForm=Departamento+Nacional+do+Café+(+DNC+)|Type=ORGANIZACAO
 13	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
 15	Café	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
@@ -210,7 +210,7 @@
 7	advogado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 8	perante	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 9	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	10	det	_	_
-10	Supremo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	7	nmod	_	dhbb-entity:Supremo=Tribunal=Federal,type:ORGANIZACAO
+10	Supremo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	7	nmod	_	EntityForm=Supremo+Tribunal+Federal|Type=ORGANIZACAO
 11	Tribunal	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	Federal	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
@@ -245,7 +245,7 @@
 42	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	43	case	_	_
 43	Instituto	_	PROPN	PROPN	fPOS=PROPN++PROPN	34	name	_	_
 44	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	45	case	_	_
-45	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	34	name	_	dhbb-entity:Ordem,type:ORGANIZACAO
+45	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	34	name	_	EntityForm=Ordem|Type=ORGANIZACAO
 46	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	47	case	_	_
 47	Advogados	_	PROPN	PROPN	fPOS=PROPN++PROPN	34	name	_	_
 48	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++ADP	49	case	_	_

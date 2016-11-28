@@ -73,7 +73,7 @@
 21	Pinto	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 23	Rádio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	19	conj	_	_
-24	Clube	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	dhbb-entity:Clube,type:ORGANIZACAO
+24	Clube	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	EntityForm=Clube|Type=ORGANIZACAO
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
 26	Brasil	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	_
 27	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
@@ -190,7 +190,7 @@
 12	disputados	_	VERB	v-pcp|M|P	Gender=Masc|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|M|P	11	acl	_	_
 13	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	14	case	_	_
 14	Jóquei	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	nmod	_	_
-15	Clube	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	dhbb-entity:Clube,type:ORGANIZACAO
+15	Clube	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	EntityForm=Clube|Type=ORGANIZACAO
 16	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	17	case	_	_
 17	Rio	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 18	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	19	case	_	_
@@ -905,12 +905,12 @@
 7	1966	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	5	conj	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 9	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	10	det	_	_
-10	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	17	nsubj	_	dhbb-entity:Conselho,type:ORGANIZACAO
+10	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	17	nsubj	_	EntityForm=Conselho|Type=ORGANIZACAO
 11	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Telecomunicações	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 14	(	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
-15	Contel	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	name	_	dhbb-entity:Contel,type:ORGANIZACAO
+15	Contel	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	name	_	EntityForm=Contel|Type=ORGANIZACAO
 16	)	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 17	iniciou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 18	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	19	det	_	_
@@ -1319,7 +1319,7 @@
 46	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	47	case	_	_
 47	aprovação	_	NOUN	NOUN	fPOS=NOUN++NOUN	43	compound	_	_
 48	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	49	case	_	_
-49	Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	43	nmod	_	dhbb-entity:Lei=Rouanet,type:LEI_CONSTITUICAO
+49	Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	43	nmod	_	EntityForm=Lei+Rouanet|Type=LEI_CONSTITUICAO
 50	Rouanet	_	NOUN	NOUN	fPOS=PROPN++PROPN	49	nmod	_	_
 51	—	_	PUNCT	punc	fPOS=PUNCT++punc	52	punct	_	_
 52	,	_	PUNCT	punc	fPOS=PUNCT++punc	50	punct	_	_
@@ -1357,7 +1357,7 @@
 84	regras	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	80	nmod	_	_
 85	econômicas	_	ADJ	adj|F|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	84	amod	_	_
 86	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	87	case	_	_
-87	Plano	_	NOUN	NOUN	fPOS=PROPN++PROPN	85	nmod	_	dhbb-entity:Plano=Cruzado,type:ACAO_POLITICA
+87	Plano	_	NOUN	NOUN	fPOS=PROPN++PROPN	85	nmod	_	EntityForm=Plano+Cruzado|Type=ACAO_POLITICA
 88	Cruzado	_	PROPN	PROPN	fPOS=PROPN++PROPN	87	name	_	_
 89	—	_	PUNCT	punc	fPOS=PUNCT++punc	84	punct	_	_
 90	,	_	PUNCT	punc	fPOS=PUNCT++punc	84	punct	_	_

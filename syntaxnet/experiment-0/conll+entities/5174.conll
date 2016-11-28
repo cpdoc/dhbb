@@ -27,7 +27,7 @@
 
 1	Estudou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 2	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	1	nmod	_	dhbb-entity:Colégio=Militar=do=Rio=de=Janeiro,type:ORGANIZACAO
+3	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	1	nmod	_	EntityForm=Colégio+Militar+do+Rio+de+Janeiro|Type=ORGANIZACAO
 4	Militar	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	_
 5	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
 6	Rio	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	_
@@ -120,13 +120,13 @@
 12	1944	_	NUM	num|<card>|M|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	10	advmod	_	_
 13	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 14	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	15	det	_	_
-15	Itália	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	nmod	_	dhbb-entity:Itália,type:ORGANIZACAO
+15	Itália	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	nmod	_	EntityForm=Itália|Type=ORGANIZACAO
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 17	onde	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	18	advmod	_	_
 18	comandou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	15	acl	_	_
 19	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	20	det	_	_
 20	6ª	_	ADJ	adj|<NUM-ord>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	18	dobj	_	_
-21	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	20	nmod	_	dhbb-entity:Companhia,type:ORGANIZACAO
+21	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	20	nmod	_	EntityForm=Companhia|Type=ORGANIZACAO
 22	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	23	case	_	_
 23	2º	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 24	Batalhão	_	PROPN	PROPN	fPOS=PROPN++PROPN	23	name	_	_
@@ -659,11 +659,11 @@
 23	Tourinho	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
 24	,	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	dhbb-entity:Partido=Democrático=Trabalhista=(=PDT=),type:ORGANIZACAO
+26	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	EntityForm=Partido+Democrático+Trabalhista+(+PDT+)|Type=ORGANIZACAO
 27	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 28	Trabalhista	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 29	(	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
-30	PDT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	21	nmod	_	dhbb-entity:PDT,type:ORGANIZACAO
+30	PDT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	21	nmod	_	EntityForm=PDT|Type=ORGANIZACAO
 31	)	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
 32	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	33	case	_	_
 33	Minas	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	21	nmod	_	_
@@ -732,7 +732,7 @@
 13	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	14	auxpass	_	_
 14	enquadrado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	0	ROOT	_	_
 15	na	_	ADP	prp	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	16	case	_	_
-16	Lei	_	PROPN	prop|F|S	fPOS=PROPN++prop|M|S	14	nmod	_	dhbb-entity:Lei=de=Segurança=Nacional,type:LEI_CONSTITUICAO
+16	Lei	_	PROPN	prop|F|S	fPOS=PROPN++prop|M|S	14	nmod	_	EntityForm=Lei+de+Segurança+Nacional|Type=LEI_CONSTITUICAO
 17	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	18	case	_	_
 18	Segurança	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
@@ -966,7 +966,7 @@
 53	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	46	cc	_	_
 54	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	55	case	_	_
 55	Escola	_	PROPN	PROPN	fPOS=PROPN++PROPN	46	conj	_	_
-56	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+56	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	name	_	EntityForm=Superior|Type=ORGANIZACAO
 57	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	58	case	_	_
 58	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	name	_	_
 59	.	_	PUNCT	punc	fPOS=PUNCT++punc	35	punct	_	_

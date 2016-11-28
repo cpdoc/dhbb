@@ -56,7 +56,7 @@
 3	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	4	case	_	_
 4	engenharia	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	1	nmod	_	_
 5	na	_	ADP	prp	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|F|S	6	case	_	_
-6	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	nmod	_	dhbb-entity:Companhia,type:ORGANIZACAO
+6	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	nmod	_	EntityForm=Companhia|Type=ORGANIZACAO
 7	Energética	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	9	case	_	_
 9	Alagoas	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
@@ -101,11 +101,11 @@
 12	filiou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	4	advcl	_	_
 13	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	15	case	_	_
 14	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	15	det	_	_
-15	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	dobj	_	dhbb-entity:Partido=dos=Trabalhadores=(=PT=),type:ORGANIZACAO
+15	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	dobj	_	EntityForm=Partido+dos+Trabalhadores+(+PT+)|Type=ORGANIZACAO
 16	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	17	case	_	_
 17	Trabalhadores	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 18	(	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
-19	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	15	name	_	dhbb-entity:PT,type:ORGANIZACAO
+19	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	15	name	_	EntityForm=PT|Type=ORGANIZACAO
 20	)	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 21	.	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 
@@ -115,7 +115,7 @@
 4	tornou-se	_	ADJ	adj|M|S	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|SUBJ	3	amod	_	_
 5	secretário-geral	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	3	nmod	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	Sindicato	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	dhbb-entity:Sindicato=dos=Urbanitários,type:ORGANIZACAO
+7	Sindicato	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	EntityForm=Sindicato+dos+Urbanitários|Type=ORGANIZACAO
 8	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	9	case	_	_
 9	Urbanitários	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	_
 10	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	11	case	_	_
@@ -128,12 +128,12 @@
 4	1989	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	2	conj	_	_
 5	presidiu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
-7	Central	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	5	dobj	_	dhbb-entity:Central=Única=dos=Trabalhadores=(=CUT=),type:ORGANIZACAO
+7	Central	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	5	dobj	_	EntityForm=Central+Única+dos+Trabalhadores+(+CUT+)|Type=ORGANIZACAO
 8	Única	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 9	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	10	case	_	_
 10	Trabalhadores	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 11	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
-12	CUT	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	dhbb-entity:CUT,type:ORGANIZACAO
+12	CUT	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	EntityForm=CUT|Type=ORGANIZACAO
 13	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 14	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 15	Alagoas	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	nmod	_	_
@@ -153,7 +153,7 @@
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 13	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	19	nsubj	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	Sindicato	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	dhbb-entity:Sindicato=dos=Urbanitários,type:ORGANIZACAO
+15	Sindicato	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	EntityForm=Sindicato+dos+Urbanitários|Type=ORGANIZACAO
 16	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	17	case	_	_
 17	Urbanitários	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	compound	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
@@ -200,7 +200,7 @@
 7	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	8	case	_	_
 8	Maceió	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	6	nmod	_	_
 9	na	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	10	case	_	_
-10	chapa	_	NOUN	n|F|S	fPOS=NOUN++NOUN	4	nmod	_	dhbb-entity:chapa,type:ORGANIZACAO
+10	chapa	_	NOUN	n|F|S	fPOS=NOUN++NOUN	4	nmod	_	EntityForm=chapa|Type=ORGANIZACAO
 11	encabeçada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	10	acl	_	_
 12	por	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
 13	Heloísa	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	11	dobj	_	_
@@ -222,7 +222,7 @@
 29	Socialista	_	PROPN	PROPN	fPOS=PROPN++PROPN	28	name	_	_
 30	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	28	name	_	_
 31	(	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
-32	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	24	nmod	_	dhbb-entity:PSB,type:ORGANIZACAO
+32	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	24	nmod	_	EntityForm=PSB|Type=ORGANIZACAO
 33	)	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 34	.	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 
@@ -231,10 +231,10 @@
 3	tornou-se	_	NOUN	n|M|S	AdpType=Prep|fPOS=ADP++prp	2	nmod	_	_
 4	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	22	nsubj	_	_
 5	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	dhbb-entity:diretório=estadual=do=PT=em=Alagoas=e,type:ORGANIZACAO
+6	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	EntityForm=diretório+estadual+do+PT+em+Alagoas+e|Type=ORGANIZACAO
 7	estadual	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	_
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	PT	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	dhbb-entity:PT,type:ORGANIZACAO
+9	PT	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	EntityForm=PT|Type=ORGANIZACAO
 10	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	11	case	_	_
 11	Alagoas	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	22	nmod	_	_
 12	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	11	cc	_	_
@@ -267,7 +267,7 @@
 3	presidência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	1	dobj	_	_
 4	regional	_	NOUN	NOUN	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	3	nmod	_	_
 5	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	PT	_	NOUN	NOUN	fPOS=PROPN++PROPN	4	compound	_	dhbb-entity:PT,type:ORGANIZACAO
+6	PT	_	NOUN	NOUN	fPOS=PROPN++PROPN	4	compound	_	EntityForm=PT|Type=ORGANIZACAO
 7	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	8	case	_	_
 8	1999	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	1	advmod	_	_
 9	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
@@ -303,7 +303,7 @@
 3	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	4	det	_	_
 4	presidência	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	1	dobj	_	_
 5	do	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	4	nmod	_	dhbb-entity:Conselho,type:ORGANIZACAO
+6	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	4	nmod	_	EntityForm=Conselho|Type=ORGANIZACAO
 7	Estadual	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	Trabalho	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
@@ -349,7 +349,7 @@
 28	.	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 
 1	Na	_	ADP	prp	fPOS=CONJ++prop|F|S	2	case	_	_
-2	Câmara	_	NOUN	n|F|S	fPOS=PROPN++PROPN	4	nmod	_	dhbb-entity:Câmara,type:ORGANIZACAO
+2	Câmara	_	NOUN	n|F|S	fPOS=PROPN++PROPN	4	nmod	_	EntityForm=Câmara|Type=ORGANIZACAO
 3	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 4	integrou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
@@ -379,7 +379,7 @@
 4	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	5	det	_	_
 5	vice-presidência	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	3	dobj	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	PT	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	dhbb-entity:PT,type:ORGANIZACAO
+7	PT	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	EntityForm=PT|Type=ORGANIZACAO
 8	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	9	case	_	_
 9	Alagoas	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 10	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
@@ -408,7 +408,7 @@
 3	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	4	mark	_	_
 4	compor	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	1	xcomp	_	_
 5	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	6	det	_	_
-6	conselho	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	4	dobj	_	dhbb-entity:conselho=administrativo=da=empresa,type:ORGANIZACAO
+6	conselho	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	4	dobj	_	EntityForm=conselho+administrativo+da+empresa|Type=ORGANIZACAO
 7	administrativo	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	6	amod	_	_
 8	da	_	ADP	prp	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes|fPOS=DET++pron-det|<poss|3S>|<si>|F|S	9	case	_	_
 9	empresa	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	6	nmod	_	_

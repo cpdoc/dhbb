@@ -75,17 +75,17 @@
 12	elegeu-se	_	PRON	pron-pers|M/F|3P|NOM	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	7	nmod	_	_
 13	deputado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	12	acl	_	_
 14	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	Assembléia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	13	nmod	_	dhbb-entity:Assembléia=Constituinte,type:ORGANIZACAO
-16	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	dhbb-entity:Constituinte,type:ORGANIZACAO
+15	Assembléia	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	13	nmod	_	EntityForm=Assembléia+Constituinte|Type=ORGANIZACAO
+16	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	EntityForm=Constituinte|Type=ORGANIZACAO
 17	estadual	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	15	amod	_	_
 18	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	21	case	_	_
 19	legenda	_	NOUN	NOUN	fPOS=PROPN++PROPN	18	mwe	_	_
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	mwe	_	_
-21	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	nmod	_	dhbb-entity:União=Democrática=Nacional=(=UDN=),type:ORGANIZACAO
+21	União	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	nmod	_	EntityForm=União+Democrática+Nacional+(+UDN+)|Type=ORGANIZACAO
 22	Democrática	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 23	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 24	(	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
-25	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	21	nmod	_	dhbb-entity:UDN=),type:ORGANIZACAO
+25	UDN	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	21	nmod	_	EntityForm=UDN+)|Type=ORGANIZACAO
 26	)	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
 27	,	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
 28	permanecendo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	13	advcl	_	_
@@ -102,7 +102,7 @@
 39	promulgação	_	NOUN	n|F|S	fPOS=NOUN++NOUN	38	mwe	_	_
 40	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	38	mwe	_	_
 41	nova	_	ADJ	adj|F|S	fPOS=NOUN++NOUN	42	amod	_	_
-42	Constituição	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	37	nmod	_	dhbb-entity:Constituição,type:LEI_CONSTITUICAO
+42	Constituição	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	37	nmod	_	EntityForm=Constituição|Type=LEI_CONSTITUICAO
 43	fluminense	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	42	amod	_	_
 44	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
@@ -120,10 +120,10 @@
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 13	coligação	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	9	appos	_	_
 14	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	UDN	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	dhbb-entity:UDN,type:ORGANIZACAO
+15	UDN	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	EntityForm=UDN|Type=ORGANIZACAO
 16	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	18	case	_	_
 17	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	18	det	_	_
-18	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	13	nmod	_	dhbb-entity:Partido=Democrata=Cristão=(=PDC=),type:ORGANIZACAO
+18	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	13	nmod	_	EntityForm=Partido+Democrata+Cristão+(+PDC+)|Type=ORGANIZACAO
 19	Democrata	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	Cristão	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 21	(	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
@@ -158,7 +158,7 @@
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 5	permaneceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	Câmara	_	NOUN	n|<prop>|F|S	fPOS=PROPN++PROPN	5	nmod	_	dhbb-entity:Câmara=estadual,type:ORGANIZACAO
+7	Câmara	_	NOUN	n|<prop>|F|S	fPOS=PROPN++PROPN	5	nmod	_	EntityForm=Câmara+estadual|Type=ORGANIZACAO
 8	estadual	_	ADJ	adj|F|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	7	amod	_	_
 9	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 10	1947	_	NUM	num|M|P	Gender=Masc|Number=Plur|fPOS=NUM++num|M|P	5	advmod	_	_
@@ -188,7 +188,7 @@
 34	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	35	case	_	_
 35	estado	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	_
 36	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	37	case	_	_
-37	chapa	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	dhbb-entity:chapa,type:ORGANIZACAO
+37	chapa	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	compound	_	EntityForm=chapa|Type=ORGANIZACAO
 38	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++ADP	39	case	_	_
 39	Paulo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	33	nmod	_	_
 40	Torres	_	PROPN	PROPN	fPOS=PROPN++PROPN	39	name	_	_
@@ -306,11 +306,11 @@
 42	ter	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	43	aux	_	_
 43	presidido	_	VERB	v-pcp	VerbForm=Part|fPOS=VERB++v-pcp	27	advcl	_	_
 44	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	45	det	_	_
-45	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	43	dobj	_	dhbb-entity:Aliança=Renovadora=Nacional=(=Arena=),type:ORGANIZACAO
+45	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	43	dobj	_	EntityForm=Aliança+Renovadora+Nacional+(+Arena+)|Type=ORGANIZACAO
 46	Renovadora	_	PROPN	PROPN	fPOS=PROPN++PROPN	45	name	_	_
 47	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	45	name	_	_
 48	(	_	PUNCT	punc	fPOS=PUNCT++punc	45	punct	_	_
-49	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	45	name	_	dhbb-entity:Arena,type:ORGANIZACAO
+49	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	45	name	_	EntityForm=Arena|Type=ORGANIZACAO
 50	)	_	PUNCT	punc	fPOS=PUNCT++punc	45	punct	_	_
 51	fluminense	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	45	amod	_	_
 52	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_

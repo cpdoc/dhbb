@@ -46,7 +46,7 @@
 14	1979	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	12	nummod	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 16	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<kc>	17	case	_	_
-17	Colégio	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	1	nmod	_	dhbb-entity:Colégio=Cultural=Kardecista,type:ORGANIZACAO
+17	Colégio	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	1	nmod	_	EntityForm=Colégio+Cultural+Kardecista|Type=ORGANIZACAO
 18	Cultural	_	PROPN	PROPN	fPOS=NOUN++NOUN	17	name	_	_
 19	Kardecista	_	PROPN	PROPN	fPOS=NOUN++NOUN	17	name	_	_
 20	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
@@ -99,14 +99,14 @@
 7	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	4	nmod	_	_
 8	Progressista	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 9	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
-10	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	name	_	dhbb-entity:PP,type:ORGANIZACAO
+10	PP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	name	_	EntityForm=PP|Type=ORGANIZACAO
 11	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 13	e	_	CONJ	conj-c|<co-pred>	fPOS=CONJ++conj-c	4	cc	_	_
 14	tornou-se	_	NOUN	n|M|S	fPOS=NOUN++prp	4	conj	_	_
 15	presidente	_	NOUN	n|M|S	fPOS=NOUN++NOUN	14	nmod	_	_
 16	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	compound	_	dhbb-entity:diretório=municipal=do=partido=em=Araguaína,type:ORGANIZACAO
+17	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	compound	_	EntityForm=diretório+municipal+do+partido+em+Araguaína|Type=ORGANIZACAO
 18	municipal	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	compound	_	_
 19	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	20	case	_	_
 20	partido	_	NOUN	NOUN	fPOS=NOUN++NOUN	15	compound	_	_
@@ -154,7 +154,7 @@
 8	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
 9	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 10	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	11	case	_	_
-11	PP	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:PP,type:ORGANIZACAO
+11	PP	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=PP|Type=ORGANIZACAO
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	14	punct	_	_
 13	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	14	auxpass	_	_
 14	empossado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	0	ROOT	_	_
@@ -202,7 +202,7 @@
 56	Seguro	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	name	_	_
 57	;	_	PUNCT	punc	fPOS=PUNCT++punc	55	punct	_	_
 58	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	59	case	_	_
-59	Habitação	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	conj	_	dhbb-entity:Habitação,type:ORGANIZACAO
+59	Habitação	_	PROPN	PROPN	fPOS=PROPN++PROPN	55	conj	_	EntityForm=Habitação|Type=ORGANIZACAO
 60	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	59	cc	_	_
 61	Desenvolvimento	_	PROPN	PROPN	fPOS=PROPN++PROPN	59	conj	_	_
 62	Urbano	_	PROPN	PROPN	fPOS=PROPN++PROPN	61	name	_	_
@@ -217,7 +217,7 @@
 71	Saúde	_	PROPN	PROPN	fPOS=PROPN++PROPN	65	conj	_	_
 72	;	_	PUNCT	punc	fPOS=PUNCT++punc	65	punct	_	_
 73	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	74	case	_	_
-74	Congresso	_	PROPN	PROPN	fPOS=PROPN++PROPN	65	name	_	dhbb-entity:Congresso=Nacional,type:ORGANIZACAO
+74	Congresso	_	PROPN	PROPN	fPOS=PROPN++PROPN	65	name	_	EntityForm=Congresso+Nacional|Type=ORGANIZACAO
 75	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	74	name	_	_
 76	em	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	77	case	_	_
 77	Defesa	_	PROPN	PROPN	fPOS=PROPN++PROPN	74	name	_	_
@@ -273,7 +273,7 @@
 5	escolhido	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	0	ROOT	_	_
 6	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	5	dobj	_	_
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	PP	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	dhbb-entity:PP=em=Tocantins,type:ORGANIZACAO
+8	PP	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	EntityForm=PP+em+Tocantins|Type=ORGANIZACAO
 9	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
 10	Tocantins	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	5	nmod	_	_
 11	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_

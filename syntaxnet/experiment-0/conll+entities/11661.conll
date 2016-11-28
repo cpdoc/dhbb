@@ -74,13 +74,13 @@
 4	1970	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	2	nummod	_	_
 5	quando	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	15	advmod	_	_
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
-7	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	15	nsubj	_	dhbb-entity:Companhia,type:ORGANIZACAO
+7	Companhia	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	15	nsubj	_	EntityForm=Companhia|Type=ORGANIZACAO
 8	Paranaense	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 9	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
 10	Energia	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 11	Elétrica	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 12	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
-13	COPEL	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	dhbb-entity:COPEL,type:ORGANIZACAO
+13	COPEL	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	name	_	EntityForm=COPEL|Type=ORGANIZACAO
 14	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 15	absorveu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	34	advcl	_	_
 16	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	17	det	_	_
@@ -358,7 +358,7 @@
 5	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	6	cop	_	_
 6	membro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	Conselho	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	dhbb-entity:Conselho=de=Administração,type:ORGANIZACAO
+8	Conselho	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	EntityForm=Conselho+de+Administração|Type=ORGANIZACAO
 9	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
 10	Administração	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 11	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	12	case	_	_
@@ -386,7 +386,7 @@
 11	lado	_	NOUN	NOUN	fPOS=NOUN++NOUN	9	compound	_	_
 12	brasileiro	_	NOUN	NOUN	fPOS=NOUN++NOUN	9	compound	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	Itaipu	_	NOUN	NOUN	fPOS=PROPN++PROPN	9	compound	_	dhbb-entity:Itaipu=Binacional,type:ORGANIZACAO
+14	Itaipu	_	NOUN	NOUN	fPOS=PROPN++PROPN	9	compound	_	EntityForm=Itaipu+Binacional|Type=ORGANIZACAO
 15	Binacional	_	NOUN	NOUN	fPOS=PROPN++PROPN	9	compound	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 17	cargo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	9	nmod	_	_
@@ -402,7 +402,7 @@
 27	Euclides	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	25	dobj	_	_
 28	Scalco	_	PROPN	PROPN	fPOS=PROPN++PROPN	27	name	_	_
 29	(	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
-30	PSDB	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	27	name	_	dhbb-entity:PSDB,type:ORGANIZACAO
+30	PSDB	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	27	name	_	EntityForm=PSDB|Type=ORGANIZACAO
 31	/PR	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
 32	)	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 33	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
@@ -410,7 +410,7 @@
 1	Após	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	mark	_	_
 2	sair	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	5	advcl	_	_
 3	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	4	case	_	_
-4	Itaipu	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	dhbb-entity:Itaipu,type:ORGANIZACAO
+4	Itaipu	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nmod	_	EntityForm=Itaipu|Type=ORGANIZACAO
 5	assumiu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	8	punct	_	_
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
 7	presidência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	punct	_	_
@@ -480,7 +480,7 @@
 21	Setor	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 22	Elétrico	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	_
 23	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	dhbb-entity:Câmara,type:ORGANIZACAO
+24	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	EntityForm=Câmara|Type=ORGANIZACAO
 25	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	26	case	_	_
 26	Gestão	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 27	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	28	case	_	_
@@ -635,7 +635,7 @@
 7	ainda	_	ADV	adv	fPOS=ADV++adv	8	advmod	_	_
 8	aprovada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 9	no	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	13	case	_	_
-10	Congresso	_	PRON	PRON	fPOS=NOUN++NOUN	9	mwe	_	dhbb-entity:Congresso=Nacional,type:ORGANIZACAO
+10	Congresso	_	PRON	PRON	fPOS=NOUN++NOUN	9	mwe	_	EntityForm=Congresso+Nacional|Type=ORGANIZACAO
 11	Nacional	_	PROPN	PROPN	fPOS=NOUN++NOUN	9	mwe	_	_
 12	a	_	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	13	det	_	_
 13	Lei	_	PROPN	PROPN	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	8	nmod	_	_
@@ -739,7 +739,7 @@
 34	Intervenção	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
 35	no	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	36	case	_	_
 36	Domínio	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
-37	Econômico	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	dhbb-entity:Econômico,type:ORGANIZACAO
+37	Econômico	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	EntityForm=Econômico|Type=ORGANIZACAO
 38	(	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
 39	Cide	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	30	nmod	_	_
 40	)	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
@@ -849,7 +849,7 @@
 18	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-subj>	17	cc	_	_
 19	ex-presidente	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	17	conj	_	_
 20	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	case	_	_
-21	Itaipu	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	dhbb-entity:Itaipu,type:ORGANIZACAO
+21	Itaipu	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	EntityForm=Itaipu|Type=ORGANIZACAO
 22	,	_	PUNCT	punc	fPOS=PUNCT++punc	23	punct	_	_
 23	distribuiu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 24	nota	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	23	dobj	_	_
@@ -1019,7 +1019,7 @@
 5	pelos	_	PROPN	prop	Gender=Masc|Number=Plur|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|M|P	4	nsubjpass	_	_
 6	associados	_	VERB	v-pcp|M|P	Gender=Masc|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|M|P	5	nmod	_	_
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	Instituto	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	dhbb-entity:Instituto=de=Engenharia=do=Paraná=(=IEP=),type:ORGANIZACAO
+8	Instituto	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	EntityForm=Instituto+de+Engenharia+do+Paraná+(+IEP+)|Type=ORGANIZACAO
 9	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
 10	Engenharia	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 11	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
@@ -1037,7 +1037,7 @@
 2	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	3	cop	_	_
 3	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 4	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	ABRH	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:ABRH=Associação=Brasileira=de=Recursos=Hídricos,type:ORGANIZACAO
+5	ABRH	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=ABRH+Associação+Brasileira+de+Recursos+Hídricos|Type=ORGANIZACAO
 6	Associação	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	_
 7	Brasileira	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	_
 8	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	9	case	_	_

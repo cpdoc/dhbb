@@ -7,7 +7,7 @@
 7	SÃO	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 8	PAULO	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 9	(	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
-10	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	1	nmod	_	dhbb-entity:FIESP=),type:ORGANIZACAO
+10	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	1	nmod	_	EntityForm=FIESP+)|Type=ORGANIZACAO
 11	)	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 12	*	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 13	Associação	_	NOUN	n|F|S	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|M|S	1	nmod	_	_
@@ -21,7 +21,7 @@
 21	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	22	case	_	_
 22	conseqüência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	20	nmod	_	_
 23	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	22	compound	_	dhbb-entity:Decreto-Lei=nº,type:LEI_CONSTITUICAO
+24	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	22	compound	_	EntityForm=Decreto-Lei+nº|Type=LEI_CONSTITUICAO
 25	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	22	nmod	_	_
 26	1.402	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	25	nummod	_	_
 27	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
@@ -85,7 +85,7 @@
 8	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	7	cc	_	_
 9	1939	_	NUM	num|<card>|M|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	7	conj	_	_
 10	pelo	_	DET	pron-det|<poss|3S>|<si>|F|P	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	11	det	_	_
-11	Centro	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	5	dobj	_	dhbb-entity:Centro=das=Indústrias=do=Estado=de=São,type:ORGANIZACAO
+11	Centro	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	5	dobj	_	EntityForm=Centro+das+Indústrias+do+Estado+de+São|Type=ORGANIZACAO
 12	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	13	case	_	_
 13	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
@@ -94,7 +94,7 @@
 17	São	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	11	name	_	_
 18	Paulo	_	PROPN	PROPN	fPOS=PROPN++PROPN	17	name	_	_
 19	(	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
-20	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	11	nmod	_	dhbb-entity:CIESP,type:ORGANIZACAO
+20	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	11	nmod	_	EntityForm=CIESP|Type=ORGANIZACAO
 21	)	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 22	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 23	entidade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	11	nmod	_	_
@@ -132,14 +132,14 @@
 24	)	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	28	punct	_	_
 26	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	27	det	_	_
-27	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	28	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+27	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	28	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 28	integra	_	VERB	v-fin|PR|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|IND	0	ROOT	_	_
 29	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	30	det	_	_
 30	sistema	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	28	dobj	_	_
 31	que	_	PRON	pron-indp|<rel>|M|S	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	32	nsubj	_	_
 32	inclui	_	VERB	v-fin|PR|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|IND	30	acl	_	_
 33	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	34	det	_	_
-34	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	dobj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+34	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	dobj	_	EntityForm=CIESP|Type=ORGANIZACAO
 35	e	_	CONJ	conj-c|<co-subj>	fPOS=CONJ++conj-c|<co-subj>	34	cc	_	_
 36	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	37	det	_	_
 37	Instituto	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	34	conj	_	_
@@ -185,7 +185,7 @@
 7	industriais	_	NOUN	n|M|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	6	dobj	_	_
 8	era	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	10	cop	_	_
 9	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	10	det	_	_
-10	Centro	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	0	ROOT	_	dhbb-entity:Centro=Industrial=do=Brasil,type:ORGANIZACAO
+10	Centro	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	0	ROOT	_	EntityForm=Centro+Industrial+do+Brasil|Type=ORGANIZACAO
 11	Industrial	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	Brasil	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
@@ -226,7 +226,7 @@
 24	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	25	det	_	_
 25	criação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	30	nsubj	_	_
 26	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	27	case	_	_
-27	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	dhbb-entity:CIESP,type:ORGANIZACAO
+27	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	EntityForm=CIESP|Type=ORGANIZACAO
 28	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	29	case	_	_
 29	1928	_	PRON	pron-pers|F|1S|ACC	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	25	nummod	_	_
 30	é	_	VERB	v-fin|PR|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|IND	19	conj	_	_
@@ -454,7 +454,7 @@
 1	A	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	2	det	_	_
 2	cisão	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	17	nsubj	_	_
 3	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	4	case	_	_
-4	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	dhbb-entity:Associação=Comercial=de=São=Paulo,type:ORGANIZACAO
+4	Associação	_	PROPN	PROPN	fPOS=PROPN++PROPN	2	name	_	EntityForm=Associação+Comercial+de+São+Paulo|Type=ORGANIZACAO
 5	Comercial	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	_
 6	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	7	case	_	_
 7	São	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	_
@@ -465,7 +465,7 @@
 12	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	criação	_	NOUN	NOUN	fPOS=PROPN++PROPN	11	nmod	_	_
 14	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	dhbb-entity:CIESP,type:ORGANIZACAO
+15	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	EntityForm=CIESP|Type=ORGANIZACAO
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 17	ocorreu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 18	neste	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	19	amod	_	_
@@ -666,7 +666,7 @@
 44	dirigentes	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	43	nmod	_	_
 45	posteriores	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	44	amod	_	_
 46	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	47	case	_	_
-47	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	44	name	_	dhbb-entity:CIESP,type:ORGANIZACAO
+47	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	44	name	_	EntityForm=CIESP|Type=ORGANIZACAO
 48	e	_	CONJ	conj-c|<co-vfin>	fPOS=CONJ++conj-c|<co-postnom>	43	cc	_	_
 49	,	_	PUNCT	punc	fPOS=PUNCT++punc	59	punct	_	_
 50	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	53	case	_	_
@@ -677,7 +677,7 @@
 55	,	_	PUNCT	punc	fPOS=PUNCT++punc	59	punct	_	_
 56	também	_	ADV	adv	fPOS=ADV++adv	57	advmod	_	_
 57	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	58	case	_	_
-58	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	55	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+58	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	55	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 59	.	_	PUNCT	punc	fPOS=PUNCT++punc	43	conj	_	_
 
 1	Simonsen	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	2	nsubj	_	_
@@ -716,7 +716,7 @@
 2	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	3	det	_	_
 3	vice-presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	9	nmod	_	_
 4	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:CIESP,type:ORGANIZACAO
+5	CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=CIESP|Type=ORGANIZACAO
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 7	também	_	ADV	adv	fPOS=ADV++adv	9	advmod	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
@@ -868,7 +868,7 @@
 19	não	_	ADV	adv	fPOS=ADV++adv	20	neg	_	_
 20	conduziria	_	VERB	v-fin|COND|3S	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|fPOS=VERB++v-fin|COND|3S	0	ROOT	_	_
 21	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	22	det	_	_
-22	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	dobj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+22	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	20	dobj	_	EntityForm=CIESP|Type=ORGANIZACAO
 23	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++prp	24	case	_	_
 24	oposição	_	NOUN	n|F|S	fPOS=NOUN++NOUN	20	nmod	_	_
 25	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	27	case	_	_
@@ -877,7 +877,7 @@
 28	oligárquico	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	27	amod	_	_
 29	liderado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	27	acl	_	_
 30	pelo	_	AUX	v-ger	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|M|S	31	det	_	_
-31	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	29	dobj	_	dhbb-entity:Partido=Republicano,type:ORGANIZACAO
+31	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	29	dobj	_	EntityForm=Partido+Republicano|Type=ORGANIZACAO
 32	Republicano	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 33	Paulista	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 34	.	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
@@ -898,7 +898,7 @@
 14	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	15	det	_	_
 15	programa	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	19	nsubj	_	_
 16	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	Aliança	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	nsubj	_	dhbb-entity:Aliança=Liberal,type:ORGANIZACAO
+17	Aliança	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	nsubj	_	EntityForm=Aliança+Liberal|Type=ORGANIZACAO
 18	Liberal	_	PROPN	PROPN	fPOS=PROPN++PROPN	17	name	_	_
 19	reeditava	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	3	advcl	_	_
 20	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	22	det	_	_
@@ -923,11 +923,11 @@
 3	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 4	apoiou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	10	punct	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
-6	Revolução	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	4	dobj	_	dhbb-entity:Revolução=Constitucionalista,type:EVENTO
+6	Revolução	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	4	dobj	_	EntityForm=Revolução+Constitucionalista|Type=EVENTO
 7	Constitucionalista	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	contra	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 9	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	10	det	_	_
-10	Governo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	16	nsubj	_	dhbb-entity:Governo=Provisório,type:ORGANIZACAO
+10	Governo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	16	nsubj	_	EntityForm=Governo+Provisório|Type=ORGANIZACAO
 11	Provisório	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	13	case	_	_
 13	Vargas	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
@@ -946,7 +946,7 @@
 26	#	_	PUNCT	punc	fPOS=PUNCT++punc	47	punct	_	_
 27	#	_	PUNCT	punc	fPOS=PUNCT++punc	33	punct	_	_
 28	A	_	DET	prop|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	det	_	_
-29	FIESP	_	PROPN	PROPN	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	33	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+29	FIESP	_	PROPN	PROPN	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	33	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 30	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	29	cc	_	_
 31	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	conj	_	_
 32	era	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	33	cop	_	_
@@ -966,7 +966,7 @@
 46	não	_	ADV	adv	fPOS=ADV++adv	47	neg	_	_
 47	impediu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	19	advcl	_	_
 48	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	49	det	_	_
-49	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	47	dobj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+49	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	47	dobj	_	EntityForm=CIESP|Type=ORGANIZACAO
 50	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	51	mark	_	_
 51	buscar	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	49	acl	_	_
 52	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	53	det	_	_
@@ -1168,7 +1168,7 @@
 13	1931	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	11	nummod	_	_
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 15	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	16	det	_	_
-16	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	17	nsubj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+16	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	17	nsubj	_	EntityForm=CIESP|Type=ORGANIZACAO
 17	buscou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 18	rapidamente	_	ADV	adv	fPOS=ADV++adv	17	advmod	_	_
 19	adaptar-se	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	18	mwe	_	_
@@ -1182,7 +1182,7 @@
 27	passando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	23	conj	_	_
 28	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	30	det	_	_
 29	denominar-se	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	30	amod	_	_
-30	Federação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	27	dobj	_	dhbb-entity:Federação=das=Indústrias=do=Estado=de=São,type:ORGANIZACAO
+30	Federação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	27	dobj	_	EntityForm=Federação+das+Indústrias+do+Estado+de+São|Type=ORGANIZACAO
 31	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	32	case	_	_
 32	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	name	_	_
 33	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	34	case	_	_
@@ -1248,7 +1248,7 @@
 3	nacional	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	2	amod	_	_
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
-6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	colaborou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 8	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
@@ -1264,7 +1264,7 @@
 19	,	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 20	Pernambuco	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	15	conj	_	_
 21	e	_	CONJ	conj-c|<co-app>	fPOS=CONJ++conj-c|<co-prparg>	15	cc	_	_
-22	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	15	conj	_	dhbb-entity:Rio=Grande=do=Sul,type:ORGANIZACAO
+22	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	15	conj	_	EntityForm=Rio+Grande+do+Sul|Type=ORGANIZACAO
 23	Grande	_	ADJ	ADJ	Gender=Masc|Number=Sing|fPOS=ADJ++ADJ	22	name	_	_
 24	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	25	case	_	_
 25	Sul	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
@@ -1275,7 +1275,7 @@
 30	dar	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	10	acl	_	_
 31	sustentação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	30	dobj	_	_
 32	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	33	case	_	_
-33	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	30	dobj	_	dhbb-entity:Confederação=Industrial=do=Brasil,type:ORGANIZACAO
+33	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	30	dobj	_	EntityForm=Confederação+Industrial+do+Brasil|Type=ORGANIZACAO
 34	Industrial	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	_
 35	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	36	case	_	_
 36	Brasil	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	_
@@ -1287,7 +1287,7 @@
 42	e	_	CONJ	conj-c|<co-pred>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	38	cc	_	_
 43	convertida	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	38	conj	_	_
 44	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	45	case	_	_
-45	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	43	nmod	_	dhbb-entity:Confederação=Nacional=da=Indústria,type:ORGANIZACAO
+45	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	43	nmod	_	EntityForm=Confederação+Nacional+da+Indústria|Type=ORGANIZACAO
 46	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	45	name	_	_
 47	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	48	case	_	_
 48	Indústria	_	PROPN	PROPN	fPOS=PROPN++PROPN	45	name	_	_
@@ -1308,7 +1308,7 @@
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 12	rival	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	9	nmod	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+14	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 16	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	17	det	_	_
 17	Federação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	9	conj	_	_
@@ -1335,7 +1335,7 @@
 7	Simonsen	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	criou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
-10	Federação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	8	dobj	_	dhbb-entity:Federação=das=Indústrias,type:ORGANIZACAO
+10	Federação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	8	dobj	_	EntityForm=Federação+das+Indústrias|Type=ORGANIZACAO
 11	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	12	case	_	_
 12	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 13	Paulistas	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
@@ -1354,7 +1354,7 @@
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 27	enquanto	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	30	advmod	_	_
 28	a	_	ADP	prp	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	case	_	_
-29	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	30	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+29	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	30	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 30	permaneceria	_	VERB	v-fin|COND|3S	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|fPOS=VERB++v-fin|COND|3S	25	advcl	_	_
 31	como	_	ADV	adv|<rel>|<prp>	PronType=Rel|fPOS=ADV++adv|<rel>	30	advmod	_	_
 32	associação	_	NOUN	n|F|S	fPOS=NOUN++n|F|S	31	nsubj	_	_
@@ -1365,7 +1365,7 @@
 2	somente	_	ADV	adv	fPOS=ADV++adv	3	advmod	_	_
 3	através	_	ADV	adv	fPOS=ADV++adv	0	ROOT	_	_
 4	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	3	mwe	_	dhbb-entity:Decreto-Lei=nº,type:LEI_CONSTITUICAO
+5	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	3	mwe	_	EntityForm=Decreto-Lei+nº|Type=LEI_CONSTITUICAO
 6	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	3	nsubj	_	_
 7	1.402	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	6	nummod	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
@@ -1422,7 +1422,7 @@
 7	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	8	case	_	_
 8	que	_	PRON	pron-indp|<rel>|M|S	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	15	nmod	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
-10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	15	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	15	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 12	associação	_	NOUN	n|F|S	fPOS=NOUN++n|F|S	10	nmod	_	_
 13	civil	_	ADJ	adj|F|S	fPOS=NOUN++NOUN	12	amod	_	_
@@ -1430,7 +1430,7 @@
 15	voltava	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	6	acl	_	_
 16	a	_	DET	art|<artd>|F|S	AdpType=Prep|fPOS=ADP++prp	17	det	_	_
 17	denominar-se	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	15	dobj	_	_
-18	CIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	17	nmod	_	dhbb-entity:CIESP,type:ORGANIZACAO
+18	CIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	17	nmod	_	EntityForm=CIESP|Type=ORGANIZACAO
 19	,	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 20	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	21	det	_	_
 21	FIP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	22	nsubj	_	_
@@ -1473,7 +1473,7 @@
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 22	cabendo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	4	advcl	_	_
 23	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	22	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+24	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	22	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 25	reunir	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	22	xcomp	_	_
 26	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	27	det	_	_
 27	sindicatos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	25	dobj	_	_
@@ -1486,7 +1486,7 @@
 34	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 35	enquanto	_	ADV	adv|<rel>|<ks>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	38	advmod	_	_
 36	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	37	det	_	_
-37	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	38	nsubj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+37	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	38	nsubj	_	EntityForm=CIESP|Type=ORGANIZACAO
 38	aparecia	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	25	advcl	_	_
 39	como	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	40	case	_	_
 40	organismo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	38	nmod	_	_
@@ -1530,7 +1530,7 @@
 6	civil	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	_
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
 8	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	9	det	_	_
-9	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	advmod	_	dhbb-entity:CIESP,type:ORGANIZACAO
+9	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	advmod	_	EntityForm=CIESP|Type=ORGANIZACAO
 10	passou	_	AUX	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=AUX++v-fin|PS|3S|IND	13	aux	_	_
 11	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	mark	_	_
 12	ser	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	13	auxpass	_	_
@@ -1786,7 +1786,7 @@
 30	participação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	28	nmod	_	_
 31	decisiva	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	30	amod	_	_
 32	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	33	case	_	_
-33	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	dhbb-entity:FIESP,type:ORGANIZACAO
+33	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	EntityForm=FIESP|Type=ORGANIZACAO
 34	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-postnom>	31	cc	_	_
 35	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	36	case	_	_
 36	Simonsen	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	31	conj	_	_
@@ -1795,8 +1795,8 @@
 1	Destaque	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 2	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	4	case	_	_
 3	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	4	det	_	_
-4	I	_	CONJ	prop|M|S	fPOS=CONJ++prop|M|S	1	nmod	_	dhbb-entity:I=Congresso=Brasileiro=de=Economia,type:ORGANIZACAO
-5	Congresso	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	dhbb-entity:Congresso,type:ORGANIZACAO
+4	I	_	CONJ	prop|M|S	fPOS=CONJ++prop|M|S	1	nmod	_	EntityForm=I+Congresso+Brasileiro+de+Economia|Type=ORGANIZACAO
+5	Congresso	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	EntityForm=Congresso|Type=ORGANIZACAO
 6	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 7	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	8	case	_	_
 8	Economia	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
@@ -1810,7 +1810,7 @@
 16	qual	_	PRON	PRON	fPOS=ADV++ADV	15	compound	_	_
 17	resultou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	11	acl	_	_
 18	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	19	det	_	_
-19	Carta	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	17	dobj	_	dhbb-entity:Carta=Econômica=de=Teresópolis,type:LEI_CONSTITUICAO
+19	Carta	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	17	dobj	_	EntityForm=Carta+Econômica+de+Teresópolis|Type=LEI_CONSTITUICAO
 20	Econômica	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 21	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	22	case	_	_
 22	Teresópolis	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
@@ -1961,7 +1961,7 @@
 3	forma	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	7	nmod	_	_
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
-6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	acompanhou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
 9	elaboração	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	7	dobj	_	_
@@ -2016,12 +2016,12 @@
 26	1930	_	NUM	num|<card>|M|P	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	25	nummod	_	_
 27	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 28	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	det	_	_
-29	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	36	nsubj	_	dhbb-entity:Confederação=Nacional=da=Indústria=(=CNI=),type:ORGANIZACAO
+29	Confederação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	36	nsubj	_	EntityForm=Confederação+Nacional+da+Indústria+(+CNI+)|Type=ORGANIZACAO
 30	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	29	name	_	_
 31	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	32	case	_	_
 32	Indústria	_	PROPN	PROPN	fPOS=PROPN++PROPN	29	name	_	_
 33	(	_	PUNCT	punc	fPOS=PUNCT++punc	29	punct	_	_
-34	CNI	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	29	name	_	dhbb-entity:CNI,type:ORGANIZACAO
+34	CNI	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	29	name	_	EntityForm=CNI|Type=ORGANIZACAO
 35	)	_	PUNCT	punc	fPOS=PUNCT++punc	29	punct	_	_
 36	propôs	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	24	conj	_	_
 37	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	38	det	_	_
@@ -2105,7 +2105,7 @@
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 5	criado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	1	acl	_	_
 6	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	5	advmod	_	_
-7	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	mwe	_	dhbb-entity:Decreto-Lei=nº,type:LEI_CONSTITUICAO
+7	Decreto-Lei	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	mwe	_	EntityForm=Decreto-Lei+nº|Type=LEI_CONSTITUICAO
 8	nº	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	5	dobj	_	_
 9	9.403	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	8	nummod	_	_
 10	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	11	case	_	_
@@ -2125,7 +2125,7 @@
 24	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	22	mwe	_	_
 25	proposição	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	20	nmod	_	_
 26	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	27	case	_	_
-27	CNI	_	NOUN	NOUN	fPOS=PROPN++PROPN	25	compound	_	dhbb-entity:CNI,type:ORGANIZACAO
+27	CNI	_	NOUN	NOUN	fPOS=PROPN++PROPN	25	compound	_	EntityForm=CNI|Type=ORGANIZACAO
 28	,	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 29	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	30	case	_	_
 30	1943	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	20	advmod	_	_
@@ -2169,7 +2169,7 @@
 13	mas	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-vfin>	11	cc	_	_
 14	geridas	_	VERB	v-pcp|F|P	Gender=Fem|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|F|P	11	conj	_	_
 15	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	16	case	_	_
-16	CNI	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	14	nmod	_	dhbb-entity:CNI,type:ORGANIZACAO
+16	CNI	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	14	nmod	_	EntityForm=CNI|Type=ORGANIZACAO
 17	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-acc>	16	cc	_	_
 18	pelas	_	DET	pron-det|<quant>|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	19	det	_	_
 19	federações	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	16	conj	_	_
@@ -2207,7 +2207,7 @@
 5	principal	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	6	amod	_	_
 6	dirigente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	2	ccomp	_	_
 7	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+8	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 9	nesta	_	ADJ	adj|M|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	10	amod	_	_
 10	etapa	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	6	nmod	_	_
 11	inicial	_	ADJ	adj|M|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	10	amod	_	_
@@ -2273,7 +2273,7 @@
 12	#	_	PUNCT	punc	fPOS=PUNCT++punc	29	punct	_	_
 13	#	_	PUNCT	punc	fPOS=PUNCT++punc	29	punct	_	_
 14	A	_	DET	art|<artd>|F|S	AdpType=Prep|fPOS=ADP++prp	15	det	_	_
-15	FIESP	_	NOUN	n|<DERS>|F|S	fPOS=NOUN++NOUN	29	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+15	FIESP	_	NOUN	n|<DERS>|F|S	fPOS=NOUN++NOUN	29	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 16	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	17	case	_	_
 17	período	_	NOUN	n|M|S	fPOS=NOUN++NOUN	15	nmod	_	_
 18	populista	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	17	amod	_	_
@@ -2303,7 +2303,7 @@
 42	específico	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	41	amod	_	_
 43	relevante	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	41	amod	_	_
 44	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	45	case	_	_
-45	sociedade	_	NOUN	n|F|S	fPOS=NOUN++NOUN	43	nmod	_	dhbb-entity:sociedade,type:ORGANIZACAO
+45	sociedade	_	NOUN	n|F|S	fPOS=NOUN++NOUN	43	nmod	_	EntityForm=sociedade|Type=ORGANIZACAO
 46	brasileira	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	45	amod	_	_
 47	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 
@@ -2477,7 +2477,7 @@
 37	.	_	PUNCT	punc	fPOS=PUNCT++punc	17	punct	_	_
 
 1	A	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	2	det	_	_
-2	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	3	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+2	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	3	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 3	enfatizou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 4	sempre	_	ADV	adv	fPOS=ADV++adv	3	advmod	_	_
 5	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	6	det	_	_
@@ -2490,7 +2490,7 @@
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 13	desde	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 14	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	15	det	_	_
-15	Carta	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	nmod	_	dhbb-entity:Carta=de=Teresópolis,type:LEI_CONSTITUICAO
+15	Carta	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	10	nmod	_	EntityForm=Carta+de+Teresópolis|Type=LEI_CONSTITUICAO
 16	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	17	case	_	_
 17	Teresópolis	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
@@ -2527,7 +2527,7 @@
 1	Coerentemente	_	ADV	adv	fPOS=ADV++adv	5	advmod	_	_
 2	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 3	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	4	det	_	_
-4	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	5	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+4	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	5	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 5	reagiu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	contra	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	8	case	_	_
 7	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	8	det	_	_
@@ -2571,7 +2571,7 @@
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	Crédito	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	conj	_	_
 14	(	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
-15	Sumoc	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	4	nmod	_	dhbb-entity:Sumoc,type:ORGANIZACAO
+15	Sumoc	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	4	nmod	_	EntityForm=Sumoc|Type=ORGANIZACAO
 16	)	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 18	que	_	PRON	pron-indp|<rel>|F|S	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	19	nsubj	_	_
@@ -2672,7 +2672,7 @@
 9	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	10	det	_	_
 10	industriais	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	13	nsubj	_	_
 11	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	10	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+12	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	10	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 13	viam-se	_	VERB	v-fin|PR|3S|IND	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	7	conj	_	_
 14	como	_	ADV	adv|<rel>|<prp>	PronType=Rel|fPOS=ADV++adv|<rel>	13	advmod	_	_
 15	“generais	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	14	nsubj	_	_
@@ -2695,7 +2695,7 @@
 3	freqüentemente	_	ADV	adv	fPOS=ADV++adv	4	advmod	_	_
 4	focalizado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	2	acl	_	_
 5	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	6	case	_	_
-6	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	4	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	4	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	10	cop	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
 9	“	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
@@ -2725,7 +2725,7 @@
 2	contraste	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	6	nmod	_	_
 3	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 4	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	5	det	_	_
-5	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	6	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+5	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	6	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 6	destacou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 7	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	8	det	_	_
 8	importância	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	6	dobj	_	_
@@ -2753,12 +2753,12 @@
 3	formalmente	_	ADV	adv	fPOS=ADV++adv	4	advmod	_	_
 4	subordinada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	24	advcl	_	_
 5	à	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	dhbb-entity:CNI,type:ORGANIZACAO
+6	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	EntityForm=CNI|Type=ORGANIZACAO
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
 9	relação	_	NOUN	n|F|S	fPOS=NOUN++NOUN	24	nsubjpass	_	_
 10	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	11	case	_	_
-11	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	9	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+11	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	9	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 12	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	case	_	_
 13	esta	_	DET	pron-det|<dem>|F|S	Gender=Fem|Number=Sing|PronType=Dem|fPOS=DET++pron-det|<dem>|F|S	14	det	_	_
 14	entidade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	9	nmod	_	_
@@ -2827,10 +2827,10 @@
 13	oposição	_	NOUN	NOUN	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	12	mwe	_	_
 14	desenvolvida	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	12	acl	_	_
 15	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	16	case	_	_
-16	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	14	dobj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+16	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	14	dobj	_	EntityForm=FIESP|Type=ORGANIZACAO
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	16	punct	_	_
 18	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	19	det	_	_
-19	Sindicato	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	16	conj	_	dhbb-entity:Sindicato,type:ORGANIZACAO
+19	Sindicato	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	16	conj	_	EntityForm=Sindicato|Type=ORGANIZACAO
 20	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	21	case	_	_
 21	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	23	case	_	_
@@ -2846,7 +2846,7 @@
 32	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	33	case	_	_
 33	direção	_	NOUN	NOUN	fPOS=PROPN++PROPN	31	compound	_	_
 34	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	35	case	_	_
-35	Federação	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	dhbb-entity:Federação=das=Indústrias=do=Estado=de=Minas,type:ORGANIZACAO
+35	Federação	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	EntityForm=Federação+das+Indústrias+do+Estado+de+Minas|Type=ORGANIZACAO
 36	das	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Plur|fPOS=ADP++ADP	37	case	_	_
 37	Indústrias	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 38	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	39	case	_	_
@@ -2855,7 +2855,7 @@
 41	Minas	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	name	_	_
 42	Gerais	_	PROPN	PROPN	fPOS=PROPN++PROPN	41	name	_	_
 43	(	_	PUNCT	punc	fPOS=PUNCT++punc	31	punct	_	_
-44	FIEMG	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	31	nmod	_	dhbb-entity:FIEMG,type:ORGANIZACAO
+44	FIEMG	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	31	nmod	_	EntityForm=FIEMG|Type=ORGANIZACAO
 45	)	_	PUNCT	punc	fPOS=PUNCT++punc	31	punct	_	_
 46	contra	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	47	case	_	_
 47	Euvaldo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	31	nmod	_	_
@@ -2863,7 +2863,7 @@
 49	,	_	PUNCT	punc	fPOS=PUNCT++punc	47	punct	_	_
 50	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	47	nmod	_	_
 51	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	52	case	_	_
-52	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	50	compound	_	dhbb-entity:CNI,type:ORGANIZACAO
+52	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	50	compound	_	EntityForm=CNI|Type=ORGANIZACAO
 53	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-pred>	50	cc	_	_
 54	antigo	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	55	amod	_	_
 55	colaborador	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	50	conj	_	_
@@ -2901,7 +2901,7 @@
 18	brasileiro	_	ADJ	adj|F|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	17	amod	_	_
 19	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 20	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	21	det	_	_
-21	CNI	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	22	nsubj	_	dhbb-entity:CNI,type:ORGANIZACAO
+21	CNI	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	22	nsubj	_	EntityForm=CNI|Type=ORGANIZACAO
 22	desenvolveu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	8	advcl	_	_
 23	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	24	det	_	_
 24	discurso	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	22	dobj	_	_
@@ -2913,7 +2913,7 @@
 30	nacionalista	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	27	amod	_	_
 31	que	_	PRON	pron-indp|<rel>|M|S	fPOS=SCONJ++conj-s	27	nmod	_	_
 32	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	33	det	_	_
-33	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	31	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+33	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	31	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 34	.	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 
 1	A	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	2	det	_	_
@@ -2973,7 +2973,7 @@
 55	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	56	case	_	_
 56	Base	_	PROPN	PROPN	fPOS=PROPN++PROPN	51	name	_	_
 57	(	_	PUNCT	punc	fPOS=PUNCT++punc	51	punct	_	_
-58	ABDIB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	51	name	_	dhbb-entity:ABDIB,type:ORGANIZACAO
+58	ABDIB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	51	name	_	EntityForm=ABDIB|Type=ORGANIZACAO
 59	)	_	PUNCT	punc	fPOS=PUNCT++punc	51	punct	_	_
 60	,	_	PUNCT	punc	fPOS=PUNCT++punc	51	punct	_	_
 61	e	_	CONJ	conj-c|<co-postnom>	fPOS=CONJ++conj-c|<co-piv>	51	cc	_	_
@@ -3005,7 +3005,7 @@
 15	autopeças	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	5	nmod	_	_
 16	patrocinados	_	ADJ	adj|F|P	Gender=Masc|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|M|P	15	amod	_	_
 17	pelo	_	ADV	adv|<quant>|<det>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	18	advmod	_	_
-18	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	15	nmod	_	dhbb-entity:Grupo,type:ORGANIZACAO
+18	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	15	nmod	_	EntityForm=Grupo|Type=ORGANIZACAO
 19	Executivo	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	21	case	_	_
 21	Indústria	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
@@ -3018,7 +3018,7 @@
 28	problemas	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	26	dobj	_	_
 29	dentro	_	ADV	prp|<sam->	AdpType=Prep|fPOS=ADV++prp	30	case	_	_
 30	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	31	case	_	_
-31	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	28	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+31	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	28	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 32	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
 33	uma	_	DET	conj-s	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++conj-s	41	mark	_	_
 34	vez	_	NOUN	NOUN	fPOS=NOUN++NOUN	33	mwe	_	_
@@ -3099,7 +3099,7 @@
 49	posições	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	47	dobj	_	_
 50	assumidas	_	VERB	v-pcp|F|P	Gender=Fem|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|F|P	49	acl	_	_
 51	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	52	case	_	_
-52	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	50	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+52	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	50	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 53	quanto	_	ADV	adv|<rel>|<quant>	NumType=Card|PronType=Int|fPOS=ADV++adv|<interr>|<quant>	50	advmod	_	_
 54	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	55	mark	_	_
 55	dar	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	53	advcl	_	_
@@ -3128,11 +3128,11 @@
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	35	punct	_	_
 19	junto	_	ADV	adv	fPOS=ADV++adv	35	advmod	_	_
 20	à	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	mwe	_	_
-21	FIESP	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	mwe	_	dhbb-entity:FIESP,type:ORGANIZACAO
+21	FIESP	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	mwe	_	EntityForm=FIESP|Type=ORGANIZACAO
 22	,	_	PUNCT	punc	fPOS=PUNCT++punc	35	punct	_	_
 23	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	25	case	_	_
 24	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	25	det	_	_
-25	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	35	nsubj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+25	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	35	nsubj	_	EntityForm=CIESP|Type=ORGANIZACAO
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 27	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	29	case	_	_
 28	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	29	det	_	_
@@ -3148,7 +3148,7 @@
 38	organizativa	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	37	amod	_	_
 39	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	40	case	_	_
 40	sistema	_	NOUN	NOUN	fPOS=NOUN++NOUN	37	nmod	_	_
-41	FIESP/CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	40	compound	_	dhbb-entity:FIESP/CIESP,type:ORGANIZACAO
+41	FIESP/CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	40	compound	_	EntityForm=FIESP/CIESP|Type=ORGANIZACAO
 42	,	_	PUNCT	punc	fPOS=PUNCT++punc	40	punct	_	_
 43	cuja	_	DET	pron-det|<rel>|F|S	Gender=Fem|Number=Sing|PronType=Rel|fPOS=DET++pron-det|<rel>|F|S	44	det	_	_
 44	feição	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	40	appos	_	_
@@ -3170,7 +3170,7 @@
 4	1964	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	2	nummod	_	_
 5	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
-7	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	8	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+7	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	8	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 8	conheceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 9	cinco	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	10	nummod	_	_
 10	presidentes	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	8	dobj	_	_
@@ -3306,7 +3306,7 @@
 8	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	9	auxpass	_	_
 9	convertida	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 10	no	_	ADP	prp	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	11	case	_	_
-11	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	9	nmod	_	dhbb-entity:Grupo,type:ORGANIZACAO
+11	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	9	nmod	_	EntityForm=Grupo|Type=ORGANIZACAO
 12	Permanente	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
 13	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	14	case	_	_
 14	Mobilização	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	name	_	_
@@ -3325,7 +3325,7 @@
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
 7	atuação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	11	nsubjpass	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:FIESP,type:ORGANIZACAO
+9	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=FIESP|Type=ORGANIZACAO
 10	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	11	auxpass	_	_
 11	pautada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
@@ -3439,7 +3439,7 @@
 39	,	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
 40	tido	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	30	acl	_	_
 41	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	40	advmod	_	_
-42	FIESP	_	ADV	ADV	fPOS=NOUN++NOUN	41	mwe	_	dhbb-entity:FIESP,type:ORGANIZACAO
+42	FIESP	_	ADV	ADV	fPOS=NOUN++NOUN	41	mwe	_	EntityForm=FIESP|Type=ORGANIZACAO
 43	como	_	ADV	adv|<rel>	fPOS=ADV++adv|<prp>	44	cop	_	_
 44	conducente	_	ADV	adv	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	40	advmod	_	_
 45	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	47	case	_	_
@@ -3538,7 +3538,7 @@
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
 9	atuação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	13	nsubjpass	_	_
 10	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	11	case	_	_
-11	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	dhbb-entity:FIESP,type:ORGANIZACAO
+11	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	EntityForm=FIESP|Type=ORGANIZACAO
 12	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	13	auxpass	_	_
 13	caracterizada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 14	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	13	advmod	_	_
@@ -3609,7 +3609,7 @@
 34	nos	_	PRON	pron-pers|<refl>|M|1P|ACC	Case=Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|M/F|1P|DAT	33	dobj	_	_
 35	pronunciamentos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	33	nsubj	_	_
 36	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	37	case	_	_
-37	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+37	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	35	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 38	.	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 
 1	Além	_	ADV	adv|<kc>	fPOS=ADV++adv	2	advmod	_	_
@@ -3648,7 +3648,7 @@
 3	militar	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	2	amod	_	_
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
-6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	8	nsubjpass	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	8	nsubjpass	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	8	auxpass	_	_
 8	comandada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 9	basicamente	_	ADV	adv	fPOS=ADV++adv	8	advmod	_	_
@@ -3712,7 +3712,7 @@
 13	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	case	_	_
 14	eleições	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	12	nmod	_	_
 15	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	16	case	_	_
-16	chapa	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	14	nmod	_	dhbb-entity:chapa,type:ORGANIZACAO
+16	chapa	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	14	nmod	_	EntityForm=chapa|Type=ORGANIZACAO
 17	única	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	16	amod	_	_
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 19	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	12	advmod	_	_
@@ -3723,11 +3723,11 @@
 24	existência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	12	nmod	_	_
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 26	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	27	det	_	_
-27	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	33	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+27	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	33	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 28	—	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 29	e	_	CONJ	conj-c|<co-acc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	27	cc	_	_
 30	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	31	det	_	_
-31	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	conj	_	dhbb-entity:CIESP,type:ORGANIZACAO
+31	CIESP	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	conj	_	EntityForm=CIESP|Type=ORGANIZACAO
 32	—	_	PUNCT	punc	fPOS=PUNCT++punc	31	punct	_	_
 33	conheceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	12	conj	_	_
 34	uma	_	DET	art|<arti>|F|S	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|F|S	35	det	_	_
@@ -3766,7 +3766,7 @@
 2	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	1	mwe	_	_
 3	presidir	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	0	ROOT	_	_
 4	um	_	DET	art|<arti>|M|S	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|M|S	5	det	_	_
-5	sindicato	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	3	dobj	_	dhbb-entity:sindicato,type:ORGANIZACAO
+5	sindicato	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	3	dobj	_	EntityForm=sindicato|Type=ORGANIZACAO
 6	forte	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	5	amod	_	_
 7	(	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 8	Sindipeças	_	PROPN	prop|F|P	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	5	nmod	_	_
@@ -3784,7 +3784,7 @@
 20	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	21	case	_	_
 21	país	_	NOUN	NOUN	fPOS=NOUN++NOUN	18	compound	_	_
 22	(	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
-23	Cobrasma	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	nsubj	_	dhbb-entity:Cobrasma,type:ORGANIZACAO
+23	Cobrasma	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	nsubj	_	EntityForm=Cobrasma|Type=ORGANIZACAO
 24	)	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 25	,	_	PUNCT	punc	fPOS=PUNCT++punc	27	punct	_	_
 26	Vidigal	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	27	nsubj	_	_
@@ -3830,7 +3830,7 @@
 24	maior	_	ADJ	adj|<KOMP>|F|S	fPOS=NOUN++NOUN	25	amod	_	_
 25	representatividade	_	NOUN	n|F|S	fPOS=NOUN++NOUN	19	conj	_	_
 26	da	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	27	case	_	_
-27	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	25	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+27	FIESP	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	25	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 28	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 29	como	_	ADV	adv|<rel>|<prp>	PronType=Rel|fPOS=ADV++adv|<rel>	25	advmod	_	_
 30	Cláudio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	29	nsubj	_	_
@@ -3898,7 +3898,7 @@
 12	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	13	det	_	_
 13	presidência	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	11	dobj	_	_
 14	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	15	case	_	_
-15	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	13	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+15	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	13	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 16	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	17	case	_	_
 17	1986	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	11	advmod	_	_
 18	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
@@ -3919,7 +3919,7 @@
 14	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 15	sede	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	13	nmod	_	_
 16	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	15	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+17	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	15	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 19	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	20	case	_	_
 20	palácio	_	NOUN	NOUN	fPOS=PROPN++PROPN	11	nmod	_	_
@@ -4074,7 +4074,7 @@
 2	reação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	13	nsubjpass	_	_
 3	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	5	case	_	_
 4	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	5	det	_	_
-5	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	2	nmod	_	dhbb-entity:Plano=Cruzado,type:ACAO_POLITICA
+5	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	2	nmod	_	EntityForm=Plano+Cruzado|Type=ACAO_POLITICA
 6	Cruzado	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 7	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-acc>	5	cc	_	_
 8	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
@@ -4136,7 +4136,7 @@
 6	1988	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	4	conj	_	_
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 8	a	_	DET	art|<artd>|F|S	AdpType=Prep|fPOS=ADP++prp	9	det	_	_
-9	FIESP	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+9	FIESP	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 10	procurou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 11	intervir	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	10	xcomp	_	_
 12	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	13	case	_	_
@@ -4147,14 +4147,14 @@
 17	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	18	case	_	_
 18	Assembléia	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	_
-20	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	dhbb-entity:Constituinte,type:ORGANIZACAO
+20	Constituinte	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	EntityForm=Constituinte|Type=ORGANIZACAO
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	16	punct	_	_
 22	encarregada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	16	acl	_	_
 23	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
 24	elaboração	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	_
 25	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	26	case	_	_
 26	nova	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	_
-27	Constituição	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	dhbb-entity:Constituição,type:LEI_CONSTITUICAO
+27	Constituição	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	EntityForm=Constituição|Type=LEI_CONSTITUICAO
 28	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	29	case	_	_
 29	país	_	NOUN	NOUN	fPOS=NOUN++NOUN	22	compound	_	_
 30	.	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
@@ -4202,7 +4202,7 @@
 4	tempo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 5	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
-7	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	4	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+7	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	4	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 8	empenhou-se	_	PROPN	PROPN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|SUBJ	7	name	_	_
 9	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	10	case	_	_
 10	defesa	_	PROPN	PROPN	fPOS=NOUN++NOUN	7	name	_	_
@@ -4217,7 +4217,7 @@
 19	instituições	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	17	nmod	_	_
 20	criadas	_	VERB	v-pcp|F|P	Gender=Fem|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|F|P	19	acl	_	_
 21	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	20	advmod	_	_
-22	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	21	mwe	_	dhbb-entity:CNI,type:ORGANIZACAO
+22	CNI	_	NOUN	NOUN	fPOS=NOUN++NOUN	21	mwe	_	EntityForm=CNI|Type=ORGANIZACAO
 23	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	21	cc	_	_
 24	federações	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	21	conj	_	_
 25	industriais	_	ADJ	adj|F|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	24	amod	_	_
@@ -4268,7 +4268,7 @@
 36	a	_	ADP	prp	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	37	case	_	_
 37	pedido	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	15	nmod	_	_
 38	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	39	case	_	_
-39	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	37	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+39	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	37	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 40	.	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 
 1	Ainda	_	ADV	adv	fPOS=ADV++adv	7	advmod	_	_
@@ -4276,7 +4276,7 @@
 3	1989	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	1	advmod	_	_
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 5	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	6	det	_	_
-6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	7	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	envolveu-se	_	VERB	v-fin|PR|3S|IND	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|SUBJ	0	ROOT	_	_
 8	diretamente	_	ADV	adv	fPOS=ADV++adv	7	advmod	_	_
 9	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
@@ -4309,11 +4309,11 @@
 36	Silva	_	PROPN	PROPN	fPOS=PROPN++PROPN	32	name	_	_
 37	,	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 38	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	39	case	_	_
-39	Partido	_	NOUN	NOUN	fPOS=PROPN++PROPN	32	compound	_	dhbb-entity:Partido=dos=Trabalhadores=(=PT=),type:ORGANIZACAO
+39	Partido	_	NOUN	NOUN	fPOS=PROPN++PROPN	32	compound	_	EntityForm=Partido+dos+Trabalhadores+(+PT+)|Type=ORGANIZACAO
 40	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	41	case	_	_
 41	Trabalhadores	_	NOUN	NOUN	fPOS=PROPN++PROPN	32	compound	_	_
 42	(	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
-43	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	dhbb-entity:PT,type:ORGANIZACAO
+43	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	32	nmod	_	EntityForm=PT|Type=ORGANIZACAO
 44	)	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 45	,	_	PUNCT	punc	fPOS=PUNCT++punc	32	punct	_	_
 46	que	_	PRON	pron-indp|<rel>|M|S	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	47	nsubj	_	_
@@ -4346,7 +4346,7 @@
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
 10	defesa	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	20	nsubjpass	_	_
 11	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	10	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+12	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	10	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
 14	abertura	_	NOUN	NOUN	fPOS=PROPN++PROPN	10	compound	_	_
 15	econômica	_	NOUN	NOUN	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	10	compound	_	_
@@ -4379,7 +4379,7 @@
 7	recursos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	5	nmod	_	_
 8	retidos	_	VERB	v-pcp|M|P	Gender=Masc|Number=Plur|VerbForm=Part|fPOS=VERB++v-pcp|M|P	7	acl	_	_
 9	pelo	_	ADV	adv|<rel>	PronType=Rel|fPOS=ADV++adv|<rel>	8	punct	_	_
-10	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	8	dobj	_	dhbb-entity:Plano=Collor,type:ACAO_POLITICA
+10	Plano	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	8	dobj	_	EntityForm=Plano+Collor|Type=ACAO_POLITICA
 11	Collor	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 13	que	_	PRON	pron-indp|<rel>|M|S	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	14	nsubj	_	_
@@ -4403,7 +4403,7 @@
 2	1991	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	6	advmod	_	_
 3	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 4	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	5	det	_	_
-5	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	6	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+5	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	6	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 6	buscou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 7	articular-se	_	NOUN	n|F|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	6	nmod	_	_
 8	inclusive	_	ADV	adv	fPOS=ADV++adv	7	advmod	_	_
@@ -4430,12 +4430,12 @@
 7	juntamente	_	ADV	adv	fPOS=ADV++adv	5	advmod	_	_
 8	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	7	case	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
-10	Central	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	7	nmod	_	dhbb-entity:Central=Única=dos=Trabalhadores=(=CUT=),type:ORGANIZACAO
+10	Central	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	7	nmod	_	EntityForm=Central+Única+dos+Trabalhadores+(+CUT+)|Type=ORGANIZACAO
 11	Única	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	13	case	_	_
 13	Trabalhadores	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 14	(	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
-15	CUT	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	name	_	dhbb-entity:CUT,type:ORGANIZACAO
+15	CUT	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	name	_	EntityForm=CUT|Type=ORGANIZACAO
 16	)	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 18	uma	_	DET	art|<arti>|F|S	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|F|S	19	det	_	_
@@ -4482,7 +4482,7 @@
 3	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	4	case	_	_
 4	diagnóstico	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	_
 5	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+6	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	2	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 7	sobre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	9	case	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
 9	inflação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	2	nmod	_	_
@@ -4571,7 +4571,7 @@
 11	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	12	det	_	_
 12	direção	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	10	dobj	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	dhbb-entity:FIESP,type:ORGANIZACAO
+14	FIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	EntityForm=FIESP|Type=ORGANIZACAO
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 16	numa	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	17	amod	_	_
 17	conjuntura	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	12	nmod	_	_
@@ -4619,7 +4619,7 @@
 11	aprovação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	3	nmod	_	_
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 13	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	3	advmod	_	_
-14	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	mwe	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+14	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	mwe	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 15	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	13	mwe	_	_
 16	Deputados	_	NOUN	NOUN	fPOS=NOUN++NOUN	13	mwe	_	_
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
@@ -4652,7 +4652,7 @@
 18	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	19	det	_	_
 19	apoio	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	17	dobj	_	_
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+21	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 22	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	24	case	_	_
 23	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	24	det	_	_
 24	*impeachment*	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	19	nmod	_	_
@@ -4745,7 +4745,7 @@
 18	cuja	_	DET	pron-det|<rel>|F|S	Gender=Fem|Number=Sing|PronType=Rel|fPOS=DET++pron-det|<rel>|F|S	19	det	_	_
 19	realização	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	23	nmod	_	_
 20	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	case	_	_
-21	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	23	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+21	FIESP	_	PROPN	prop|M|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	23	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 22	se	_	PRON	pron-pers|M|3S|ACC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|F|3S|ACC	23	dobj	_	_
 23	empenha	_	VERB	v-fin|PR|3S|IND	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|SUBJ	11	acl	_	_
 24	,	_	PUNCT	punc	fPOS=PUNCT++punc	23	punct	_	_
@@ -4763,14 +4763,14 @@
 36	entidades	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	34	nmod	_	_
 37	como	_	ADV	adv|<rel>|<prp>	PronType=Rel|fPOS=ADV++adv|<rel>|<prp>	36	advmod	_	_
 38	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	39	det	_	_
-39	Força	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	37	nsubj	_	dhbb-entity:Força=Sindical,type:ORGANIZACAO
+39	Força	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	37	nsubj	_	EntityForm=Força+Sindical|Type=ORGANIZACAO
 40	Sindical	_	PROPN	PROPN	fPOS=PROPN++PROPN	39	name	_	_
 41	,	_	PUNCT	punc	fPOS=PUNCT++punc	39	punct	_	_
 42	central	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	39	nmod	_	_
 43	sindical	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	42	amod	_	_
 44	rival	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	36	nmod	_	_
 45	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	46	case	_	_
-46	CUT	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	dhbb-entity:CUT,type:ORGANIZACAO
+46	CUT	_	NOUN	NOUN	fPOS=NOUN++NOUN	44	compound	_	EntityForm=CUT|Type=ORGANIZACAO
 47	no	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	49	case	_	_
 48	movimento	_	NOUN	NOUN	fPOS=NOUN++NOUN	47	mwe	_	_
 49	sindical	_	ADJ	adj|M|S	fPOS=NOUN++NOUN	36	amod	_	_
@@ -4813,7 +4813,7 @@
 7	constitucional	_	NOUN	NOUN	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	4	compound	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
-10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	11	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	11	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 11	retomou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 12	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++prp	13	case	_	_
 13	defesa	_	PROPN	prop|F|S	fPOS=NOUN++NOUN	11	nmod	_	_
@@ -4888,7 +4888,7 @@
 43	1994	_	NUM	num|<card>|M|P	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	41	nummod	_	_
 44	,	_	PUNCT	punc	fPOS=PUNCT++punc	47	punct	_	_
 45	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	46	det	_	_
-46	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	47	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+46	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	47	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 47	reagiu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	20	conj	_	_
 48	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++prp	49	case	_	_
 49	política	_	NOUN	n|F|S	fPOS=NOUN++NOUN	47	dobj	_	_
@@ -4968,7 +4968,7 @@
 7	natureza	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	5	nmod	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	13	punct	_	_
 9	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	10	det	_	_
-10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	13	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+10	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	13	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 11	não	_	ADV	adv	fPOS=ADV++adv	13	neg	_	_
 12	só	_	ADV	adv	fPOS=ADV++adv	13	advmod	_	_
 13	encaminhou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
@@ -5052,7 +5052,7 @@
 6	”	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 8	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	9	det	_	_
-9	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+9	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	10	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 10	participou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 11	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
 12	“Marcha	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
@@ -5092,7 +5092,7 @@
 16	elegeu-se	_	NUM	num	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|F|S	17	advmod	_	_
 17	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	6	nmod	_	_
 18	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	case	_	_
-19	FIESP/CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	17	compound	_	dhbb-entity:FIESP/CIESP,type:ORGANIZACAO
+19	FIESP/CIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	17	compound	_	EntityForm=FIESP/CIESP|Type=ORGANIZACAO
 20	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
 1	A	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	2	det	_	_
@@ -5103,7 +5103,7 @@
 6	a	_	DET	conj-s	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++DET	4	nmod	_	_
 7	frente	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+9	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 10	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	11	auxpass	_	_
 11	marcada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	0	ROOT	_	_
 12	por	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
@@ -5184,7 +5184,7 @@
 49	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	50	det	_	_
 50	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	46	nmod	_	_
 51	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	52	case	_	_
-52	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	50	compound	_	dhbb-entity:FIESP=e=seu=primo=Celso=Lafer=que,type:ORGANIZACAO
+52	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	50	compound	_	EntityForm=FIESP+e+seu+primo+Celso+Lafer+que|Type=ORGANIZACAO
 53	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++conj-c|<co-prparg>	50	cc	_	_
 54	seu	_	DET	pron-det|<poss|3S>|<si>|M|S	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|M|S	55	det	_	_
 55	primo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	50	conj	_	_
@@ -5236,7 +5236,7 @@
 14	passado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	13	acl	_	_
 15	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 16	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	17	det	_	_
-17	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	18	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+17	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	18	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 18	fez	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	12	nmod	_	_
 19	questão	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	18	dobj	_	_
 20	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	21	mark	_	_
@@ -5269,7 +5269,7 @@
 47	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	48	case	_	_
 48	Silva	_	PROPN	PROPN	fPOS=PROPN++PROPN	44	name	_	_
 49	(	_	PUNCT	punc	fPOS=PUNCT++punc	44	punct	_	_
-50	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	44	name	_	dhbb-entity:PT,type:ORGANIZACAO
+50	PT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	44	name	_	EntityForm=PT|Type=ORGANIZACAO
 51	)	_	PUNCT	punc	fPOS=PUNCT++punc	44	punct	_	_
 52	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	53	mark	_	_
 53	manter	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	42	advcl	_	_
@@ -5300,7 +5300,7 @@
 1	Em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	case	_	_
 2	2004	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	5	advmod	_	_
 3	a	_	ADP	prp	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	4	case	_	_
-4	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	2	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+4	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	2	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 5	passou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	8	mark	_	_
 7	mais	_	ADV	adv|<quant>	NumType=Card|PronType=Ind,Neg,Tot|fPOS=ADV++ADV	8	advmod	_	_
@@ -5331,7 +5331,7 @@
 4	oposição	_	NOUN	NOUN	fPOS=PROPN++PROPN	2	compound	_	_
 5	venceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	5	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+7	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	5	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 9	mas	_	CONJ	conj-c|<co-vfin>|<co-fmc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	5	cc	_	_
 10	perdeu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	5	conj	_	_
@@ -5341,7 +5341,7 @@
 14	Claudio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	12	nmod	_	_
 15	Vaz	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 16	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	dhbb-entity:CIESP,type:ORGANIZACAO
+17	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	EntityForm=CIESP|Type=ORGANIZACAO
 18	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
 1	Rompendo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	10	advcl	_	_
@@ -5376,7 +5376,7 @@
 30	por	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp	34	case	_	_
 31	parte	_	NOUN	NOUN	fPOS=NOUN++NOUN	30	mwe	_	_
 32	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	30	mwe	_	_
-33	chapa	_	NOUN	NOUN	fPOS=NOUN++NOUN	30	mwe	_	dhbb-entity:chapa,type:ORGANIZACAO
+33	chapa	_	NOUN	NOUN	fPOS=NOUN++NOUN	30	mwe	_	EntityForm=chapa|Type=ORGANIZACAO
 34	situacionista	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	23	nmod	_	_
 35	.	_	PUNCT	punc	fPOS=PUNCT++punc	21	punct	_	_
 
@@ -5389,7 +5389,7 @@
 7	ainda	_	ADV	adv	fPOS=ADV++adv	8	advmod	_	_
 8	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	12	nsubj	_	_
 9	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	8	compound	_	dhbb-entity:FIESP=se=filiou=a=o=Partido=Socialista=Brasileiro=(,type:ORGANIZACAO
+10	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	8	compound	_	EntityForm=FIESP+se+filiou+a+o+Partido+Socialista+Brasileiro+(|Type=ORGANIZACAO
 11	se	_	PRON	pron-pers|<refl>|M|3S|ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|M|3S|ACC	12	dobj	_	_
 12	filiou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 13	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	15	case	_	_
@@ -5398,7 +5398,7 @@
 16	Socialista	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 17	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	15	name	_	_
 18	(	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
-19	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	15	name	_	dhbb-entity:PSB,type:ORGANIZACAO
+19	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	15	name	_	EntityForm=PSB|Type=ORGANIZACAO
 20	)	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 21	e	_	CONJ	conj-c|<co-vfin>|<co-fmc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	12	cc	_	_
 22	se	_	PRON	pron-pers|M/F|3S/P|ACC	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++pron-pers|M|3S|ACC	23	nsubj	_	_
@@ -5415,7 +5415,7 @@
 2	destacar	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	1	xcomp	_	_
 3	que	_	SCONJ	conj-s	fPOS=SCONJ++conj-s	6	mark	_	_
 4	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	5	det	_	_
-5	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	6	nsubj	_	dhbb-entity:PSB,type:ORGANIZACAO
+5	PSB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	6	nsubj	_	EntityForm=PSB|Type=ORGANIZACAO
 6	formava	_	VERB	v-fin|IMPF|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	2	ccomp	_	_
 7	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	8	det	_	_
 8	base	_	NOUN	n|F|S	fPOS=NOUN++NOUN	6	dobj	_	_
@@ -5446,7 +5446,7 @@
 33	atual	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	_
 34	presidência	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	_
 35	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	36	case	_	_
-36	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+36	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 37	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	39	case	_	_
 38	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	39	det	_	_
 39	governo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	29	nmod	_	_
@@ -5457,7 +5457,7 @@
 2	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	3	det	_	_
 3	dirigentes	_	NOUN	n|M|P	fPOS=NOUN++n|M|P	18	nmod	_	_
 4	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	dhbb-entity:FIESP,type:ORGANIZACAO
+5	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	compound	_	EntityForm=FIESP|Type=ORGANIZACAO
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 7	suas	_	DET	pron-det|<poss|3S>|<si>|F|P	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes|fPOS=DET++pron-det|<poss|3S>|<si>|F|P	9	det	_	_
 8	novas	_	ADJ	adj|F|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	9	amod	_	_
@@ -5511,7 +5511,7 @@
 15	Simonsen	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 17	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	18	det	_	_
-18	FIESP/CIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	19	nsubj	_	dhbb-entity:FIESP/CIESP,type:ORGANIZACAO
+18	FIESP/CIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	19	nsubj	_	EntityForm=FIESP/CIESP|Type=ORGANIZACAO
 19	aponta	_	VERB	v-fin|PR|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|IND	39	ccomp	_	_
 20	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 21	de	_	ADP	adv	AdpType=Prep|fPOS=ADP++adv	19	advmod	_	_
@@ -5531,7 +5531,7 @@
 35	#	_	PUNCT	punc	fPOS=PUNCT++punc	39	punct	_	_
 36	Estrutura	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	39	nsubj	_	_
 37	A	_	DET	art|<artd>|F|S	AdpType=Prep|fPOS=ADP++prp	38	det	_	_
-38	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	39	nsubj	_	dhbb-entity:FIESP,type:ORGANIZACAO
+38	FIESP	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	39	nsubj	_	EntityForm=FIESP|Type=ORGANIZACAO
 39	conheceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 40	diversas	_	DET	pron-det|<quant>|F|P	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|F|P	41	det	_	_
 41	modificações	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	39	nsubj	_	_
@@ -5656,16 +5656,16 @@
 
 1	Além	_	ADV	prp	fPOS=PROPN++prop|M|S	2	advmod	_	_
 2	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	punct	_	dhbb-entity:CIESP,type:ORGANIZACAO
+3	CIESP	_	PROPN	PROPN	fPOS=PROPN++PROPN	11	punct	_	EntityForm=CIESP|Type=ORGANIZACAO
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 5	sua	_	DET	pron-det|<poss|3S>|F|S	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes|fPOS=DET++pron-det|<poss|3S>|<si>|F|S	6	det	_	_
 6	expressão	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	11	punct	_	_
 7	enquanto	_	ADV	adv|<rel>	PronType=Rel|fPOS=ADV++adv|<rel>|<ks>	6	advmod	_	_
-8	sociedade	_	NOUN	n|F|S	fPOS=NOUN++n|F|S	7	nsubj	_	dhbb-entity:sociedade,type:ORGANIZACAO
+8	sociedade	_	NOUN	n|F|S	fPOS=NOUN++n|F|S	7	nsubj	_	EntityForm=sociedade|Type=ORGANIZACAO
 9	civil	_	NOUN	NOUN	fPOS=NOUN++NOUN	8	compound	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 11	à	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++prp	0	ROOT	_	_
-12	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	mwe	_	dhbb-entity:FIESP,type:ORGANIZACAO
+12	FIESP	_	NOUN	NOUN	fPOS=NOUN++NOUN	11	mwe	_	EntityForm=FIESP|Type=ORGANIZACAO
 13	vinculam-se	_	ADJ	adj|M/F|S	Case=Acc|Gender=Fem|Hyph=Yes|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++pron-pers|<hyfen>|F|3S|ACC	11	nmod	_	_
 14	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	15	det	_	_
 15	Sesi	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	13	dobj	_	_
@@ -5706,7 +5706,7 @@
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 5	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
 6	“Sistema	_	NOUN	NOUN	fPOS=PROPN++PROPN	1	nmod	_	_
-7	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+7	FIESP	_	NOUN	NOUN	fPOS=PROPN++PROPN	6	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 8	”	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 9	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	10	det	_	_
 10	Instituto	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	dobj	_	_
@@ -5768,7 +5768,7 @@
 14	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	15	case	_	_
 15	influência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	nmod	_	_
 16	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	17	case	_	_
-17	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	15	nmod	_	dhbb-entity:FIESP,type:ORGANIZACAO
+17	FIESP	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	15	nmod	_	EntityForm=FIESP|Type=ORGANIZACAO
 18	,	_	PUNCT	punc	fPOS=PUNCT++punc	22	punct	_	_
 19	os	_	DET	art|<artd>|M|P	Definite=Def|Gender=Masc|Number=Plur|PronType=Art|fPOS=DET++art|<artd>|M|P	21	det	_	_
 20	seguintes	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	21	amod	_	_
@@ -5859,7 +5859,7 @@
 105	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	106	case	_	_
 106	Tecnologia	_	PROPN	PROPN	fPOS=PROPN++PROPN	104	name	_	_
 107	;	_	PUNCT	punc	fPOS=PUNCT++punc	37	punct	_	_
-108	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	37	conj	_	dhbb-entity:Grupo,type:ORGANIZACAO
+108	Grupo	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	37	conj	_	EntityForm=Grupo|Type=ORGANIZACAO
 109	Permanente	_	PROPN	PROPN	fPOS=PROPN++PROPN	108	name	_	_
 110	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	111	case	_	_
 111	Política	_	PROPN	PROPN	fPOS=PROPN++PROPN	108	name	_	_
@@ -5876,8 +5876,8 @@
 122	Jovens	_	PROPN	prop|M|S	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	119	nmod	_	_
 123	Empresários	_	PROPN	PROPN	fPOS=PROPN++PROPN	122	name	_	_
 124	;	_	PUNCT	punc	fPOS=PUNCT++punc	37	punct	_	_
-125	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	37	conj	_	dhbb-entity:Conselho,type:ORGANIZACAO
-126	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	125	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+125	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	37	conj	_	EntityForm=Conselho|Type=ORGANIZACAO
+126	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	125	name	_	EntityForm=Superior|Type=ORGANIZACAO
 127	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	128	case	_	_
 128	Meio	_	PROPN	PROPN	fPOS=PROPN++PROPN	125	name	_	_
 129	Ambiente	_	PROPN	PROPN	fPOS=PROPN++PROPN	125	name	_	_

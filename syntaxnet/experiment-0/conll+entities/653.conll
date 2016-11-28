@@ -33,7 +33,7 @@
 2	1948	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	3	nummod	_	_
 3	bacharelou-se	_	NOUN	n|F|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 4	pela	_	ADP	prp	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|fPOS=VERB++v-fin|COND|3S	5	case	_	_
-5	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	3	nmod	_	dhbb-entity:Faculdade=de=Direito,type:ORGANIZACAO
+5	Faculdade	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	3	nmod	_	EntityForm=Faculdade+de+Direito|Type=ORGANIZACAO
 6	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	7	case	_	_
 7	Direito	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
@@ -78,11 +78,11 @@
 4	filiando-se	_	NOUN	NOUN	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	2	mwe	_	_
 5	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	7	case	_	_
 6	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	7	det	_	_
-7	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	dobj	_	dhbb-entity:Partido=Trabalhista=Brasileiro=(=PTB=),type:ORGANIZACAO
+7	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	dobj	_	EntityForm=Partido+Trabalhista+Brasileiro+(+PTB+)|Type=ORGANIZACAO
 8	Trabalhista	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 9	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
 10	(	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
-11	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	name	_	dhbb-entity:PTB,type:ORGANIZACAO
+11	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	name	_	EntityForm=PTB|Type=ORGANIZACAO
 12	)	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 14	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	16	case	_	_
@@ -121,7 +121,7 @@
 6	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 7	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	5	name	_	_
 8	(	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
-9	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	5	name	_	dhbb-entity:PSD,type:ORGANIZACAO
+9	PSD	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	5	name	_	EntityForm=PSD|Type=ORGANIZACAO
 10	)	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 12	voltou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
@@ -159,7 +159,7 @@
 5	partidos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	3	nmod	_	_
 6	políticos	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	5	amod	_	_
 7	pelo	_	ADV	adv|<rel>|<ks>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	8	case	_	_
-8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	dhbb-entity:Ato=Institucional,type:LEI_CONSTITUICAO
+8	Ato	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	3	nmod	_	EntityForm=Ato+Institucional|Type=LEI_CONSTITUICAO
 9	Institucional	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 10	nº.	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
 11	2	_	NUM	NUM	NumForm=Digit|NumType=Card|fPOS=NUM++NUM	8	nummod	_	_
@@ -175,11 +175,11 @@
 21	,	_	PUNCT	punc	fPOS=PUNCT++punc	18	punct	_	_
 22	filiou-se	_	PROPN	prop|<hyfen>|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	18	nmod	_	_
 23	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	24	case	_	_
-24	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	22	nmod	_	dhbb-entity:Aliança=Renovadora=Nacional=(=Arena=),type:ORGANIZACAO
+24	Aliança	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	22	nmod	_	EntityForm=Aliança+Renovadora+Nacional+(+Arena+)|Type=ORGANIZACAO
 25	Renovadora	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 26	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	24	name	_	_
 27	(	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
-28	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nmod	_	dhbb-entity:Arena,type:ORGANIZACAO
+28	Arena	_	PROPN	prop|F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	24	nmod	_	EntityForm=Arena|Type=ORGANIZACAO
 29	)	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 30	,	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 31	partido	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	24	nmod	_	_
@@ -242,7 +242,7 @@
 28	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	29	det	_	_
 29	Comissão	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	27	dobj	_	_
 30	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	31	case	_	_
-31	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	29	name	_	dhbb-entity:Constituição,type:LEI_CONSTITUICAO
+31	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	29	name	_	EntityForm=Constituição|Type=LEI_CONSTITUICAO
 32	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	31	cc	_	_
 33	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	31	conj	_	_
 34	e	_	CONJ	conj-c|<co-subj>	fPOS=CONJ++conj-c|<co-prparg>	29	cc	_	_
@@ -285,7 +285,7 @@
 10	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	11	case	_	_
 11	legenda	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	_
 12	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Arena	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	dhbb-entity:Arena,type:ORGANIZACAO
+13	Arena	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	EntityForm=Arena|Type=ORGANIZACAO
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	15	punct	_	_
 15	assumindo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	0	ROOT	_	_
 16	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	17	det	_	_
@@ -305,7 +305,7 @@
 7	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	8	case	_	_
 8	Comissão	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 9	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
-10	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	dhbb-entity:Constituição,type:LEI_CONSTITUICAO
+10	Constituição	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	EntityForm=Constituição|Type=LEI_CONSTITUICAO
 11	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	10	cc	_	_
 12	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	conj	_	_
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
@@ -351,7 +351,7 @@
 16	sido	_	VERB	v-pcp	VerbForm=Part|fPOS=VERB++v-pcp	8	advcl	_	_
 17	vice-líder	_	VERB	v-inf	fPOS=NOUN++n|M|S	16	ccomp	_	_
 18	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	case	_	_
-19	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	17	compound	_	dhbb-entity:Arena,type:ORGANIZACAO
+19	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	17	compound	_	EntityForm=Arena|Type=ORGANIZACAO
 20	.	_	PUNCT	punc	fPOS=PUNCT++punc	8	punct	_	_
 
 1	Em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	case	_	_
@@ -360,9 +360,9 @@
 4	tornou-se	_	ADP	prop|M|S	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++v-fin|PR|3S|SUBJ	0	ROOT	_	_
 5	primeiro-secretário	_	PROPN	PROPN	fPOS=NOUN++n|M|S	4	dobj	_	_
 6	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	Mesa	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	dhbb-entity:Mesa,type:ORGANIZACAO
+7	Mesa	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	EntityForm=Mesa|Type=ORGANIZACAO
 8	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	Câmara	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	dhbb-entity:Câmara,type:ORGANIZACAO
+9	Câmara	_	PROPN	PROPN	fPOS=NOUN++NOUN	5	name	_	EntityForm=Câmara|Type=ORGANIZACAO
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 11	cargo	_	VERB	v-fin|PS|3S|IND	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	4	conj	_	_
 12	que	_	SCONJ	conj-s	Gender=Masc|Number=Sing|PronType=Rel|fPOS=PRON++pron-indp|<rel>|M|S	13	mark	_	_
@@ -387,7 +387,7 @@
 3	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	4	det	_	_
 4	primeiro-secretário	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	0	ROOT	_	_
 5	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	Fundação	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	dhbb-entity:Fundação=Mílton=Campos,type:ORGANIZACAO
+6	Fundação	_	PROPN	PROPN	fPOS=PROPN++PROPN	4	name	_	EntityForm=Fundação+Mílton+Campos|Type=ORGANIZACAO
 7	Mílton	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 8	Campos	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 9	para	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	10	case	_	_
@@ -396,10 +396,10 @@
 12	Estudos	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	conj	_	_
 13	Políticos	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
-15	instituição	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	4	nmod	_	dhbb-entity:instituição,type:ORGANIZACAO
+15	instituição	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	4	nmod	_	EntityForm=instituição|Type=ORGANIZACAO
 16	criada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	15	acl	_	_
 17	pela	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	18	case	_	_
-18	Arena	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	16	nmod	_	dhbb-entity:Arena,type:ORGANIZACAO
+18	Arena	_	PROPN	prop|M/F|S	fPOS=NOUN++NOUN	16	nmod	_	EntityForm=Arena|Type=ORGANIZACAO
 19	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	20	case	_	_
 20	setembro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	16	nmod	_	_
 21	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	22	case	_	_
@@ -430,17 +430,17 @@
 22	filiou-se	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	19	conj	_	_
 23	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	25	case	_	_
 24	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	25	det	_	_
-25	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	22	nmod	_	dhbb-entity:Partido=Democrático,type:ORGANIZACAO
+25	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	22	nmod	_	EntityForm=Partido+Democrático|Type=ORGANIZACAO
 26	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	_
 27	Social	_	PROPN	PROPN	fPOS=PROPN++PROPN	25	name	_	_
 28	(	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
-29	PDS	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	25	name	_	dhbb-entity:PDS,type:ORGANIZACAO
+29	PDS	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	25	name	_	EntityForm=PDS|Type=ORGANIZACAO
 30	)	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
 31	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 32	agremiação	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	19	conj	_	_
 33	sucessora	_	ADJ	adj|F|S	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	32	amod	_	_
 34	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	35	case	_	_
-35	Arena	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	dhbb-entity:Arena,type:ORGANIZACAO
+35	Arena	_	PROPN	PROPN	fPOS=PROPN++PROPN	33	name	_	EntityForm=Arena|Type=ORGANIZACAO
 36	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
 1	Entre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	2	case	_	_
@@ -450,9 +450,9 @@
 5	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	6	cop	_	_
 6	vice-líder	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
-8	PDS	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	dhbb-entity:PDS,type:ORGANIZACAO
+8	PDS	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	EntityForm=PDS|Type=ORGANIZACAO
 9	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	dhbb-entity:Câmara,type:ORGANIZACAO
+10	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	6	compound	_	EntityForm=Câmara|Type=ORGANIZACAO
 11	e	_	CONJ	conj-c|<co-prparg>	fPOS=CONJ++CONJ	6	cc	_	_
 12	membro	_	NOUN	n|M|S	fPOS=NOUN++NOUN	6	conj	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
@@ -515,7 +515,7 @@
 16	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	17	auxpass	_	_
 17	apresentada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	10	acl	_	_
 18	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	19	case	_	_
-19	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	17	dobj	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+19	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	17	dobj	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 20	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	21	case	_	_
 21	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	19	name	_	_
 22	e	_	CONJ	conj-c|<co-vfin>|<co-fmc>	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	17	cc	_	_
@@ -565,7 +565,7 @@
 25	Senado	_	NOUN	NOUN	fPOS=PROPN++PROPN	22	mwe	_	_
 26	-	_	PUNCT	punc	fPOS=PUNCT++punc	40	punct	_	_
 27	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	28	case	_	_
-28	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	40	nmod	_	dhbb-entity:Colégio=Eleitoral,type:ORGANIZACAO
+28	Colégio	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	40	nmod	_	EntityForm=Colégio+Eleitoral|Type=ORGANIZACAO
 29	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	28	name	_	_
 30	,	_	PUNCT	punc	fPOS=PUNCT++punc	40	punct	_	_
 31	reunido	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	40	advcl	_	_
@@ -598,19 +598,19 @@
 11	uma	_	DET	art|<arti>|F|S	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<arti>|F|S	12	det	_	_
 12	coligação	_	NOUN	n|F|S	fPOS=PROPN++prop|F|S	4	nmod	_	_
 13	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	dhbb-entity:Partido=do=Movimento=Democrático=Brasileiro=(=PMDB=),type:ORGANIZACAO
+14	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	EntityForm=Partido+do+Movimento+Democrático+Brasileiro+(+PMDB+)|Type=ORGANIZACAO
 15	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	16	case	_	_
 16	Movimento	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 17	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 18	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	(	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
-20	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	12	nmod	_	dhbb-entity:PMDB,type:ORGANIZACAO
+20	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	12	nmod	_	EntityForm=PMDB|Type=ORGANIZACAO
 21	)	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 22	com	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	24	case	_	_
 23	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	24	det	_	_
 24	dissidência	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	12	nmod	_	_
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
-26	PDS	_	NOUN	NOUN	fPOS=PROPN++PROPN	24	compound	_	dhbb-entity:PDS,type:ORGANIZACAO
+26	PDS	_	NOUN	NOUN	fPOS=PROPN++PROPN	24	compound	_	EntityForm=PDS|Type=ORGANIZACAO
 27	abrigada	_	VERB	v-pcp|F|S	Gender=Fem|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|F|S	24	acl	_	_
 28	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	29	case	_	_
 29	Frente	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	27	nmod	_	_
@@ -692,7 +692,7 @@
 20	,	_	PUNCT	punc	fPOS=PUNCT++punc	19	punct	_	_
 21	deixando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	19	advcl	_	_
 22	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	23	det	_	_
-23	Câmara	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	21	dobj	_	dhbb-entity:Câmara,type:ORGANIZACAO
+23	Câmara	_	NOUN	n|<prop>|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|<prop>|F|S	21	dobj	_	EntityForm=Câmara|Type=ORGANIZACAO
 24	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	25	case	_	_
 25	janeiro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	21	nmod	_	_
 26	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	27	case	_	_
@@ -732,7 +732,7 @@
 11	técnico	_	NOUN	n|M|S	fPOS=NOUN++NOUN	10	nmod	_	_
 12	legislativo	_	ADJ	adj|M|S	fPOS=NOUN++NOUN	10	amod	_	_
 13	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	14	case	_	_
-14	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	dhbb-entity:Câmara,type:ORGANIZACAO
+14	Câmara	_	NOUN	NOUN	fPOS=NOUN++NOUN	12	compound	_	EntityForm=Câmara|Type=ORGANIZACAO
 15	.	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 
 1	Nas	_	DET	pron-det|<quant>|F|P	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|F|P	2	det	_	_
@@ -754,7 +754,7 @@
 17	candidatos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	13	nmod	_	_
 18	eleitos	_	VERB	v-pcp|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	17	acl	_	_
 19	pelo	_	NOUN	n|<card>|M|P	PronType=Rel|fPOS=ADV++adv|<rel>	17	nmod	_	_
-20	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	dhbb-entity:PFL,type:ORGANIZACAO
+20	PFL	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	19	nmod	_	EntityForm=PFL|Type=ORGANIZACAO
 21	baiano	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	19	amod	_	_
 22	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	24	case	_	_
 23	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	24	det	_	_
@@ -824,11 +824,11 @@
 23	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	24	case	_	_
 24	inquérito	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	22	nmod	_	_
 25	(	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
-26	CPI	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	24	nmod	_	dhbb-entity:CPI,type:ORGANIZACAO
+26	CPI	_	PROPN	prop|F|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	24	nmod	_	EntityForm=CPI|Type=ORGANIZACAO
 27	)	_	PUNCT	punc	fPOS=PUNCT++punc	24	punct	_	_
 28	sobre	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	30	case	_	_
 29	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	30	det	_	_
-30	Judiciário	_	NOUN	n|<prop>|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	3	nmod	_	dhbb-entity:Judiciário,type:ORGANIZACAO
+30	Judiciário	_	NOUN	n|<prop>|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	3	nmod	_	EntityForm=Judiciário|Type=ORGANIZACAO
 31	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
 1	Djalma	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	5	nsubj	_	_
@@ -837,10 +837,10 @@
 4	também	_	ADV	adv	fPOS=ADV++adv	5	advmod	_	_
 5	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 6	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	7	case	_	_
-7	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	dhbb-entity:diretório=regional=da=Arena=baiana,type:ORGANIZACAO
+7	diretório	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	EntityForm=diretório+regional+da+Arena+baiana|Type=ORGANIZACAO
 8	regional	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	_
 9	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	dhbb-entity:Arena,type:ORGANIZACAO
+10	Arena	_	NOUN	NOUN	fPOS=NOUN++NOUN	5	compound	_	EntityForm=Arena|Type=ORGANIZACAO
 11	baiana	_	NOUN	NOUN	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	5	compound	_	_
 12	,	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 13	delegado	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	5	nmod	_	_
@@ -850,7 +850,7 @@
 17	junto	_	ADV	adv	fPOS=ADV++adv	13	advmod	_	_
 18	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	20	case	_	_
 19	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	20	det	_	_
-20	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	17	nmod	_	dhbb-entity:Tribunal=Regional=Eleitoral,type:ORGANIZACAO
+20	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	17	nmod	_	EntityForm=Tribunal+Regional+Eleitoral|Type=ORGANIZACAO
 21	Regional	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 22	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 23	(	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
@@ -861,18 +861,18 @@
 28	e	_	CONJ	conj-c|<co-app>	fPOS=CONJ++conj-c|<co-prparg>	17	cc	_	_
 29	delegado	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	17	conj	_	_
 30	do	_	ADP	ADP	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	31	case	_	_
-31	diretório	_	NOUN	NOUN	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	29	nmod	_	dhbb-entity:diretório=nacional=da=Arena,type:ORGANIZACAO
+31	diretório	_	NOUN	NOUN	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	29	nmod	_	EntityForm=diretório+nacional+da+Arena|Type=ORGANIZACAO
 32	nacional	_	NOUN	NOUN	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	31	compound	_	_
 33	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	34	case	_	_
 34	Arena	_	NOUN	NOUN	fPOS=PROPN++PROPN	29	compound	_	_
 35	junto	_	ADV	adv	fPOS=ADV++adv	29	advmod	_	_
 36	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	38	case	_	_
 37	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	38	det	_	_
-38	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	35	nmod	_	dhbb-entity:Tribunal=Superior=Eleitoral=(=TSE=),type:ORGANIZACAO
-39	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+38	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	35	nmod	_	EntityForm=Tribunal+Superior+Eleitoral+(+TSE+)|Type=ORGANIZACAO
+39	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	EntityForm=Superior|Type=ORGANIZACAO
 40	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	38	name	_	_
 41	(	_	PUNCT	punc	fPOS=PUNCT++punc	38	punct	_	_
-42	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	38	name	_	dhbb-entity:TSE,type:ORGANIZACAO
+42	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	38	name	_	EntityForm=TSE|Type=ORGANIZACAO
 43	)	_	PUNCT	punc	fPOS=PUNCT++punc	38	punct	_	_
 44	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 

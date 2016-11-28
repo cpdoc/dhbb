@@ -9,7 +9,7 @@
 9	Nantes	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	7	nmod	_	_
 10	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 11	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	12	case	_	_
-12	França	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	7	nmod	_	dhbb-entity:França,type:ORGANIZACAO
+12	França	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	7	nmod	_	EntityForm=França|Type=ORGANIZACAO
 13	,	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 14	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp|<sam->	16	case	_	_
 15	dia	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	mwe	_	_
@@ -63,7 +63,7 @@
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	21	case	_	_
 21	embaixada	_	NOUN	NOUN	fPOS=NOUN++NOUN	19	compound	_	_
 22	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	23	case	_	_
-23	França	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	compound	_	dhbb-entity:França,type:ORGANIZACAO
+23	França	_	NOUN	NOUN	fPOS=PROPN++PROPN	19	compound	_	EntityForm=França|Type=ORGANIZACAO
 24	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++ADP	25	case	_	_
 25	Varsóvia	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	18	nmod	_	_
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	25	punct	_	_
@@ -90,7 +90,7 @@
 17	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	18	case	_	_
 18	deflagração	_	NOUN	n|F|S	fPOS=NOUN++NOUN	16	nmod	_	_
 19	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	20	case	_	_
-20	Segunda	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	dhbb-entity:Segunda=Guerra=Mundial,type:EVENTO
+20	Segunda	_	PROPN	PROPN	fPOS=PROPN++PROPN	18	name	_	EntityForm=Segunda+Guerra+Mundial|Type=EVENTO
 21	Guerra	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 22	Mundial	_	PROPN	PROPN	fPOS=PROPN++PROPN	20	name	_	_
 23	.	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
@@ -99,7 +99,7 @@
 2	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	3	det	_	_
 3	ocupação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	13	nmod	_	_
 4	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	5	case	_	_
-5	França	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	dhbb-entity:França,type:ORGANIZACAO
+5	França	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	EntityForm=França|Type=ORGANIZACAO
 6	pelos	_	DET	pron-det|<dem>|<KOMP>|F|P	Number=Plur|fPOS=ADJ++adj|M/F|P	3	amod	_	_
 7	alemães	_	ADJ	adj|M|P	Gender=Masc|Number=Plur|fPOS=ADJ++adj|M|P	3	amod	_	_
 8	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	9	case	_	_
@@ -254,7 +254,7 @@
 3	,	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
 4	voltou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 5	à	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	França	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	4	nmod	_	dhbb-entity:França,type:ORGANIZACAO
+6	França	_	PROPN	prop|F|S	fPOS=PROPN++PROPN	4	nmod	_	EntityForm=França|Type=ORGANIZACAO
 7	na	_	ADP	prp	Gender=Fem|Number=Sing|fPOS=ADJ++adj|F|S	8	case	_	_
 8	qualidade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	4	nmod	_	_
 9	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	10	case	_	_
@@ -405,7 +405,7 @@
 1	Foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	2	cop	_	_
 2	embaixador	_	PROPN	prop|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 3	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	4	case	_	_
-4	França	_	PROPN	PROPN	fPOS=NOUN++NOUN	2	name	_	dhbb-entity:França,type:ORGANIZACAO
+4	França	_	PROPN	PROPN	fPOS=NOUN++NOUN	2	name	_	EntityForm=França|Type=ORGANIZACAO
 5	em	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	6	case	_	_
 6	Copenhague	_	PROPN	PROPN	fPOS=NOUN++NOUN	2	name	_	_
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	2	punct	_	_
@@ -429,7 +429,7 @@
 25	Belgrado	_	PROPN	prop|M/F|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|<prop>|M|S	23	nmod	_	_
 26	,	_	PUNCT	punc	fPOS=PUNCT++punc	23	punct	_	_
 27	na	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	28	case	_	_
-28	Iugoslávia	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	23	nmod	_	dhbb-entity:Iugoslávia,type:ORGANIZACAO
+28	Iugoslávia	_	PROPN	prop|M|S	fPOS=PROPN++PROPN	23	nmod	_	EntityForm=Iugoslávia|Type=ORGANIZACAO
 29	,	_	PUNCT	punc	fPOS=PUNCT++punc	23	punct	_	_
 30	na	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	32	case	_	_
 31	mesma	_	VERB	v-fin|IMPF|1P|IND	fPOS=ADJ++ADJ	32	det	_	_
@@ -440,7 +440,7 @@
 2	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	3	case	_	_
 3	Zrenjanin	_	PROPN	prop|M|S	Number=Sing|fPOS=PROPN++prop|M/F|S	1	nmod	_	_
 4	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
-5	Iugoslávia	_	PROPN	prop|M/F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	3	nmod	_	dhbb-entity:Iugoslávia,type:ORGANIZACAO
+5	Iugoslávia	_	PROPN	prop|M/F|S	Gender=Fem|Number=Sing|fPOS=PROPN++prop|F|S	3	nmod	_	EntityForm=Iugoslávia|Type=ORGANIZACAO
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	3	punct	_	_
 7	no	_	ADP	prp|<sam->	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	9	case	_	_
 8	dia	_	NOUN	NOUN	fPOS=NOUN++NOUN	7	mwe	_	_

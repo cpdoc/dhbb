@@ -4,7 +4,7 @@
 4	*	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 5	nasceu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 6	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	7	case	_	_
-7	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	5	nmod	_	dhbb-entity:Rio=Grande=do=Sul,type:ORGANIZACAO
+7	Rio	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	5	nmod	_	EntityForm=Rio+Grande+do+Sul|Type=ORGANIZACAO
 8	Grande	_	ADJ	ADJ	Gender=Masc|Number=Sing|fPOS=ADJ++ADJ	7	name	_	_
 9	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	10	case	_	_
 10	Sul	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	_
@@ -232,11 +232,11 @@
 33	)	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
 34	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-pred>	30	cc	_	_
 35	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	36	case	_	_
-36	Fundação	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	conj	_	dhbb-entity:Fundação=Getulio=Vargas=(=FGV=),type:ORGANIZACAO
+36	Fundação	_	PROPN	PROPN	fPOS=PROPN++PROPN	30	conj	_	EntityForm=Fundação+Getulio+Vargas+(+FGV+)|Type=ORGANIZACAO
 37	Getulio	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
 38	Vargas	_	PROPN	PROPN	fPOS=PROPN++PROPN	36	name	_	_
 39	(	_	PUNCT	punc	fPOS=PUNCT++punc	36	punct	_	_
-40	FGV	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	36	nmod	_	dhbb-entity:FGV,type:ORGANIZACAO
+40	FGV	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	36	nmod	_	EntityForm=FGV|Type=ORGANIZACAO
 41	)	_	PUNCT	punc	fPOS=PUNCT++punc	36	punct	_	_
 42	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
@@ -376,7 +376,7 @@
 19	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	20	det	_	_
 20	cardeal	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	14	conj	_	_
 21	Hélder	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	20	nmod	_	_
-22	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	dhbb-entity:Câmara,type:ORGANIZACAO
+22	Câmara	_	PROPN	PROPN	fPOS=PROPN++PROPN	21	name	_	EntityForm=Câmara|Type=ORGANIZACAO
 23	(	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
 24	8/11/1972	_	NOUN	n|F|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	20	nmod	_	_
 25	)	_	PUNCT	punc	fPOS=PUNCT++punc	20	punct	_	_
@@ -437,7 +437,7 @@
 80	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	81	case	_	_
 81	petróleo	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	79	nmod	_	_
 82	pela	_	ADP	adv	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++adv	77	advmod	_	_
-83	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	82	mwe	_	dhbb-entity:Petrobras,type:ORGANIZACAO
+83	Petrobras	_	NOUN	NOUN	fPOS=NOUN++NOUN	82	mwe	_	EntityForm=Petrobras|Type=ORGANIZACAO
 84	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	82	case	_	_
 85	qualquer	_	DET	pron-det|<quant>|M|S	Gender=Masc|Number=Sing|NumType=Card|PronType=Ind,Neg,Tot|fPOS=DET++pron-det|<quant>|M|S	86	det	_	_
 86	país	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	82	nmod	_	_
@@ -502,7 +502,7 @@
 26	apresentado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	23	conj	_	_
 27	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	29	case	_	_
 28	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	29	det	_	_
-29	Congresso	_	NOUN	n|<prop>|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|<prop>|M|S	26	nmod	_	dhbb-entity:Congresso,type:ORGANIZACAO
+29	Congresso	_	NOUN	n|<prop>|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|<prop>|M|S	26	nmod	_	EntityForm=Congresso|Type=ORGANIZACAO
 30	.	_	PUNCT	punc	fPOS=PUNCT++punc	7	punct	_	_
 
 1	Afastou-se	_	PROPN	prop|F|S	fPOS=NOUN++n|M|S	10	nsubjpass	_	_

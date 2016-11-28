@@ -46,8 +46,8 @@
                  (let ((pos (search-entity (entity->list e) str)))
                    (when pos
                      (setf (slot-value (nth pos (cl-conllu::sentence-tokens s)) 'cl-conllu::misc) 
-                           (format nil "dhbb-entity:~a,type:~a"
-                                   (substitute #\= #\Space e)
+                           (format nil "EntityForm=~a|Type=~a"
+                                   (substitute #\+ #\Space e)
                                    (gethash e *dictionary*)))))))) conllu)
      filename-out)))
 

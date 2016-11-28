@@ -51,7 +51,7 @@
 
 1	Associado	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	14	nsubj	_	_
 2	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:Sindicato,type:ORGANIZACAO
+3	Sindicato	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=Sindicato|Type=ORGANIZACAO
 4	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	5	case	_	_
 5	Corretores	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 6	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	7	case	_	_
@@ -101,13 +101,13 @@
 9	federal	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	8	amod	_	_
 10	constituinte	_	ADJ	adj|M|S	Gender=Masc|Number=Sing|fPOS=ADJ++adj|M|S	8	amod	_	_
 11	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv|<quant>	10	nmod	_	_
-12	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	nmod	_	dhbb-entity:Partido=do=Movimento=Democrático=Brasileiro=(=PMDB=),type:ORGANIZACAO
+12	Partido	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	nmod	_	EntityForm=Partido+do+Movimento+Democrático+Brasileiro+(+PMDB+)|Type=ORGANIZACAO
 13	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	14	case	_	_
 14	Movimento	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	_
 15	Democrático	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 16	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	14	name	_	_
 17	(	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
-18	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	12	nmod	_	dhbb-entity:PMDB,type:ORGANIZACAO
+18	PMDB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	12	nmod	_	EntityForm=PMDB|Type=ORGANIZACAO
 19	)	_	PUNCT	punc	fPOS=PUNCT++punc	12	punct	_	_
 20	.	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 
@@ -192,7 +192,7 @@
 19	registro	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	17	dobj	_	_
 20	cassado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	19	acl	_	_
 21	pelo	_	PROPN	prop	Gender=Masc|Number=Sing|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|M|S	20	punct	_	_
-22	Tribunal	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	20	nsubj	_	dhbb-entity:Tribunal=Regional=Eleitoral,type:ORGANIZACAO
+22	Tribunal	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	20	nsubj	_	EntityForm=Tribunal+Regional+Eleitoral|Type=ORGANIZACAO
 23	Regional	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
 24	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	22	name	_	_
 25	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	26	case	_	_
@@ -214,7 +214,7 @@
 41	Democrático	_	PROPN	prop|M|S	fPOS=NOUN++NOUN	40	nmod	_	_
 42	Trabalhista	_	PROPN	PROPN	fPOS=NOUN++NOUN	41	name	_	_
 43	(	_	PUNCT	punc	fPOS=PUNCT++punc	41	punct	_	_
-44	PDT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	41	nmod	_	dhbb-entity:PDT,type:ORGANIZACAO
+44	PDT	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	41	nmod	_	EntityForm=PDT|Type=ORGANIZACAO
 45	)	_	PUNCT	punc	fPOS=PUNCT++punc	41	punct	_	_
 46	e	_	CONJ	conj-c	fPOS=CONJ++CONJ	41	cc	_	_
 47	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	48	case	_	_
@@ -229,11 +229,11 @@
 3	recorreu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 4	a	_	ADP	prp|<sam->	AdpType=Prep|fPOS=ADP++prp|<sam->	6	case	_	_
 5	o	_	DET	art|<-sam>|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<-sam>|<artd>|M|S	6	det	_	_
-6	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	3	dobj	_	dhbb-entity:Tribunal=Superior=Eleitoral=(=TSE=),type:ORGANIZACAO
-7	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+6	Tribunal	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	3	dobj	_	EntityForm=Tribunal+Superior+Eleitoral+(+TSE+)|Type=ORGANIZACAO
+7	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	EntityForm=Superior|Type=ORGANIZACAO
 8	Eleitoral	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 9	(	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
-10	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	6	name	_	dhbb-entity:TSE,type:ORGANIZACAO
+10	TSE	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	6	name	_	EntityForm=TSE|Type=ORGANIZACAO
 11	)	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 12	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-vfin>|<co-fmc>	3	cc	_	_
 13	ganhou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	3	conj	_	_
@@ -263,7 +263,7 @@
 7	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	8	auxpass	_	_
 8	julgado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	0	ROOT	_	_
 9	pelo	_	ADP	adv|<quant>	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++adv	8	advmod	_	_
-10	TSE	_	NOUN	NOUN	fPOS=NOUN++NOUN	9	mwe	_	dhbb-entity:TSE,type:ORGANIZACAO
+10	TSE	_	NOUN	NOUN	fPOS=NOUN++NOUN	9	mwe	_	EntityForm=TSE|Type=ORGANIZACAO
 11	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	12	case	_	_
 12	28	_	NUM	num|<card>|M|S	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	8	advmod	_	_
 13	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	case	_	_
@@ -289,7 +289,7 @@
 
 1	Integrante	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	30	nsubj	_	_
 2	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	3	case	_	_
-3	Subcomissão	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	dhbb-entity:Subcomissão=da=Nacionalidade,type:ORGANIZACAO
+3	Subcomissão	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	EntityForm=Subcomissão+da+Nacionalidade|Type=ORGANIZACAO
 4	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	5	case	_	_
 5	Nacionalidade	_	PROPN	PROPN	fPOS=PROPN++PROPN	1	name	_	_
 6	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
@@ -318,7 +318,7 @@
 29	foi	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	30	cop	_	_
 30	suplente	_	ADJ	adj|<n>|M|S	fPOS=NOUN++n|M|S	0	ROOT	_	_
 31	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	32	case	_	_
-32	Subcomissão	_	PROPN	PROPN	fPOS=NOUN++NOUN	30	name	_	dhbb-entity:Subcomissão=da=Educação,type:ORGANIZACAO
+32	Subcomissão	_	PROPN	PROPN	fPOS=NOUN++NOUN	30	name	_	EntityForm=Subcomissão+da+Educação|Type=ORGANIZACAO
 33	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	34	case	_	_
 34	Educação	_	PROPN	PROPN	fPOS=NOUN++NOUN	30	name	_	_
 35	,	_	PUNCT	punc	fPOS=PUNCT++punc	30	punct	_	_
@@ -517,11 +517,11 @@
 7	1990	_	NUM	num|<card>|M|S	Gender=Masc|Number=Sing|NumType=Card|fPOS=NUM++num|<card>|M|S	5	nummod	_	_
 8	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 9	pelo	_	ADV	adv|<rel>|<ks>	Gender=Masc|Number=Sing|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|M|S	10	amod	_	_
-10	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	dobj	_	dhbb-entity:Partido=Trabalhista=Brasileiro=(=PTB=),type:ORGANIZACAO
+10	Partido	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	1	dobj	_	EntityForm=Partido+Trabalhista+Brasileiro+(+PTB+)|Type=ORGANIZACAO
 11	Trabalhista	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 12	Brasileiro	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
 13	(	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
-14	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	name	_	dhbb-entity:PTB,type:ORGANIZACAO
+14	PTB	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	10	name	_	EntityForm=PTB|Type=ORGANIZACAO
 15	)	_	PUNCT	punc	fPOS=PUNCT++punc	10	punct	_	_
 16	,	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 17	obtendo	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	1	advcl	_	_
@@ -532,7 +532,7 @@
 
 1	Deixou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	0	ROOT	_	_
 2	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	3	det	_	_
-3	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	dobj	_	dhbb-entity:Câmara=dos=Deputados,type:ORGANIZACAO
+3	Câmara	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	1	dobj	_	EntityForm=Câmara+dos+Deputados|Type=ORGANIZACAO
 4	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	5	case	_	_
 5	Deputados	_	PROPN	PROPN	fPOS=PROPN++PROPN	3	name	_	_
 6	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	7	case	_	_

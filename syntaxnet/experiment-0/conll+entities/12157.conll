@@ -112,7 +112,7 @@
 24	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 25	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	26	det	_	_
 26	Curso	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	11	conj	_	_
-27	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	dhbb-entity:Superior,type:ORGANIZACAO
+27	Superior	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	EntityForm=Superior|Type=ORGANIZACAO
 28	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	29	case	_	_
 29	Comando	_	PROPN	PROPN	fPOS=PROPN++PROPN	26	name	_	_
 30	e	_	CONJ	CONJ	fPOS=CONJ++CONJ	26	cc	_	_
@@ -184,7 +184,7 @@
 13	ter	_	VERB	v-inf	VerbForm=Inf|fPOS=VERB++v-inf	14	aux	_	_
 14	composto	_	VERB	v-pcp	VerbForm=Part|fPOS=VERB++v-pcp	7	advcl	_	_
 15	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	16	det	_	_
-16	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	14	dobj	_	dhbb-entity:Conselho,type:ORGANIZACAO
+16	Conselho	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	14	dobj	_	EntityForm=Conselho|Type=ORGANIZACAO
 17	Permanente	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 18	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	19	case	_	_
 19	Justiça	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
@@ -235,7 +235,7 @@
 18	tornar	_	VERB	v-inf	Number=Sing|Person=3|VerbForm=Inf|fPOS=VERB++v-inf|3S	15	xcomp	_	_
 19	membro	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	18	xcomp	_	_
 20	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	21	case	_	_
-21	Academia	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	name	_	dhbb-entity:Academia=Brasileira=de=Letras,type:ORGANIZACAO
+21	Academia	_	PROPN	PROPN	fPOS=NOUN++NOUN	19	name	_	EntityForm=Academia+Brasileira+de+Letras|Type=ORGANIZACAO
 22	Brasileira	_	PROPN	PROPN	fPOS=NOUN++NOUN	21	name	_	_
 23	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	24	case	_	_
 24	Letras	_	PROPN	PROPN	fPOS=NOUN++NOUN	21	name	_	_
@@ -317,7 +317,7 @@
 13	nomeado	_	VERB	v-pcp|M|S	Gender=Masc|Number=Sing|VerbForm=Part|fPOS=VERB++v-pcp|M|S	14	cop	_	_
 14	ministro	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	12	ccomp	_	_
 15	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	16	case	_	_
-16	Superior	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	compound	_	dhbb-entity:Superior,type:ORGANIZACAO
+16	Superior	_	NOUN	NOUN	fPOS=NOUN++NOUN	14	compound	_	EntityForm=Superior|Type=ORGANIZACAO
 17	Tribunal	_	PROPN	PROPN	fPOS=NOUN++NOUN	16	name	_	_
 18	Militar	_	PROPN	PROPN	fPOS=PROPN++PROPN	16	name	_	_
 19	em	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	20	case	_	_
@@ -331,7 +331,7 @@
 27	sob	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	29	case	_	_
 28	o	_	DET	art|<artd>|M|S	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|M|S	29	det	_	_
 29	número	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	23	nmod	_	_
-30	STM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	29	nmod	_	dhbb-entity:STM,type:ORGANIZACAO
+30	STM	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	29	nmod	_	EntityForm=STM|Type=ORGANIZACAO
 31	311	_	NUM	NUM	NumForm=Digit|NumType=Card|fPOS=NUM++NUM	30	nummod	_	_
 32	.	_	PUNCT	punc	fPOS=PUNCT++punc	1	punct	_	_
 
@@ -397,7 +397,7 @@
 10	agilização	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	8	conj	_	_
 11	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	12	case	_	_
 12	Poder	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	_
-13	Judiciário	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	dhbb-entity:Judiciário,type:ORGANIZACAO
+13	Judiciário	_	PROPN	PROPN	fPOS=PROPN++PROPN	12	name	_	EntityForm=Judiciário|Type=ORGANIZACAO
 14	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 15	criticou	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	6	conj	_	_
 16	pontos	_	NOUN	n|M|P	Gender=Masc|Number=Plur|fPOS=NOUN++n|M|P	15	dobj	_	_
@@ -415,7 +415,7 @@
 28	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	29	case	_	_
 29	ministros	_	NOUN	n|M|P	fPOS=NOUN++n|M|P	27	nmod	_	_
 30	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	31	case	_	_
-31	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	dhbb-entity:STM,type:ORGANIZACAO
+31	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	29	compound	_	EntityForm=STM|Type=ORGANIZACAO
 32	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	33	case	_	_
 33	15	_	NUM	num|<card>|M|P	Gender=Masc|Number=Plur|NumType=Card|fPOS=NUM++num|<card>|M|P	29	nummod	_	_
 34	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	35	case	_	_
@@ -450,7 +450,7 @@
 6	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	7	det	_	_
 7	Presidência	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	5	dobj	_	_
 8	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	9	case	_	_
-9	STM	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	dhbb-entity:STM,type:ORGANIZACAO
+9	STM	_	PROPN	PROPN	fPOS=PROPN++PROPN	7	name	_	EntityForm=STM|Type=ORGANIZACAO
 10	.	_	PUNCT	punc	fPOS=PUNCT++punc	5	punct	_	_
 
 1	Sua	_	DET	pron-det|<poss|3S>|F|S	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=DET++pron-det|<poss|3S>|F|S	2	det	_	_
@@ -465,7 +465,7 @@
 10	presidente	_	NOUN	n|M|S	fPOS=NOUN++NOUN	9	nmod	_	_
 11	nacional	_	ADJ	adj|M|S	fPOS=PROPN++prop|M|S	10	amod	_	_
 12	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	13	case	_	_
-13	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	dhbb-entity:Ordem=dos=Advogados=do=Brasil,type:ORGANIZACAO
+13	Ordem	_	PROPN	PROPN	fPOS=PROPN++PROPN	10	name	_	EntityForm=Ordem+dos+Advogados+do+Brasil|Type=ORGANIZACAO
 14	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	15	case	_	_
 15	Advogados	_	PROPN	PROPN	fPOS=PROPN++PROPN	13	name	_	_
 16	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	17	case	_	_
@@ -492,7 +492,7 @@
 37	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	41	mark	_	_
 38	que	_	SCONJ	conj-s	fPOS=SCONJ++conj-s	41	mark	_	_
 39	a	_	DET	art|<artd>|F|S	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|fPOS=DET++art|<artd>|F|S	40	det	_	_
-40	sociedade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	41	nsubj	_	dhbb-entity:sociedade,type:ORGANIZACAO
+40	sociedade	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	41	nsubj	_	EntityForm=sociedade|Type=ORGANIZACAO
 41	tivesse	_	VERB	v-fin|IMPF|3S|SUBJ	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|SUBJ	36	advcl	_	_
 42	conhecimento	_	NOUN	n|M|S	fPOS=NOUN++NOUN	41	dobj	_	_
 43	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	44	case	_	_
@@ -542,7 +542,7 @@
 3	de	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	4	case	_	_
 4	presidente	_	NOUN	n|M|S	fPOS=NOUN++n|M|S	11	nmod	_	_
 5	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	6	case	_	_
-6	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	dhbb-entity:STM,type:ORGANIZACAO
+6	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	4	compound	_	EntityForm=STM|Type=ORGANIZACAO
 7	,	_	PUNCT	punc	fPOS=PUNCT++punc	11	punct	_	_
 8	Marini	_	PROPN	prop|M|S	Gender=Masc|Number=Sing|fPOS=PROPN++prop|M|S	11	nsubj	_	_
 9	e	_	CONJ	conj-c	fPOS=CONJ++conj-c|<co-subj>	8	cc	_	_
@@ -572,7 +572,7 @@
 1	Sua	_	DET	pron-det|<poss|3S>|F|S	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++pron-pers|<obj>|M|3S|ACC	0	ROOT	_	_
 2	presidência	_	NOUN	n|F|S	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|fPOS=VERB++v-fin|IMPF|3S|IND	1	dobj	_	_
 3	no	_	ADP	prp	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++prp	6	advmod	_	_
-4	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	mwe	_	dhbb-entity:STM,type:ORGANIZACAO
+4	STM	_	NOUN	NOUN	fPOS=NOUN++NOUN	3	mwe	_	EntityForm=STM|Type=ORGANIZACAO
 5	se	_	PRON	pron-pers|<refl>|F|3S|ACC	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes|fPOS=PRON++pron-pers|<refl>|F|3S|ACC	6	dobj	_	_
 6	deu	_	VERB	v-fin|PS|3S|IND	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++v-fin|PS|3S|IND	1	advcl	_	_
 7	para	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	9	case	_	_
@@ -600,7 +600,7 @@
 7	sua	_	DET	pron-det|<poss|3S>|<si>|F|S	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes|fPOS=DET++pron-det|<poss|3S>|<si>|F|S	8	det	_	_
 8	carteira	_	NOUN	n|F|S	Gender=Fem|Number=Sing|fPOS=NOUN++n|F|S	6	dobj	_	_
 9	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	10	case	_	_
-10	OAB	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	dhbb-entity:OAB,type:ORGANIZACAO
+10	OAB	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	EntityForm=OAB|Type=ORGANIZACAO
 11	,	_	PUNCT	punc	fPOS=PUNCT++punc	6	punct	_	_
 12	passando	_	VERB	v-ger	VerbForm=Ger|fPOS=VERB++v-ger	6	advcl	_	_
 13	a	_	ADP	prp	AdpType=Prep|fPOS=ADP++prp	14	mark	_	_
@@ -658,7 +658,7 @@
 11	vôo	_	PROPN	PROPN	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	9	name	_	_
 12	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	13	case	_	_
 13	5º	_	PROPN	PROPN	Gender=Masc|Number=Sing|NumType=Ord|fPOS=ADJ++adj|<NUM-ord>|M|S	9	name	_	_
-14	Grupo	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	9	name	_	dhbb-entity:Grupo,type:ORGANIZACAO
+14	Grupo	_	PROPN	PROPN	fPOS=PROPN++prop|M|S	9	name	_	EntityForm=Grupo|Type=ORGANIZACAO
 15	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	16	case	_	_
 16	Aviação	_	PROPN	PROPN	fPOS=PROPN++PROPN	9	name	_	_
 17	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
@@ -719,7 +719,7 @@
 72	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	73	case	_	_
 73	Brasil	_	PROPN	PROPN	fPOS=PROPN++PROPN	71	name	_	_
 74	na	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	75	case	_	_
-75	Itália	_	PROPN	PROPN	fPOS=PROPN++PROPN	71	name	_	dhbb-entity:Itália,type:ORGANIZACAO
+75	Itália	_	PROPN	PROPN	fPOS=PROPN++PROPN	71	name	_	EntityForm=Itália|Type=ORGANIZACAO
 76	,	_	PUNCT	punc	fPOS=PUNCT++punc	9	punct	_	_
 77	Comandante	_	PROPN	prop|M|S	fPOS=PROPN++prop|M|S	9	conj	_	_
 78	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	79	case	_	_
@@ -787,7 +787,7 @@
 3	seguintes	_	ADJ	adj|F|P	Gender=Fem|Number=Plur|fPOS=ADJ++adj|F|P	4	amod	_	_
 4	condecorações	_	NOUN	n|F|P	Gender=Fem|Number=Plur|fPOS=NOUN++n|F|P	1	dobj	_	_
 5	:	_	PUNCT	punc	fPOS=PUNCT++punc	4	punct	_	_
-6	Ordem	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	4	nmod	_	dhbb-entity:Ordem,type:ORGANIZACAO
+6	Ordem	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	4	nmod	_	EntityForm=Ordem|Type=ORGANIZACAO
 7	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	8	case	_	_
 8	Mérito	_	PROPN	PROPN	fPOS=PROPN++PROPN	6	name	_	_
 9	Aeronáutico	_	PROPN	PROPN	fPOS=PROPN++PROPN	8	name	_	_
@@ -840,7 +840,7 @@
 56	Ordem	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	53	conj	_	_
 57	do	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing|fPOS=ADP++ADP	58	case	_	_
 58	Mérito	_	PROPN	PROPN	fPOS=PROPN++PROPN	56	name	_	_
-59	Judiciário	_	PROPN	PROPN	fPOS=PROPN++PROPN	58	name	_	dhbb-entity:Judiciário,type:ORGANIZACAO
+59	Judiciário	_	PROPN	PROPN	fPOS=PROPN++PROPN	58	name	_	EntityForm=Judiciário|Type=ORGANIZACAO
 60	Militar	_	PROPN	PROPN	fPOS=PROPN++PROPN	58	name	_	_
 61	,	_	PUNCT	punc	fPOS=PUNCT++punc	56	punct	_	_
 62	grau	_	NOUN	n|M|S	Gender=Masc|Number=Sing|fPOS=NOUN++n|M|S	56	nmod	_	_
@@ -896,7 +896,7 @@
 112	;	_	PUNCT	punc	fPOS=PUNCT++punc	53	punct	_	_
 113	Medalha	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	53	conj	_	_
 114	da	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Fem|Number=Sing|fPOS=ADP++ADP	115	case	_	_
-115	Vitória	_	PROPN	PROPN	fPOS=PROPN++PROPN	113	name	_	dhbb-entity:Vitória,type:ORGANIZACAO
+115	Vitória	_	PROPN	PROPN	fPOS=PROPN++PROPN	113	name	_	EntityForm=Vitória|Type=ORGANIZACAO
 116	;	_	PUNCT	punc	fPOS=PUNCT++punc	53	punct	_	_
 117	Medalha	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	53	conj	_	_
 118	Marechal	_	PROPN	PROPN	fPOS=PROPN++PROPN	117	name	_	_
@@ -904,7 +904,7 @@
 120	de	_	ADP	ADP	AdpType=Prep|fPOS=ADP++ADP	121	case	_	_
 121	Moraes	_	PROPN	PROPN	fPOS=PROPN++PROPN	117	name	_	_
 122	(	_	PUNCT	punc	fPOS=PUNCT++punc	117	punct	_	_
-123	Associação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	117	name	_	dhbb-entity:Associação=Nacional=dos=Veteranos=da=Força=Expedicionária,type:ORGANIZACAO
+123	Associação	_	PROPN	prop|F|S	fPOS=PROPN++prop|F|S	117	name	_	EntityForm=Associação+Nacional+dos+Veteranos+da+Força+Expedicionária|Type=ORGANIZACAO
 124	Nacional	_	PROPN	PROPN	fPOS=PROPN++PROPN	123	name	_	_
 125	dos	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur|fPOS=ADP++ADP	126	case	_	_
 126	Veteranos	_	PROPN	PROPN	fPOS=PROPN++PROPN	123	name	_	_
