@@ -1,0 +1,38 @@
+﻿# Regras negativas para o DHBB
+# Atualização: 5 de fevereiro de 2017
+# Separadas com a ajuda da AntConc
+
+
+# CASOS DE ESPACO QUE É ORGANIZACAO 
+
+a:[lema="regressar|voltar|retornar|chegar" pos="V"] b:[word="a|ao|à|em|de" pos="PRP"] c:[word="EAM|FNM|PRN|PSD|STF|Petrobras|Exército|Eletrobrás|Legislativo|Câmara.*|Senado.*|Ministério.*|Secretaria.*|Assembléia.*|Congresso.*|Tribunal.*" pos="PROP"] >> c:[ner sema="Organizacao"]  	
+																									
+a:[word="no"] b:[word="estado"] c:[word="da"] d:[word="Liga=Eleitoral=Católica|Programa=Especial=de=Desenvolvimento=dos=Cerrados"] >> d:[ner sema="Organizacao"]		
+
+a:[word="cidade"] b:[word="da"] c:[word="II=Conferência=da=Food=and=Agriculture=Organization"] >> c:[ner sema="Organizacao"]	 
+
+a:[lema="visitou"] b:[word="o|a|os| "] c:[word="Organização=das=Nações=Unidas|Café|Getúlio=Vargas|Vargas|Ministério=da=Guerra|Parlamento" pos="PROP"] >> c:[ner sema="Organizacao"]	
+
+
+# CASOS DE ORGANIZACAO QUE É ESPACO 
+
+a:[word="estudou"] b:[word="na|no"] c:[word="Bélgica|Rio=de=Janeiro" pos="PROP"] >> c:[ner sema="Espaco"]
+
+a:[lema="integrar"] b:[word="a"] c:[word="Amazônia" pos="PROP"] >> c:[ner sema="Espaco"]
+
+
+# CASOS DE INDIVIDUO QUE É ORGANIZACAO 
+
+a:[pos="PROP" word="Aeronáutica|Câmara|PTB|Senado"] b:[lema="renunciar"] >> a:[ner sema="Organizacao"] 
+ 
+
+ # CASOS DE INDIVIDUO QUE É ESPAÇO
+
+a:[word="Rio=Grande=do=Norte"] b:[word="desempenhou"] >> a:[ner sema="Espaco" tipo="Politico"] 
+
+
+# CASOS DE INDIVIDUO QUE É EVENTO 
+
+a:[word="Segunda=Guerra"] b:[word="desempenhara"] >> a:[ner sema="Evento"] 
+ 
+ 

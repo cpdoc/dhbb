@@ -1,0 +1,114 @@
+# Regras positivas para o DHBB
+# Atualização: 8 de fevereiro de 2017
+
+
+# PALAVRAS QUE DEVEM SER ANOTADAS COMO ORGANIZAÇÃO
+
+a:[lema="ingressar"] b:[word="na|no"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[word="membro"] b:[word="da|do"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[lema="estudar"] b:[word="na|no"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[lema="integrar"] b:[word="a|o"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[word="chapa"] b:[word:"do"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[lema="professor"] b:[word="da|do"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[lema="associação"] b:[word="da|do|dos|das|de"] c:[pos="PROP"] >> <ner sema="Organizacao" & pos="PROP"> a: b: c: </ner>
+# a:[lema="associação"] 
+
+a:[lema="cadete"] b:[word="na|da|à"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[lema="aluno"] b:[word="da|do|na|no"] c:[pos="PROP"] >> c:[ner sema="Organizacao"]
+
+a:[word="oficial"] b:[word="da|do|na|no"] c:[pos="PROP"] >> c:[ner sema="Organizacao"] 
+
+a:[word="dirigente"] b:[word="da|do|na|no"] c:[pos="PROP"] >> c:[ner sema="Organizacao"] 
+
+
+# PALAVRAS QUE DEVEM SER ANOTADAS COMO PESSOA  
+
+a:[pos="PROP"] b:[lema="nascer"] c:[word="em|no|na"] d:[pos="PROP"] >> a:[ner sema="Pessoa" & tipo="Individuo"] d:[ner sema="Espaco" & tipo="Politico"]
+
+a:[lema="filho"] b:[word="de"] c:[pos="PROP"] d:[word="e"]? e:[word="de"]? >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[word="seu"] b:[word="avô"] c:[word=","]? d:[word="paterno|materno"]? e:[word=","]? f:[pos="PROP"] >> f:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[word="sua"] b:[word="avó"] c:[word=","]? d:[word="paterno|materno"]? e:[word=","]? f:[pos="PROP"] >> f:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="seu"] b:[word="tio|tia"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="seu"] b:[word="irmã|irmão"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="seu"] b:[word="prima|primo"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="seu"] b:[word="filh.*"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="seu"] b:[word="colega.*"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="casar"] b:[word="se"]? c:[word="com"] d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"]   
+# confirmar como é o clítico "se" 
+
+a:[lema="ser"] b:[word="casad.*"] c:[word="com"] d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"]  
+
+a:[lema="seu"] b:[word="sucessor.*"] c:[word=","]? d:[pos="PROP"] >> d:[ner sema="Pessoa" & tipo="Individuo"]  
+
+a:[word="candidatura"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="eleição"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[word="autoria"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="nomeação"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"]
+
+a:[lema="substituição"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"]
+
+a:[lema="renúncia"] b:[word="de"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="substituir"] b:[word="por"] c:[pos="PROP"] >> c:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[pos="PROP"] b:[lema="renunciar"] >> a:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="general"] b:[pos="PROP"] >> b:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="capitão"] b:[pos="PROP"] >> b:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="major"] b:[pos="PROP"] >> b:[ner sema="Pessoa" & tipo="Individuo"] 
+
+a:[lema="tenente"] b:[pos="PROP"] >> b:[ner sema="Pessoa" & tipo="Individuo"] 
+
+
+# PALAVRAS QUE DEVEM SER ANOTADAS COMO ESPAÇO 
+
+a:[lema="nascer"] b:[word="em|na|no"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]
+
+a:[lema="prefeito"] b:[word="de|do"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]  
+
+a:[lema="governador"] b:[word="de|do|da"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]  
+
+a:[lema="vereador"] b:[word="da"] c:[word="cidade"] d:[word="de"] e:[pos="PROP"] >> e:[ner sema="Espaco" & tipo="Politico"]   
+
+a:[lema="vereador"] b:[word="de|do|em|no"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"] 
+
+a:[lema="regressar|voltar|retornar|chegar"] b:[word="a|ao|à|em|de" & pos="PRP"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]  	
+												
+		# Se eu não especificar o "no" abaixo, teremos muitas ocorrências de Organizações, 
+		# por ex. Companhia Eletrica do Estado do Rio de Janeiro...												
+a:[word="no"] b:[word="estado"] c:[word="do|de|da"] d:[pos="PROP"] >> d:[ner sema="Espaco" & tipo="Politico"]			
+
+a:[word="cidade"] b:[word="do|de|da"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]	
+
+a:[lema="visitar"] b:[lema="o"]? c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"]	
+																					
+
+a:[pos="PROP"] b:[lema="viajar"] c:[word="a|ao|aos|para"] d:[lema:"o"]? e:[pos="PROP"] >> a:[ner sema="Pessoa" & tipo="Individuo"] d:[ner sema="Espaco" & tipo="Politico"]				
+
+a:[lema="sediar"] b:[word="em"] c:[pos="PROP"] >> c:[ner sema="Espaco" & tipo="Politico"] 
+
+a:[word="nos|os"] b:[word="arredores"] c:[word="do|de"] d:[pos="PROP"] >> d:[ner sema="Espaco" & tipo="Politico"]	
+
+
+		
+																					
