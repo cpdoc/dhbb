@@ -16,7 +16,7 @@
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "integrar")) (?b (~form "^a$|^b$")) (?c (= upostag "PROPN")))
+(=> ((?a (= lema "integrar")) (?b (~ form "^a$|^b$")) (?c (= upostag "PROPN")))
     (?c (+ misc "sem=org")))
 
 
@@ -24,15 +24,11 @@
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lemma "professor")) (?b (= lema "de")) (?c (# lemma "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= lemma "professor")) (?b (= lema "de")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-;; a:[lema="associação"] b:[word="da|do|dos|das|de"] c:[pos="PROP"] >> <ner sema="Organizacao" & pos="PROP"> a: b: c: </ner>
-;;# a:[lema="associação"]
-
-
-(=> ((?a (= lema "cadete")) (?b (# lema "^na$|^da$")) (?c (= upostag "PROPN")))
+(=> ((?a (= lema "cadete")) (?b (~ lema "^na$|^da$")) (?c (= upostag "PROPN")))
     (?c (+ misc "sem=org")))
 
 
@@ -41,15 +37,15 @@
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "aluno")) (?b (# lema  "^de$|^em$")) (?c (# lema "^a$|^o$"))  (?d (= upostag "PROPN")))
+(=> ((?a (= lema "aluno")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$"))  (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= form "oficial")) (?b (# lema  "^de$|^em$")) (?c (# lema "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "oficial")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= form "dirigente")) (?b (# lema  "^de$|^em$")) (?c (# lema "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "dirigente")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
