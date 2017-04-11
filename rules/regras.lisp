@@ -4,59 +4,59 @@
 ;; PALAVRAS QUE DEVEM SER ANOTADAS COMO ORGANIZAÇÃO
 
 
-(=> ((?a (= lema "ingressar")) (?b (= lema "em")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= lemma "ingressar")) (?b (= lemma "em")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= form "membro")) (?b (= lema "de")) (?c (~ lema "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "membro")) (?b (= lemma "de")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> (?a (= lema "estudar")) (?b (= lema "em")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN"))
+(=> (?a (= lemma "estudar")) (?b (= lemma "em")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN"))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "integrar")) (?b (~ form "^a$|^b$")) (?c (= upostag "PROPN")))
+(=> ((?a (= lemma "integrar")) (?b (~ form "^a$|^b$")) (?c (= upostag "PROPN")))
     (?c (+ misc "sem=org")))
 
 
-(=> ((?a (= form "chapa")) (?b (= lema "de")) (?c (= lemma "o")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "chapa")) (?b (= lemma "de")) (?c (= lemma "o")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lemma "professor")) (?b (= lema "de")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= lemma "professor")) (?b (= lemma "de")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "cadete")) (?b (~ lema "^na$|^da$")) (?c (= upostag "PROPN")))
+(=> ((?a (= lemma "cadete")) (?b (~ lemma "^na$|^da$")) (?c (= upostag "PROPN")))
     (?c (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "cadete")) (?b (= lema "a") (= upostag "ADP"))
-     (?c (= lema "o") (= upostag "DET")) (?d (= upostag "PROPN")))
+(=> ((?a (= lemma "cadete")) (?b (= lemma "a") (= upostag "ADP"))
+     (?c (= lemma "o") (= upostag "DET")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= lema "aluno")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$"))  (?d (= upostag "PROPN")))
+(=> ((?a (= lemma "aluno")) (?b (~ lemma  "^de$|^em$")) (?c (~ lemma "^a$|^o$"))  (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= form "oficial")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "oficial")) (?b (~ lemma  "^de$|^em$")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
-(=> ((?a (= form "dirigente")) (?b (~ lema  "^de$|^em$")) (?c (~ lema "^a$|^o$")) (?d (= upostag "PROPN")))
+(=> ((?a (= form "dirigente")) (?b (~ lemma  "^de$|^em$")) (?c (~ lemma "^a$|^o$")) (?d (= upostag "PROPN")))
     (?d (+ misc "sem=org")))
 
 
 ;; PALAVRAS QUE DEVEM SER ANOTADAS COMO PESSOA
 
 
-(=> ((?a (= upostag "PROPN")) (?b (= lema "nascer")) (?c (= lema "em")) ?  (?d (~ lema "^a$|^o$")) (?e (= upostag "PROPN")))
+(=> ((?a (= upostag "PROPN")) (?b (= lemma "nascer")) (?c (= lemma "em")) ? (?d (~ lemma "^a$|^o$")) (?e (= upostag "PROPN")))
     ((?a (+ misc "sem=Pessoa|tipo=Individuo")) (?e (+ misc "sem=Espaco|tipo=Politico"))))
 
 
-(=> ((?a (= lema "filho")) (?b (= lema "de")) (?c (= upostag "PROPN")) ? (?d (= form "e")) ? (?e (= form "de")))
+(=> ((?a (= lemma "filho")) (?b (= lemma "de")) (?c (= upostag "PROPN")) ? (?d (= form "e")) ? (?e (= form "de")))
     ((?c (+ misc "sem=Pessoa|tipo=Individuo"))))
 
 
