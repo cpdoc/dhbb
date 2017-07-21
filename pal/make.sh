@@ -1,7 +1,8 @@
 
-for f in $(ls ../text/*.text); do
-    BASE=$(basename $f .text)
-    awk 'BEGIN { text=0; } text>1 {print} /^---$/ { text = text + 1; }' $f > $BASE.raw ;
-    cat $BASE.raw | /opt/palavras/por.pl --role > $BASE.role ;
+for f in ../raw/*.raw; do
+    BASE=$(basename $f .raw)
+    cat ../raw/$BASE.raw | /opt/palavras/por.pl --role > $BASE.tmp ;
+    awk -f clean.awk $BASE.tmp > $BASE.role;
+    rm $BASE.tmp;
     # cat $BASE.role | /opt/palavras/bin/visldep2malt.pl --lang pt | /opt/palavras/bin/extra2sem > $BASE.malt ;
 done

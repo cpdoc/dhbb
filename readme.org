@@ -1,5 +1,13 @@
 #+Title: DHBB 
 
+* Removing BOM from files
+
+https://stackoverflow.com/questions/1068650/using-awk-to-remove-the-byte-order-mark
+
+#+BEGIN_SRC bash
+for f in $(find ../raw -size 0); do BN=$(basename $f .raw); awk 'NR==1{sub(/^\xef\xbb\xbf/,"")}1' $BN.text > $BN.new; done
+#+END_SRC
+
 * Split meta from text
 
 Para debugar 
@@ -40,8 +48,31 @@ ls *.raw > lixo
 cat lixo | parallel -j 3 --results out analyzer_client 50005
 #+END_SRC
 
-* Files
+* Executing UDPipe
 
+#+BEGIN_SRC bash
+time find ~/work/cpdoc/dhbb/raw -name "*.raw" | xargs ./udpipe --tokenize --tag --parse --outfile=../../cpdoc/dhbb/udp/{}.conllu ../udpipe-ud-2.0-conll17-170315/models/portuguese-ud-2.0-conll17-170315.udpipe
+#+END_SRC
+
+* Dictionaries
+
+#+BEGIN_SRC lisp
+(ql:quickload :cpdoc)
+(in-package :cpdoc)
+
+(mapcar (lambda (file)
+		 (let ((bd (extract-meta file)))
+		   (list (pathname-name file)
+			 (gethash "natureza" bd)
+			 (gethash "title" bd))))
+	       (directory "text/*.text"))
+
+(with-open-file (file "titles.text" :direction :output :if-exists :supersede)
+	 (format file "~{~{~a~^|~}~%~}" *))
+#+END_SRC
+
+* Files
+  
 This dictionary has seven directories: 
 
 - ref :: Holds the reference text in each dictionary entry.
