@@ -8,6 +8,9 @@ https://stackoverflow.com/questions/1068650/using-awk-to-remove-the-byte-order-m
 for f in $(find ../raw -size 0); do BN=$(basename $f .raw); awk 'NR==1{sub(/^\xef\xbb\xbf/,"")}1' $BN.text > $BN.new; done
 #+END_SRC
 
+Arquivo 6087.text tem tabelas que foram retiradas manualmente antes
+dos processamentos NLP.
+
 * Split meta from text
 
 Para debugar 
@@ -67,7 +70,7 @@ time find ~/work/cpdoc/dhbb/raw -name "*.raw" | xargs ./udpipe --tokenize --tag 
 			 (gethash "title" bd))))
 	       (directory "text/*.text"))
 
-(with-open-file (file "titles.text" :direction :output :if-exists :supersede)
+(with-open-file (file "dic/titles-from-meta.text" :direction :output :if-exists :supersede)
 	 (format file "~{~{~a~^|~}~%~}" *))
 #+END_SRC
 
@@ -76,10 +79,6 @@ time find ~/work/cpdoc/dhbb/raw -name "*.raw" | xargs ./udpipe --tokenize --tag 
 This dictionary has seven directories: 
 
 - ref :: Holds the reference text in each dictionary entry.
-
-- freeling :: dat files with the output of FreeLing 4 (no parser yet).
-
-- syntaxnet :: conll files generated from the output of SyntaxNet (Portuguese model)
 
 - text :: Holds the text body in each dictionary entry.
 
