@@ -1,0 +1,92 @@
+#+Title: Brazilian Historical-Biographical Dictionary - DHBB
+
+* Introduction
+
+The DHBB project started its development at CPDOC / FGV in 1974,
+producing its first result, a full dictionary of biographies of
+historical political figures from Brazilian modern history ten years
+later. The Internet was not yet widespread and researching themes of
+contemporary history in Brazil, in addition to requiring mastery of
+the pertinent bibliography, meant going out to the field to locate
+archives, consult collections of newspapers, obtain yearbooks and
+official annals, and interviewing people.  Obviously, publishing meant
+editing volumes on paper. This was done with considerable effort, and
+the first edition of DHBB appeared in 1984, with four volumes and
+4,493 entries. By consolidating information that was hitherto sparse
+and registering its sources, the DHBB became a pioneering work, and
+itself a reliable source for further historical research. Launched in
+2001, the second edition of the DHBB updated the existing entries and
+added new ones, reaching a total of 6,620 entries. A novelty drew
+attention at the time: the double publication, on paper and on CD-ROM.
+
+For the third edition, a new updating process was initiated, in a
+world in which the computer revolution was a fait accompli and new
+paths opened up to historical research. Studies were carried out to
+improve the data, but also concurrently with a view to democratizing
+access to DHBB. In 2010, a new version of the dictionary was thus
+offered on the web, with free access and open to all. There are now
+7,553 entries, 6,584 of which are biographical and 969 thematic
+entries, related to institutions, events and concepts of interest to
+the history of Brazil after 1930. More recently (since 20017?20018?)
+the data has been made available to researchers interested in
+programmatic use of the data in the CPDOC repository xxx, under a very
+permissive license.
+
+All entries can now be consulted and read in full from the integrated
+database of the CPDOC Collection. To access just register for free on
+the search page
+
+http://www.fgv.br/cpdoc/busca/
+
+This repository contains the files of the entries in text format with
+respective metadata. These files contain the same contents as the data
+in the web interface, that can be consulted at the link above. The
+main objective of this repository is to give full access to DHBB to
+researchers interested in the automatic processing of texts.
+
+* Repository content
+
+- text :: the text files in this directory are the DHBB entries,
+  constantly updated by the CPDOC team. 
+
+- ref :: In previous versions of DHBB, the entries were finalized with
+  references to the sources used by the editors.  Unfortunately, over
+  the years, the way of referring to sources has not been standardized
+  and that is why we have separated in this directory the references
+  previously included at the end of each entry. 
+
+Each file in the =text= directory contains metadata and the text of
+the entries. The files are encoded in UTF-8. In the header, starting
+and ending with lines containing three hyphens =---=, we have the
+entry metadata in [[http://yaml.org][YAML]] format. The entry text is encoded in [[https://daringfireball.net/projects/markdown/][Markdown]]
+but at the moment, only section separators are used.
+
+* License 
+
+See the LICENSE file 
+
+* How to contribute 
+
+We invite users of this repository or any user of the site
+http://www.fgv.br/cpdoc/busca/ who finds errors in the DHBB texts, to
+create an ISSUE in this repository indicating the problem found.  The
+creation of new entries or significant changes in their contents are,
+however, the objective of evaluation and approval by the DHBB team.
+
+Versions DHBB adopts semantic versioning. The first release using this
+versioning system is this 1.0.0.
+
+* Releases
+
+The criteria for new releases will be: 
+
+- MAJOR :: when changes in the organization or format of the files
+  happen. Or there are changes to the metadata used. Or there are
+  changes to many files by some systematic task of the DHBB team.
+
+- MINOR :: occasional changes to a limited number of entries, addition
+  or removal of a few entries.
+
+- PATCH :: any correction in the texts unrelated to the change in
+  content. Correction of typos or coding errors etc.
+
