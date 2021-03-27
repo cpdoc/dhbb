@@ -1,29 +1,64 @@
-#+Title: DHBB 
+#+Title: Dicionário Histórico-Biográfico Brasileiro - DHBB
 
-* Files
-  
-This dictionary has seven directories: 
+O projeto do DHBB começou a ser desenvolvido no CPDOC/FGV em 1974,
+produzindo seu primeiro resultado dez anos depois. Era um tempo em que
+o acesso à internet ainda não era generalizado. Pesquisar sobre temas
+da história contemporânea do Brasil, além de exigir o domínio da
+bibliografia pertinente, significava sair em campo para localizar
+arquivos, consultar coleções de jornais, obter anuários e anais
+oficiais, entrevistar pessoas.
 
-- ref :: Holds the reference text in each dictionary entry.
-- text :: Holds the text body in each dictionary entry.
+Publicar significava editar volumes em papel. Foi o que foi feito, e a
+primeira edição do DHBB em 1984, com seus quatro volumes e 4.493
+verbetes, ao consolidar informações até então esparsas e registrar
+suas fontes, tornou-se obra pioneira, e ela própria fonte para novas
+pesquisas. Lançada em 2001, a segunda edição do DHBB atualizou os
+verbetes existentes e incluiu novos, atingindo um total de 6.620
+entradas. Uma novidade chamou a atenção na época: a dupla publicação,
+em papel e em CD-ROM. 
 
-* Dictionaries
+Iniciado novo processo de atualização, num mundo em que a revolução da
+informática era fato consumado e novos caminhos se abriam à pesquisa
+histórica, realizaram-se concomitantemente estudos visando à
+democratização do acesso ao DHBB. Em 2010, nova versão do Dicionário,
+pôde ser assim oferecida na web, com acesso gratuito e aberto a
+todos. São 7.553 verbetes, sendo 6.584 de natureza biográfica e 969
+verbetes temáticos, relativos a instituições, eventos e conceitos de
+interesse para a história do Brasil pós-1930.
 
-#+BEGIN_SRC lisp
-(ql:quickload :cpdoc)
-(in-package :cpdoc)
+Todos os verbetes agora podem ser consultados e lidos na íntegra a
+partir da base de dados integrada do Acervo do CPDOC. Para acessar
+basta se cadastrar gratuitamente na própria página de busca
 
-(mapcar (lambda (file)
-		 (let ((bd (extract-meta file)))
-		   (list (pathname-name file)
-			 (gethash "natureza" bd)
-			 (gethash "title" bd))))
-	       (directory "text/*.text"))
+[[http://www.fgv.br/cpdoc/busca/]]
 
-(with-open-file (file "dic/titles-from-meta.text" :direction :output :if-exists :supersede)
-	 (format file "~{~{~a~^|~}~%~}" *))
-#+END_SRC
-     
+Este repositório contém dos arquivos dos verbetes em formato texto com
+respectivos metadados. Estes arquivos contém os mesmos conteúdos que
+podem ser consultados no link acima. 
+
+O principal objetivo deste repositório é dar acesso integral ao DHBB à
+pesquisadores interessados no processamento automático dos textos.
+
+* Arquivos
+
+- text :: neste diretório encontram-se os verbetes do DHBB,
+  atualizados constantemente pela equipe do CPDOC.
+
+- ref :: em versões anteriores do DHBB, os verbetes eram finalizados
+  com referências as fontes utilizadas pelos editores. Infelizmente,
+  ao longo dos anos, a forma de referência às fontes não foi
+  padronizada e por isso separamos neste diretório as referências
+  antes incluídas no final de cada verbete.
+       
 * License
 
-See LICENSE
+Veja o arquivo LICENSE
+* Como Contribuir
+
+Convidamos qualquer usuário deste repositório ou usuário do site
+[[http://www.fgv.br/cpdoc/busca/]] que encontre erros nos textos do DHBB,
+a criar um ISSUE este repositório indicando o problema encontrado. 
+
+A criação de novos verbetes ou significativas mudanças em seus
+conteúdos são, no entanto, objetivo de avaliação e aprovação pela
+equipe do DHBB.
