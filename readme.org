@@ -49,10 +49,17 @@ pesquisadores interessados no processamento automático dos textos.
   ao longo dos anos, a forma de referência às fontes não foi
   padronizada e por isso separamos neste diretório as referências
   antes incluídas no final de cada verbete.
+
+Cada arquivo no diretório =text= contém metadados e o texto dos
+verbetes. Os arquivos são codificados em UTF-8. No cabeçalho, iniciado
+e terminado com linhas contendo três hífens `---`, temos os metadados
+do verbete no formato [[https://yaml.org][YAML]]. O texto dos verbetes é codificado em
+[[https://daringfireball.net/projects/markdown/][Markdown]] mas no momento, apenas separadores de seções são usados.
        
 * License
 
 Veja o arquivo LICENSE
+
 * Como Contribuir
 
 Convidamos qualquer usuário deste repositório ou usuário do site
@@ -62,3 +69,18 @@ a criar um ISSUE este repositório indicando o problema encontrado.
 A criação de novos verbetes ou significativas mudanças em seus
 conteúdos são, no entanto, objetivo de avaliação e aprovação pela
 equipe do DHBB.
+
+* Versões
+
+O DHBB adota o [[https://semver.org/lang/pt-BR/][versionamento semântico]]. A primeira release usando este
+versionamento é a 1.0.0. O critério para novas releases será:
+
+- MAJOR :: quando mudanças na organização ou formato dos
+  arquivos. Mudanças nos metadados utilizados. Mudanças de muitos
+  arquivos por alguma tarefa sistemática da equipe do DHBB.
+
+- MINOR :: mudanças pontuais em um número limitado de verbetes, adição
+  ou remoção de alguns poucos verbetes.
+
+- PATCH :: qualquer correção nos textos não relacionada à mudança de
+  conteúdo. Correção de typos ou erros de codificação etc.
