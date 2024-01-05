@@ -15,10 +15,13 @@ for f in *.text; do
 	-e 's/[[:<:]]freqüente[[:>:]]/frequente/g' \
 	-e 's/[[:<:]]freqüentes[[:>:]]/frequentes/g' \
 	-e 's/[[:<:]]freqüentemente[[:>:]]/frequentemente/g' \
-	-e 's/[[:<:]]conseqüência[[:>:]]/consequencia/g' \
-	-e 's/[[:<:]]conseqüências[[:>:]]/consequencias/g' \
+	-e 's/[[:<:]]conseqüência[[:>:]]/consequência/g' \
+	-e 's/[[:<:]]conseqüências[[:>:]]/consequências/g' \
 	-e 's/[[:<:]]conseqüentemente[[:>:]]/consequentemente/g' \
 	-e 's/[[:<:]]co-autor[[:>:]]/coautor/g' \
 	-e 's/[[:<:]]co-autoria[[:>:]]/coautoria/g' \
+	-e 's/[[:<:]]consequencia[[:>:]]/consequência/g' \
+	-e 's/[[:<:]]consequencias[[:>:]]/consequências/g' \
+	-e 's/[[:<:]]déficit[[:>:]]/deficit/g' \
 	-e 's/[[:<:]]apóia[[:>:]]/apoia/g' $f;
 done
